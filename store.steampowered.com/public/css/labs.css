@@ -1,0 +1,613 @@
+
+
+body.v6 .page_content {
+    display: flex;
+    flex-direction: column;
+}
+
+body.v6 .page_content_1024 {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Contain all Labs main page. */
+body.v6.labs {
+    background: #181d3a;
+    color: #adb4c4;
+    font-family: Motiva Sans, Arial, Helvetica, sans-serif; 
+}
+body .responsive_page_content {
+    /* background: #292a2e; */
+    background: url( 'https://steamcdn-a.akamaihd.net/store/labs/background.jpg' );
+    background-size: 1920px 1080px;
+}
+
+a, a:visited {
+color: #07d1da;	
+}
+
+a:hover {
+color: #fff;		
+}
+
+.labs-content {
+	width: 940px;
+	margin: auto;
+}
+
+.labs-content h1 {
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+		    font-size: 14px;
+    text-transform: uppercase;
+    color: #00cbd4;
+    margin: 10px 0 4px;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    padding-top: 2px;
+}
+
+.labs-content h2 {
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-size: 14px;
+	margin: 0px 0px 5px 0px;
+
+}
+
+.labs-content p {
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-size: 13px;
+	line-height: 1.5em;
+	margin: 0px 0px 10px 0px;
+}
+
+/* Clear floats after columns. */
+.labs-content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.labs-header {
+	margin-bottom: 15px;
+}
+
+.single-main-column {
+}
+.flex_colum {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Main page has main and secondary columns. */
+.left-column {
+ 	float: left;
+ 	width: 560px;
+ 	margin-right: 20px;
+}
+
+.right-column {
+	float: left;
+	width: 360px;
+}
+
+.right-column-box {
+	overflow: hidden;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	padding: 20px;
+	padding-top:10px;
+	padding-bottom: 25px;
+}
+
+/* Right hand column's list of experiment links. */
+.active-experiments-icon {
+	float: left;
+	width: 50px;
+	margin-right: 5px;
+}
+
+.active-experiments-description {
+	float: left;
+	width: 275px;
+	margin: 5px;
+}
+
+.active-experiments-row {
+	margin-bottom: 8px;
+    display: flex;
+}
+
+.active-experiments-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Single capsule for a single experiment. */
+.capsule {
+    background-image: radial-gradient(ellipse at top left, #2f374d, #18264a);
+    border-radius: 4px;
+	margin: 0px 0px 30px 0px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.capsule-banner {
+	width: 540px;
+	height: 240px;
+	margin: 0px 0px 5px 0px;
+}
+.capsule:hover .capsule-banner-ctn > img {
+    transform: scale(1.05);
+}
+.capsule-banner-ctn {
+    width: 560px;
+    height: 249px;
+    overflow: hidden;
+}
+.capsule-banner img {
+    border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+    width: 560px;
+    height: 240px;
+    transition: transform 0.4s ease-out;
+}
+
+body.v6 h2 {
+    letter-spacing: 0px;
+    color: #4c91ff;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+body.v6 .capsule h2 {
+    text-transform: unset;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #00cbd4;
+    letter-spacing: 0.03em;
+}
+.exp_text_ctn {
+    padding: 10px;
+}
+
+
+/* Centered "try experiment" button (or, later, buttons) go here. */
+.experiment-buttons {
+	text-align: left;
+}
+
+.experiment-button {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px 15px 5px 15px;
+	margin: 5px auto;
+	background-color: #28429b;
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: bold; /* bold */
+
+			font-size: 16px;
+	font-weight: 400;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.experiment-button:hover {
+	background-color: #2d6bcd;
+	color: #fff;
+}
+
+span.experiment-name {
+	color: #fff;
+}
+.experiment-title-area {
+	padding-bottom: 0px;
+	display: flex;
+}
+
+.experiment-number, .experiment-page-title {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #00b8c0;
+	margin-left: -10px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+}
+
+
+.microtrailers_content {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.microtrailers_content h3 {
+    margin-top: 50px;
+    font-size: 38px;
+}
+.microtrailers_content a {
+    position: relative;
+}
+
+.microtrailers_content h1, .ultracast_page_content_section h1 {
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-size: 28px;
+	margin: 0px 0px 5px 0px;
+	color: #c4ccde;
+	font-weight: 200;
+	padding-top: 10px;
+}
+
+#microtrailer_flavor {
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-size: 18px;
+	text-transform: none;
+	color: hsla(216, 69%, 61%, 1);
+	padding-top: 0px;
+}
+
+.microtrailers_content h2 {
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-size: 20px;
+	margin: 0px 0px 5px 0px;
+}
+
+.microtrailers_content p, .ultracast_page_content_section p{
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-size: 14px;
+	line-height: 1.5em;
+	margin: 0px 0px 10px 0px;
+    width: 100%;
+}
+
+.microtrailers_flavor_container {
+	width: 100%;
+    box-sizing: border-box;
+	background-image: radial-gradient(ellipse at top left, hsla(215, 48%, 19%, 1), hsla(235, 51%, 16%, 1));
+	border-radius: 4px;
+	margin: 20px 0px 20px 0px;
+	padding: 10px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+.microtrailers_grid {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.options_row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.microtrailers_grid_item {
+    		font-family: "Motiva Sans", Sans-serif;
+		font-weight: bold; /* bold */
+
+			width: 150px;
+	height: 100px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 5px;
+	margin: 5px;
+	margin-right: 15px;
+	float: left;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+  border-radius: 4px;
+	text-shadow: 2px 2px 6px #000000;
+  background-size: cover;
+}
+
+.microtrailers_grid_item:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease-out;
+}
+
+.microtrailers_grid_item a {
+	color: #eee;
+}
+
+#videosList {
+	max-width: 600px; 
+	overflow: hidden;
+}
+
+.video_container_300x168 {
+	width: 300px;
+	height: 168px;
+	margin-bottom: 1px;
+	overflow: hidden;
+}
+
+.video_300x168 {
+	opacity: 0.0;
+	margin: 0px;
+	width: 300px;
+	float: left;
+}
+
+.video-small-banner {
+	float: left;
+	width: 133px;
+	height: 51px;
+}
+
+.video-right-info {
+	float: left;
+	width: 167px;
+	height: 51px;
+	text-align: right;
+	overflow: hidden;
+	background-color: #0b1622;
+}
+
+.video-right-info p {
+	margin: 0px;
+}
+
+.single_o_300x220 {
+	width: 300px;
+	height: 220px;
+	margin: 6px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.video_container_single_column {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1px;
+	overflow: hidden;
+}
+
+.all_videos_container {
+	overflow: hidden;
+}
+
+
+.video_single_column {
+	opacity: 100.0;
+	margin: 0px;
+	width: 100%;
+	float: left;
+}
+
+.single_o_single_column {
+	max-width: 900px;
+    width: 100%;
+	margin: 6px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 5px #000000;
+	background-color: #091e28;
+}
+
+.mt_thumb {
+	height: 50px;
+}
+
+
+.ultracast_page_content_section {
+	width: 940px;
+}
+
+.ultracast_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ultracast_content h1 {
+	margin-top: 20px;
+}
+
+.ultracast_content p {
+	font-family: "Motiva Sans", Sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 10px 0px 10px 0px;
+}
+
+.ultracast_video_row {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.ultracast_video {
+	float: left;
+	margin-right: 15px;
+}
+
+.ultracast_video_right {
+	width: 285px;
+	float: left;
+	overflow: hidden;
+}
+
+.ultracast_now_playing_label {
+	font-size: 30px;
+	font-family: Motiva Sans, Sans-serif;
+	width: 285px;
+}
+
+.ultracast_now_playing_banner {
+	width: 285px;
+}
+
+a.ultracast_now_playing_link {
+	display: block;
+	position: relative;
+}
+
+a.ultracast_now_playing_link:hover .ds_options {
+	display: none;
+}
+
+.labs_nav_ctn {
+
+}
+.labs_top_menu_item a, .labs_top_menu_item a:visited {
+	float: left;
+	padding: 5px;
+	margin: 5px 5px 0px 0px;
+	padding-left: 40px;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #276ee0;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: 400;
+}
+.labs_top_menu_item:first-child a {
+    padding-left: 0px;
+}
+
+.labs_top_menu_item a:hover {
+	color: #4b90ff;
+}
+
+
+@media screen and (max-width: 990px)
+{
+    html.responsive .labs-content {
+        margin: 0px 10px;
+    }
+    html.responsive .right-column {
+        width: 35%;
+    }
+    .experiment-title-area {
+        margin-left: -11px;
+    }
+}
+@media screen and (max-width: 1400px)
+{
+    html.responsive .labs-content {
+        margin: 0px 10px;
+    }
+    html.responsive .right-column {
+        width: 35%;
+    }
+    .experiment-title-area {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 910px)
+{
+    html.responsive .about_active,
+    html.responsive .about_more {
+        display: none;
+    }
+    html.responsive .labs-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    html.responsive .right-column {
+        width: 100%;
+    }
+    html.responsive .right-column-box {
+        padding-left: 0px;
+    }
+    html.responsive .left-column {
+        width: 100%;
+    }
+    html.responsive .capsule {
+        display: flex;
+    }
+    html.responsive .capsule-banner {
+        overflow: hidden;
+        width: 30%;
+        flex-shrink: 0;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    html.responsive .capsule {
+        display: flex;
+        flex-direction: column;
+    }
+    html.responsive .capsule-banner {
+        width: 100%;
+    }
+}
+
+#LabsHeaderContainer {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/* Micro Trailer Tag Test */
+.microtrailers_tag_capsule
+{
+	transition: transform 0.1s;
+}
+
+.microtrailers_tag_capsule:hover
+{
+	transform: scale(1.03);
+}
+
+.microtrailers_grid_item_september
+{
+	transition: transform 0.1s;
+}
+
+.microtrailers_grid_item_september:hover
+{
+	transform: scale(1.03);
+}
+
+.shipped
+{
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center#;
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-top: -26px;
+	padding-top: 0px;
+	width: inherit;
+	font-size: 17px;
+	font-kerning: 0.23em;
+	width: 300px;
+	height: 26px;
+	color: black;
+	transform: rotate(-45deg) translateX(-147px) translateY(-45px);
+	z-index:1;
+	background-color: #08eaf4;
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.35);
+}

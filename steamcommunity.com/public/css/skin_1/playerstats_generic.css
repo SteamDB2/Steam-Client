@@ -1,0 +1,449 @@
+  
+
+#BG_top {
+	position:relative;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_top.gif');
+	background-repeat:no-repeat;
+	width:958px;
+	height:98px;
+	text-align: left;
+	margin: 0 auto;
+}
+#BG_bottom {
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_bottom2.gif');
+	background-repeat:repeat-y;
+	width:958px;
+	text-align:left;
+	margin: 0 auto;
+}
+#BG_top h2 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	padding-top:21px;
+	font-size: 26px;
+	color: #898989;
+	padding-left:12px;
+}
+#BG_top h1 {
+	font-weight:normal;
+	font-size: 26px;
+	color: #e1e1e1;
+	margin:0;
+	padding:0;
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:12px;
+}
+#mainContents {
+	margin:0;
+	text-align:left;
+}
+#logo {
+	position:absolute;
+	width:192px;
+	left:748px;
+	top:7px;
+}
+
+#headerAvatar {
+	float:left;
+	width:72px;
+	height:72px;
+	padding:10px 8px 0px 12px;
+}
+
+#topSummaryBoxContent {
+	position: relative;
+	background-color:#000000;
+	padding:6px 10px 6px 10px;
+	color:#747474;
+	border-radius: 3px;
+	min-height: 69px;
+}
+
+#tsblTitle {
+	float:left;
+	width:150px;
+	color:#747474;
+	line-height:18px;
+}
+
+#topSummaryLeft a,#topSummaryLeft a:hover,#topSummaryLeft a:visited,#topSummaryLeft a:active {
+	font-size:12px;
+}
+
+.pkBoxItemValue,#tsblVal {
+	float:left;
+	line-height:16px;
+	color:#aaaaaa;
+}
+
+#topSummaryLeft {
+	float: left;
+}
+
+#topSummaryVBreak {
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	left: 50%;
+	width:1px;
+}
+
+#topSummaryAchievements {
+	float:right;
+	max-width:309px;
+	padding: 5px 6px 0 0;
+	line-height:18px;
+}
+
+.achieveBar {
+	background: #3a3a3a;
+	padding: 1px;
+	border: 1px solid #aeaeae;
+}
+
+.achieveBarProgress {
+	height: 8px;
+	background-color: #aeaeae;
+}
+
+.compareVal {
+	color:#FFCC6A;
+}
+
+#tabs {
+	margin:0;
+	padding-left:16px;
+}
+#subtabs {
+	height:43px;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/statsSubtabsBG.gif?v=1');
+	padding-left:14px;
+	clear:left;
+}
+
+.tab {
+	float:left;
+}
+.tab a,.tab a:hover,.tab a:visited,.tab a:active {
+	font-size:12px;
+	color: #ffffff;
+	text-decoration:none;
+}
+.tabOff,.tabOn {
+	float:left;
+	padding:8px 8px 6px 8px;
+	height:15px;
+	margin-right: 8px;
+	font-size:12px;
+	border-radius: 2px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	color: #ffffff;
+	background: #417B9C; /* Old browsers */
+	background: -webkit-linear-gradient( top, #5AA9D6 5%, #417B9C 95%);
+	background: linear-gradient( to bottom, #5AA9D6 5%, #417B9C 95%);
+}
+.tabOff {
+	background: rgba( 0, 0, 0, 0.5 );
+}
+.tabOnL,.tabOnR,.tabOffL,.tabOffR {
+	float:left;
+	width:2px;
+	background-color:#4f4f4e;
+	height:29px;
+}
+.tabOffL,.tabOffR {
+	background-color:#3a3a3a;
+}
+.tabOnR,.tabOffR {
+	margin-right:6px;
+}
+#stats {
+	padding-left:16px;
+}
+#headerTimePlayed {
+	float:left;
+	width:292px;
+	margin:0;
+	padding:0;
+	padding-left:92px;
+}
+#personalAchieve {
+}
+.achieveHeader {
+	font-weight:normal;
+	font-size: 22px;
+	color: #e1e1e1;
+	margin-bottom:8px;
+}
+
+.topAvatarsLeft {
+	float:left;
+}
+
+.topAvatarsRight {
+	float:right;
+}
+
+.achieveRow {
+	position: relative;
+	padding-left: 71px;
+	min-height: 66px;
+	margin-bottom: 12px;
+}
+
+.achieveUnlockTime {
+	float: right;
+	text-align: right;
+	color: #898989;
+	font-size: 12px;
+}
+
+.achievements_list.compare_view .achieveRow {
+	padding-right: 71px;
+}
+
+.achieveImgHolder {
+	position: absolute;
+	left: 0;
+	top: 1px;
+}
+
+.achieveImgHolder img, .CachieveImgHolder img {
+	width: 64px;
+	height: 64px;
+}
+
+.achieveHiddenBox {
+	position: absolute;
+	left: 0;
+	width: 64px;
+	height: 64px;
+	background-color: rgba( 0, 0, 0, 0.5 );
+
+	text-align: center;
+	line-height: 64px;
+	font-size: 22px;
+}
+
+.CachieveImgHolder {
+	position: absolute;
+	right: 0;
+	top: 1px;
+}
+
+.achieveTxtHolder {
+	min-height: 64px;
+	position:relative;
+	background: rgba( 0, 0, 0, 0.5 );
+}
+
+.achieveTxt {
+	padding: 17px 6px 6px 6px;
+}
+
+.achieveTxt h3 {
+	font-weight:bold;
+	font-size:15px;
+	color:#e1e1e1;
+}
+
+.achieveTxt h5 {
+	font-weight:normal;
+	font-size:12px;
+	color:#898989;
+}
+.whiteText {
+	color:#e0e0e0;
+}
+
+.returnLink {
+	margin:0px;
+	padding-bottom:10px;
+	font-size:11px;
+}
+.returnLink_bottom {
+	margin:0px;
+	padding-bottom:16px;
+	font-size:11px;
+}
+.lbentry, .lbentrySelf {
+	width:900px;
+	margin-bottom:4px;
+}
+
+.lbentrySelf {
+}
+
+.globalRank, .globalRankh {
+	float:left;
+	width:180px;
+	padding-top:18px;
+	padding-right:20px;
+	text-align:right;
+	background-color:#3a3a3a;
+	height:30px;
+	font-size:11px;
+}
+
+.globalRankh {
+	background-color:#505050;
+}
+
+.score, .scoreh {
+	float:left;
+	text-align:right;
+	width:250px;
+	padding-top:12px;
+	font-size:22px;
+	background-color:#3a3a3a;
+	height:36px;
+}
+
+.scoreh {
+	background-color:#505050;
+}
+
+.player,.playerh {
+	float:left;
+	width:350px;
+	padding:4px 0px 4px 4px;
+	height:40px;
+	background-color:#3a3a3a;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/sgb_left.gif');
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+.playerh {
+	background-color:#505050;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/sgbh_left.gif');
+}
+
+.playerName,.playerName:hover,.playerName:active,.playerName:visited {
+	font-size:22px;
+	color:#e1e1e1;
+}
+
+.playerLink {
+	padding:8px 0px 0px 0px;
+}
+
+.relativeRank {
+	float:left;
+	margin-right:10px;
+}
+
+.rRLeft,.rRRight,.rightEnd {
+	float:left;
+	width:3px;
+	height:48px;
+	margin:0;
+	padding:0;
+}
+
+.rR, .rRh {
+	float:left;
+	height:37px;
+	font-size:22px;
+	font-weight:bold;
+	margin:0;
+	padding:11px 7px 0px 7px;
+	background-color:#3a3a3a;
+	text-align:center;
+	width:60px;
+}
+
+.rRh {
+	background-color:#505050;
+}
+	
+.friendBlockIcon {
+	padding-right:20px;
+}
+
+#leaderHeader {
+	width:894px;
+	font-size:22px;
+	margin:0px 0px 10px 0px;
+}
+
+#friendBoardLink {
+	float:right;
+	padding-top:6px;
+	font-size:12px;
+	color:#959595;
+}
+
+select {
+	color:#ffffff;
+}
+
+#showButton {
+	border:solid #8ECAFC 1px;
+	color:#8ECAFC;
+}
+
+.smallForm {
+	margin:0;
+	padding:0;
+}
+.achievementProgressBar {
+	height:14px;
+	margin:0;
+	padding:0;
+	background-color:#3a3a3a;
+	max-width: 500px;
+	line-height: 14px;
+	margin-top: 4px;
+}
+.achievementProgressBar .progress {
+	background-color: #9dc34c;
+	height: 14px;
+	display: inline-block;
+	text-align: center;
+}
+.progressText {
+	color: #e1e1e1;
+}
+.progressText.inBar {
+	color: #000000;
+}
+.progressText.inBar .compareVal {
+	color: #8f723b;
+}
+.progressText.nextToBar {
+	display: inline-block;
+	margin-left: 8px;
+	vertical-align: text-top;
+}
+.withProgress {
+	top:8px;
+}
+
+@media screen and (max-width: 529px )
+{
+	html.responsive .achievements_list .achieveUnlockTime {
+		display: none;
+	}
+	html.responsive .achieveTxt {
+		padding: 7px;
+	}
+
+	html.responsive #topSummaryAchievements {
+		float: none;
+		clear: left;
+		padding-bottom: 18px;
+	}
+}
+
+/* compare view needs 71 extra pixels for right achievement display */
+@media screen and (max-width: 600px )
+{
+	html.responsive .achievements_list.compare_view .achieveUnlockTime {
+		display: none;
+	}
+}

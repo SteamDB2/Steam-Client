@@ -1,0 +1,247 @@
+#mainBody {
+	width:958px;
+	margin:0;
+	padding:0;
+	background-image: url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_bottom.gif');
+	background-repeat:repeat-y;
+}
+
+#BG_bottom {
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_bottom.gif');
+	background-repeat:repeat-y;
+	width:958px;
+	text-align:left;
+	margin: 0 auto;
+}
+
+#mainContents {
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_top.gif');
+	background-repeat:no-repeat;
+	width:946px;
+	min-width:946px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	padding-left:12px;
+	padding-top:21px;
+}
+
+#mainContents h2 {
+	padding-top:20px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	font-size: 26px;
+	color: #898989;
+}
+
+#mainContents h1 {
+	font-weight:normal;
+	font-size: 26px;
+	color: #e1e1e1;
+	margin:0;
+	padding:0;
+	padding-bottom:13px;
+}
+
+#bottomLinks {
+	position:relative;
+	width:894px;
+	margin:0;
+	padding:0;
+	margin-left:23px;
+	margin-bottom:6px;
+	border:solid #252525 4px;
+}
+
+#permissionsBlock {
+	width:708px;
+	margin:0;
+	padding: 18px;
+	background: rgba( 0, 0, 0, 0.4 );
+}
+#permissionsBlockTop {
+	width:708px;
+	margin:0;
+	padding:0;
+	height:5px;
+
+}
+#permissionsBlockBottom {
+	width:708px;
+	margin:0;
+	padding:0;
+	height:5px;
+
+}
+	
+.permissionHeaderRow, .permissionRow, .permissionRowAlt {
+	margin:0;
+	padding: 12px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+.permissionHeaderRow {
+	margin-bottom:3px;
+}
+
+.permissionRowAlt {
+	background-color: #111923;
+}
+
+.permissionRowAlt input {
+	background-color:#000;
+}
+
+#permissions form {
+	margin:0;
+	padding:0;
+}
+
+.headerTitleText {
+	float:right;
+	width:355px;
+	text-align:left;
+}
+
+.headerTitleText>p {
+	color:#969696;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.optionDesc {
+	float:right;
+	width:355px;
+	text-align:left;
+	color:#969696;
+	padding-top:8px;
+}
+
+.headerTitle, .permissionRadio {
+	float:right;
+	width:35px;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.permissionRadio input {
+	border:none;
+}
+
+.headerTitle {
+	height:31px;
+	font-size:10px;
+	font-weight:bold;
+	color:#d3d3d3;
+}
+
+
+.permissionRadio {
+
+}
+
+.permissionRowAlt p, .permissionRow p {
+	color:#8F98A0;
+	margin: 0px;
+}
+
+#actionButtonRow {
+	width:683px;
+	height:40px;
+	margin:0;
+	padding:0;
+	padding-top:6px;
+	margin-left:23px;
+}
+
+.actionButton {
+	float:right;
+	width:104px;
+	height:25px;
+	margin-left:6px;
+}
+
+.actionButton input {
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+.actionButton img {
+	padding-top:3px;
+}
+
+.permissionBlockHeader,.permissionBlockHeader2 {
+	padding: 12px 0px 6px 6px;
+	font-size:14px;
+	font-weight:normal;
+	color:#66C0F4;
+}
+
+.permissionBlockHeader {
+	padding-top: 20px;
+}
+
+.settingsBlock {
+	width:944px;
+	text-align:right;
+	color:#8C8C8C;
+}
+
+.settingsRight {
+	width:708px;
+	margin: 0 auto;
+
+	text-align:left;
+}
+
+.sectionHeader {
+	width:672px;
+	margin-left:17px;
+	border-bottom:solid #313431 1px;
+	color:#525252;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.inputRadio {
+	border:none;
+	padding:0;
+	margin:0;
+	background:none;
+	float:left;
+	margin-right:5px;
+	margin-top:-5px;
+}
+
+.groupTypeTitle {
+	color:#ADADAD;
+	font-size:15px;
+	font-weight:bold;
+}
+
+p.settingsTypeDesc {
+	font-size:10px;
+	margin:0;
+	padding:0;
+	padding-bottom:5px;
+}
+
+#errorText,#successText {
+	padding:0;
+	margin:0;
+	padding-left:150px;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+#errorText {
+	color:#ff0000;
+}
+
+#successText {
+	color:#ADADAD;
+}

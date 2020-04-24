@@ -1,0 +1,295 @@
+
+#mainContents {
+	max-width: 894px;
+	padding-left: 0px;
+}
+
+.inventory_history_pagingrow {
+	min-height: 30px;
+	line-height: 30px;
+	background-color: rgba( 0, 0, 0, 0.3);
+	color: #959595;
+	padding: 0px 8px;
+	font-size: 12px;
+
+	margin-bottom: 3px;
+}
+
+.inventory_history_nextbtn {
+	float: right;
+}
+
+.tradehistoryrow {
+	position: relative;
+
+	background-color: rgba( 0, 0, 0, 0.3);
+
+	padding-left: 0;
+	padding-top: 19px;
+	padding-bottom: 7px;
+
+	min-height: 36px;
+	
+	margin-bottom: 2px;
+}
+
+.tradehistoryrow:nth-child(even) {
+	background-color: rgba( 0, 0, 0, 0.5);
+}
+
+.tradehistoryrow a,.tradehistoryrow a:hover,.tradehistoryrow a:visited {
+	font-size: inherit;
+}
+
+.tradehistory_date {
+	float: left;
+	width: 116px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 11px;
+	color: #8a8a8a;
+	max-width: 20%;
+	margin-top: 1px;
+	margin-right: 2%;
+}
+
+.tradehistory_content {
+	overflow: hidden;
+}
+
+.tradehistory_event_description {
+	margin-bottom: 12px;
+}
+
+.tradehistory_timestamp {
+	color: #595959;
+}
+
+.tradehistory_items {
+	position: relative;
+	padding-left: 4%;
+	margin-bottom: 8px;
+}
+
+.tradehistory_items_group {
+	display: inline-block;
+	width: 94%;
+}
+
+.tradehistory_items_plusminus {
+	display: inline-block;
+	vertical-align: top;
+
+	font-size: 16px;
+	font-weight: bold;
+	color: #8a8a8a;
+	width: 5%;
+}
+
+.tradehistory_items_withimages {
+	overflow: hidden;
+	line-height: 52px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px)
+{
+	html.responsive .tradehistory_content {
+		overflow: visible;
+	}
+
+	html.responsive .tradehistory_items {
+		clear: left;
+		padding-left: 10%;
+	}
+}
+
+.tradehistory_items_noimages {
+	line-height: 19px;
+}
+
+.tradehistory_items img {
+	vertical-align: middle;
+	border: 1px solid #3A3A3A;
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
+.history_item {
+	white-space: nowrap;
+	cursor: default;
+	color: #B4B4B4;
+}
+
+a.history_item, a.history_item:hover {
+	text-decoration: none;
+	color: #B4B4B4;
+	cursor: pointer;
+}
+
+a.history_item:hover .history_item_name {
+	text-decoration: underline;
+}
+
+.load_more_history_area {
+	margin: 30px 0 60px;
+	text-align: center;
+}
+
+#load_more_button {
+	min-width: 300px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+#load_more_button:hover {
+	background-color: #62b5e6;
+	cursor: pointer;
+	color: white;
+}
+
+.ui-datepicker .ui-widget-header {
+	background: #274768;
+	border-color: #aaa;
+	color: white;
+}
+
+.ui-datepicker select {
+	color: white;
+}
+
+.ui-datepicker option {
+	background-color: #1F3953;
+}
+
+#inventory_history_filters_dialog {
+	width: 900px;
+	max-width: 100%;
+}
+
+.inventory_history_filters {
+	height: 310px;
+	overflow-y: auto;
+	max-height: 75vh;	/* don't make it more than 75% of the viewport height */
+}
+
+.inventory_history_filters_bottombuttons {
+	text-align: right;
+	margin-right: 24px;
+	margin-top: 20px;
+}
+
+.inventory_history_filters_bottombuttons > div {
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.econ_tag_filter_category {
+	color: #D2D2D2;
+	display: inline-block;
+	margin-bottom: 1em;
+	margin-right: 15px;
+	vertical-align: top;
+}
+
+.econ_tag_filter_category > select {
+	background-color: #5a5a5a;
+	box-shadow: 1px 1px 2px #3a3a3a inset;
+	color: #BFBFBF;
+}
+
+.econ_tag_filter_category_label {
+	margin-bottom: 2px;
+	color: #828282;
+}
+
+.econ_tag_filter_label > span {
+	text-shadow: 1px 2px 2px #191919;
+}
+
+.econ_tag_filter_container {
+	margin-bottom: 2px;
+}
+
+.inventory_history_active_filter
+{
+	display: inline-block;
+	min-height: 15px;
+	line-height: 15px;
+	padding: 2px 4px;
+	background-color: #68932f;
+	border: 2px solid #68932f;
+	border-radius: 2px;
+	color: #d2ff96;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.inventory_history_active_filter:hover
+{
+	background-color: #8ac33e;
+	border-color: #8ac33e;
+}
+
+.inventory_history_active_filter .removeIcon
+{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+
+	background-image: url( 'https://steamcommunity-a.akamaihd.net/public/images//sharedfiles/deleteSearchTerm.png' );
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.inventory_history_message
+{
+	display: none;
+	position: relative;
+	background-color: #a6801b;
+	padding: 12px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+}
+
+.inventory_history_message.inventory_history_message_blue
+{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inventory_history_message a
+{
+	text-decoration: underline;
+}
+
+.inventory_history_message_more
+{
+	display: none;
+}
+
+.inventory_history_message .showmore
+{
+	margin-top: 5px;
+	text-decoration: underline;
+}
+
+.inventory_history_message .showmore span
+{
+	cursor: pointer;
+}
+
+.inventory_history_message .dismiss
+{
+	cursor: pointer;
+	float: right;
+	width: 12px;
+	height: 12px;
+	margin-left: 10px;
+	background-image: url( 'https://steamcommunity-a.akamaihd.net/public/images/x9x9.gif' );
+	background-repeat: no-repeat;
+	background-position: center;
+}

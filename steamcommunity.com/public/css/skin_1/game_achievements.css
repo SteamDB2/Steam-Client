@@ -1,0 +1,247 @@
+  
+
+
+#BG_bottom {
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_bottom2.gif');
+	background-repeat:repeat-y;
+	width:958px;
+	text-align:left;
+}
+.profile_subpage_column h2 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	padding-top:21px;
+	font-size: 26px;
+	color: #67c1f5;
+	padding-left:12px;
+}
+.profile_subpage_column h1 {
+	font-weight:normal;
+	font-size: 26px;
+	color: #C6D4DF;
+	margin:0;
+	padding:0;
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:12px;
+}
+#mainContents {
+	margin:0;
+	padding: 8px 12px;
+	text-align:left;
+}
+#logo {
+	position:absolute;
+	width:192px;
+	left:748px;
+	top:7px;
+}
+
+#personalAchieve {
+	padding-left:16px;
+}
+
+.achieveHeader {
+	font-weight:normal;
+	font-size: 22px;
+	color: #e1e1e1;
+	margin-bottom:8px;
+}
+
+.topAvatarsLeft {
+	float:left;
+	margin-left:-4px;
+	width:72px;
+	height:72px;
+}
+
+.topAvatarsRight {
+	float:right;
+	padding-right:23px;
+}
+
+.achieveImgHolder {
+	float:left;
+	width:64px;
+	height:64px;
+	padding:1px 9px 1px 0px;
+}
+
+.CachieveImgHolder {
+	float:left;
+	width:64px;
+	height:64px;
+	padding:1px 0px 1px 9px;
+}
+
+.achieveRow {
+	margin-bottom: 11px;
+}
+
+.achieveTxtHolder {
+	position:relative;
+	min-height:60px;
+	border: 1px solid #17435c;
+	padding: 1px;
+	overflow: hidden;
+}
+
+.achieveFill {
+	position:absolute;
+	top:2px;
+	left:2px;
+	bottom: 2px;
+	z-index:10;
+	background: #17435c;
+}
+
+.achieveFillCover {
+	position:absolute;
+	top:2px;
+	left:2px;
+	width:764px;
+	height:62px;
+	z-index:20;
+}
+
+.achieveSurround {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:768px;
+	height:66px;
+	z-index:30;
+}
+
+.achieveTxt {
+	position:relative;
+	padding: 17px 6px 6px 6px;
+	z-index:40;
+}
+
+.achievePercent {
+	float: right;
+	position: relative;
+	margin-top:27px;
+	margin-right: 20px;
+	color:#66C0F4;
+	font-size:13px;
+	z-index:40;
+}
+
+.achieveTxt h3 {
+	font-weight:normal;
+	font-size:17px;
+	color: #C6D4DF;
+}
+
+.achieveTxt h5 {
+	font-weight:normal;
+	font-size:12px;
+	color: #8F98A0;
+}
+
+#headerTop,#headerBottom {
+	width:838px;
+	height:4px;
+	margin:0;
+	margin-left:3px;
+	padding:0;
+}
+#headerBottom {
+	margin-bottom:15px;
+}
+#headerContent {
+	margin-left:3px;
+	background-color: rgba( 0, 0, 0, 0.4 );
+	padding: 12px;
+	color:#898989;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#headerContentLeft {
+	padding-top:0px;
+}
+
+#headerContentRight {
+	float:right;
+}
+
+.wt {
+	color:#e1e1e1;
+}
+
+#compareAvatar {
+	float:right;
+	padding: 5px 26px;
+}
+
+.compareImg {
+	float:right;
+	padding:1px 0px 0px 17px;
+}
+#tabs {
+	margin:0;
+	padding-left:16px;
+}
+#subtabs {
+	height:43px;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/statsSubtabsBG.gif?v=1');
+	padding-left:14px;
+	clear:left;
+}
+
+.tab {
+	float:left;
+}
+.tab a,.tab a:hover,.tab a:visited,.tab a:active {
+	font-size:12px;
+	color: #ffffff;
+	text-decoration:none;
+}
+.tabOff,.tabOn {
+	float:left;
+	padding:8px 8px 6px 8px;
+	margin-right: 8px;
+	height:15px;
+	font-size:12px;
+	border-radius: 2px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	color: #ffffff;
+	background: #417B9C; /* Old browsers */
+	background: -webkit-linear-gradient( top, #5AA9D6 5%, #417B9C 95%);
+	background: linear-gradient( to bottom, #5AA9D6 5%, #417B9C 95%);
+}
+.tabOff {
+	background: rgba( 0, 0, 0, 0.5 );
+}
+.tabOnL,.tabOnR,.tabOffL,.tabOffR {
+	float:left;
+	width:2px;
+	background-color:#4f4f4e;
+	height:29px;
+}
+.tabOffL,.tabOffR {
+	background-color:#3a3a3a;
+}
+.tabOnR,.tabOffR {
+	margin-right:6px;
+}
+
+@media screen and (max-width: 600px)
+{
+	html.responsive .compare_rightcol_element {
+		display: none;
+	}
+
+	html.responsive .achieveRow.unlocked .achieveTxtHolder {
+		border-color: #ffffff;
+	}
+	html.responsive .achieveRow.unlocked .achieveTxt h3,
+	html.responsive .achieveRow.unlocked .achievePercent {
+		color: #ffffff;
+	}
+}

@@ -1,0 +1,395 @@
+
+/* CSS Document */
+#video_player_ctn {
+	padding-top: 16px;
+	margin-bottom: 30px;
+}
+
+.video_player_overflow #video_strip {
+	overflow: hidden;
+}
+
+#video_player_area {
+	width: 940px;
+	height: 578px;
+	background-color: #000000;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0px 0px 5px #000;
+}
+
+#video_player_area .highlight_player_item {
+	width: 940px;
+	height: 578px;
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+
+}
+
+
+#video_player_area .highlight_player_item .flash_ctn {
+	width: 940px;
+	height: 529px;
+}
+
+.video_info_bar {
+	height: 49px;
+	background-color: #08131e;
+	line-height: 35px;
+	padding: 7px 15px;
+	position: relative;
+}
+
+.video_info_bar.three_lines {
+	padding: 3px 15px;
+}
+
+.video_info_bar .video_info_with_languages {
+	line-height: 17px;
+}
+
+.video_info_bar.three_lines .video_info_with_languages {
+	line-height: 15px;
+}
+
+.video_available_languages {
+	color: #626366;
+}
+
+.video_available_languages .selected_language {
+	color: #FFFFFF;
+}
+
+.video_available_languages a {
+	color: #b0aeac;
+	text-decoration: underline;
+}
+
+.video_info_bar .title {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+a.download_btn {
+	display: block;
+	height: 37px;
+	line-height: 37px;
+	position: relative;
+	
+	background-image: url( /public/images/v5/btn_download_repeat.png );
+	background-repeat: repeat-x;
+	
+	padding-left: 40px;
+	padding-right: 17px;
+	
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+a.download_btn .download_btn_left, a.download_btn .download_btn_right {
+	position: absolute;
+	height: 37px;
+	top: 0px;
+	
+	background-image: url( /public/images/v5/btn_download_corners.png );
+	background-repeat: no-repeat;
+}
+
+a.download_btn .download_btn_left {
+	left: 0px;
+	width: 32px;
+	background-position: left;
+}
+
+a.download_btn .download_btn_right {
+	right: 0px;
+	width: 4px;
+	background-position: right;
+}
+
+#video_strip {
+	margin-top: 4px;
+	position: relative;
+	height: 69px;
+	margin-bottom: 4px;
+	width: 940px;
+	z-index: 40;
+}
+
+#video_strip_scroll {
+	position: absolute;
+	z-index: 40;
+}
+
+.video_strip_item {
+	float: left;
+	height: 65px;
+	width: 116px;
+	cursor: pointer;
+	text-align: center;
+	
+	margin: 2px;
+	
+	background-color: #000000;
+	
+	position: relative;
+}
+
+.video_strip_item img.movie_thumb {
+	width: 116px;
+	height: 65px;
+}
+
+.video_strip_item.focus {
+	margin: 0px;
+	border: 2px solid #d6d7d8;
+}
+
+.video_strip_item img {
+}
+
+.video_about_game_capsule {
+	float: left;
+	
+}
+
+.video_about_game_text {
+	padding-left: 200px;
+	line-height: 18px;
+}
+
+.video_about_game_text .applink {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.video_about_game_text .release_details {
+	color: #626366;
+}
+div.slider {
+	height: 13px;
+	position: relative;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	left: 0px;
+}
+
+div.slider .handle {
+	background-color: rgba( 35, 60, 81, 0.9 );
+	height: 13px;
+}
+
+.block {
+	background: rgba( 0, 0, 0, 0.2 );
+	padding: 12px;
+}
+
+
+.block {
+	margin-bottom: 28px;
+}
+
+.leftcol .leftcol_rule {
+	border-bottom: 1px solid #66C0F4;
+	margin: 28px 0px;
+
+}
+
+.leftcol .block {
+	width: 592px;
+	margin-bottom: 28px;
+}
+
+.rightcol .block {
+	margin-bottom: 16px;
+}
+
+.block_header {
+	position: relative;
+	height: 25px;
+	line-height: 25px;
+
+}
+
+.block_header div, .block_header h4 {
+	padding: 0px 0px 0px 0px;
+}
+
+.block_header .right {
+	position: absolute;
+	right: 0px;
+	height: 26px;
+}
+
+.block_header .right a {
+	font-size: 12px;
+	font-weight: normal;
+	color: #66C0F4;
+}
+
+.block_header .right a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.block_content {
+	font-size: 14px;
+	color: #c6d4df;
+}
+.rightcol .block_content {
+	border: none;
+}
+.block .block_content .rule {
+	border-bottom: 1px solid #3c3d3e;
+
+}
+
+.block .block_content .inner_rule {
+	border-bottom: 1px solid #3c3d3e;
+	margin: 16px 0px;
+}
+
+.block .block_content .inner_rule.small_margin {
+	margin: 6px 0px;
+}
+
+.block .block_footer {
+
+	margin-top: 1px;
+
+	position: relative;
+	height: 26px;
+	line-height: 26px;
+
+	color: #61686d;
+	font-size: 10px;
+
+	text-align: center;
+}
+
+.block_footer div {
+	padding: 0px 5px 0px 3px;
+}
+
+.block_footer a {
+	color: #b0aeac
+}
+
+.block_footer .right, .block_header .right {
+	position: absolute;
+	right: 0px;
+	height: 26px;
+}
+
+.block_footer .left, .block_header .left {
+	position: absolute;
+	left: 0px;
+	height: 26px;
+}
+
+.block_footer img {
+	vertical-align: middle;
+}
+
+.leftcol .block_header,
+.rightcol .block_header {
+	font-size: 18px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			color: #66C0F4;
+}
+
+.block_content h4 {
+	color: #ffffff;
+}
+.movie_cap {
+	display: block;
+	float: left;
+
+	margin-right: 15px;
+
+	border: 1px solid transparent;
+}
+
+.movie_cap:hover {
+	border: 1px solid #8bb9e0;
+	text-decoration: none;
+}
+
+.movie_cap_inner {
+	width: 184px;
+	height: 123px;
+
+	overflow: hidden;
+
+	position: relative;
+}
+
+.movie_cap_inner .movie_cap_overlay {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 184px;
+	padding: 4px;
+}
+
+.movie_cap_overlay h4 {
+	position: relative;
+	font-size: 12px;
+}
+
+.movie_cap_overlay .movie_cap_overlay_background {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #000000;
+	opacity: 0.70;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+}
+
+.movie_cap_img {
+	width: 184px;
+	height: 123px;
+}
+
+.small_cap_scroll {
+	position: relative;
+	width: 6140px;
+}
+
+
+.small_cap_pager {
+	width: 614px;
+	height: 136px;
+	overflow: hidden;
+	position: relative;
+}
+
+.small_cap_pager.onerow, .small_cap_page.onerow {
+	height: 136px;
+}
+
+.small_cap_pager.onerowvideo, .small_cap_page.onerowvideo {
+	height: 143px;
+}
+
+.small_cap_page {
+	float: left;
+	width: 614px;
+	height: 136px;
+}
+body.v6 .game_details .details_block {
+	font-size: 12px;
+	color: #8f98a0;
+}
+body.v6 .game_details .details_block b {
+	color: #61686d;
+}

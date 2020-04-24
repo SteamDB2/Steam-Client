@@ -1,0 +1,319 @@
+  
+
+#BG_top {
+	position:relative;
+	z-index:10;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_top.gif');
+	background-repeat:no-repeat;
+	width:958px;
+	height:98px;
+	text-align: left;
+	margin: 0 auto;
+}
+#BG_bottom {
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/bg_bottom.gif');
+	background-repeat:repeat-y;
+	width:958px;
+	text-align:left;
+	margin: 0 auto;
+	padding-bottom: 16px;
+}
+#BG_bottom_test {
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/footerBG.gif');
+	height: 55px;
+	width:958px;
+	margin: 0 auto;
+}
+#BG_top h2 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	padding-top:29px;
+	font-size: 26px;
+	color: #898989;
+	padding-left:5px;
+}
+#BG_top h1 {
+	font-weight:normal;
+	font-size: 24px;
+	line-height:1em;
+	color: #e1e1e1;
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	padding-bottom:13px;
+	padding-left:5px;
+}
+#mainContents {
+	width:808px;
+	min-width:808px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	padding-left:12px;
+	padding-top:24px;
+}
+#GCLmainContents {
+	width:936px;
+	min-width:936px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	padding-left:12px;
+	padding-top:21px;
+}
+
+#sortform {
+	margin-left:136px;
+	color:#959595;
+	font-size:12px;
+	margin-bottom:8px;
+}
+
+.resultItem, .resultItemOGG {
+	position:relative;
+	margin-left:100px;
+	width:606px;
+	background-color:#2e2e2e;
+	color:#959595;
+	font-size:11px;
+	padding:5px 0px 5px 130px;
+	height:72px;
+	margin-bottom:1px;
+	line-height:16px;
+}
+
+.resultItemOGG {
+	height:77px;
+	width:727px;
+	padding-left:9px;
+}
+
+.resultItem>p,.resultItemOGG>p {
+	margin:0;
+	padding:0;
+	padding-top:6px;
+}
+
+.groupBlockMedium {
+	float:left;
+	width:72px;
+	height:72px;
+	margin: 2px 7px;
+	padding:0;
+}
+
+.groupBlockOGG {
+	float:left;
+	width:192px;
+	height:78px;
+	margin:0;
+	padding:0;
+	margin-right:11px;
+}
+
+.resultItem>a,.resultItem>a:hover,.resultItem>a:visited,.resultItem>a:active {
+	color:#e1e1e1;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+.resultSubtext {
+	font-size:10px;
+	font-weight:bold;
+}
+
+.groupBlock.darkBG {
+	background-color: rgba( 0, 0, 0, 0.7 );
+}
+
+.resultIcon {
+	position:absolute;
+	top:8px;
+	left:8px;
+}
+
+.pageLinks {
+	float:right;
+	margin-right:8px;
+	padding-top:2px;
+	font-size:10px;
+	color:#959595;
+}
+
+.pageLinks>a,.pageLinks>a:hover,.pageLinks>a:visisted,.pageLinks>a:active {
+	font-size:10px;
+}
+
+#bottomLinks {
+	position:relative;
+	width:894px;
+	margin:0;
+	padding:0;
+	margin-left:23px;
+	border:solid #252525 4px;
+}
+
+#bottomRightLinks {
+	float:right;
+}
+
+
+.infoBar {
+	position:relative;
+	height:32px;
+	line-height: 28px;
+	background-color:#000000;
+	margin-bottom: 4px;
+}
+
+.infoBar p {
+	margin:0;
+	padding:0;
+	margin-left:8px;
+	padding-top:2px;
+	font-size:10px;
+	color:#959595;
+}
+
+a.chatLink,a.chatLink:hover,a.chatLink:active,a.chatLink:visited {
+	color: #6f9fc8;
+	font-size:11px;
+}
+
+.listOGGTag {
+	padding-top:4px;
+}
+
+#noMatches {
+	padding-left:40px;
+	padding-top:20px;
+	color:#939393;
+	font-weight:bold;
+}
+
+.sectionDesc {
+	color: #8c8c8c;
+	font-size: 11px;
+	line-height: 30px;
+}
+
+.left17 {
+	margin: 0 25px;
+}
+
+.groupBlock, .groupBlockHi {
+	min-height:72px;
+	margin:0;
+	padding:0;
+	margin-bottom:4px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color: rgba( 0, 0, 0, 0.2 );
+}
+
+.groupBlockHi {
+	background-color:#3a3a3a;
+}
+
+.groupBlock p,.groupBlockHi p {
+	margin:0;
+	padding:0;
+	padding-top:2px;
+	line-height:16px;
+}
+
+.groupBlock img {
+	border-radius: 3px;
+}
+
+/* ironically on the right */
+.groupLeftBlock {
+	margin:0;
+	float:right;
+	padding: 0 8px;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.groupLeftBlockDouble {
+	margin:0;
+	padding:0;
+	width:136px;
+	height:36px;
+	float:right;
+	padding-top: 18px;
+	padding-left:16px;
+	font-size: 11px;
+	line-height:20px;
+}
+
+#primaryGroupBreak {
+	margin: 8px 0;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 10px;
+}
+
+.mainSectionHeader {
+	height:17px;
+	width:661px;
+	background-color:#161616;
+	font-size:11px;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	padding-top:2px;
+	padding-left:8px;
+}
+
+.groupBlock .groupTitle {
+	margin-top: 11px;
+}
+
+.groupBlock a.linkTitle {
+	font-size: 17px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+.membersInGame {
+	color: #90BA3C;
+}
+.membersOnline {
+	color: #57CBDE;
+}
+.memberRow {
+	margin-top: 5px;
+	font-size: 11px;
+}
+.memberRow .groupMemberStat {
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 910px)
+{
+	html.responsive .left17 {
+		margin: 0 2%;
+	}
+
+	/* this is an image with text baked into it, and just to make it worse it's off-center.
+		the 10% helps it stay visible on smaller devices */
+	html.responsive #primaryGroupBreak {
+		background-position: 10% top;
+	}
+}
+
+
+@media screen and (max-width: 400px )
+{
+	html.responsive .groupLeftBlock {
+		display: none;
+	}
+
+	/* hide stats that are 0 to keep things clean (eg "0 users in chat" ) */
+	html.responsive .groupMemberStatZero {
+		display: none;
+	}
+}

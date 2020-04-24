@@ -1,0 +1,25 @@
+//
+// Styles
+//
+
+#MsgBoxBodyRegion
+{
+	width: 55%;
+}
+
+
+.MsgBoxButtons
+{
+	horizontal-align: left;
+	font-size: 42px;
+	font-family: platformfont;
+	color: #ffffffff;
+	margin-top: 40px;
+	margin-left: -5px;
+
+	flow-children: right;
+}
+
+.MsgBoxButtons Button {
+	margin-right: 10px;
+}

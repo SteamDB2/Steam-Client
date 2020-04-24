@@ -1,0 +1,423 @@
+{
+    "name": "ICheatReportingService",
+    "methods": [
+        {
+            "name": "ReportPlayerCheating",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Reports a player cheating",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "steamid of the user who is reported as cheating."
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid."
+                },
+                {
+                    "name": "steamidreporter",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "(Optional) steamid of the user or game server who is reporting the cheating."
+                },
+                {
+                    "name": "appdata",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "(Optional) App specific data about the cheating."
+                },
+                {
+                    "name": "heuristic",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "(Optional) extra information about the source of the cheating - was it a heuristic."
+                },
+                {
+                    "name": "detection",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "(Optional) extra information about the source of the cheating - was it a detection."
+                },
+                {
+                    "name": "playerreport",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "(Optional) extra information about the source of the cheating - was it a player report."
+                },
+                {
+                    "name": "noreportid",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "(Optional) dont return report id"
+                },
+                {
+                    "name": "gamemode",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "(Optional) extra information about state of game - was it a specific type of game play (0 = generic)"
+                },
+                {
+                    "name": "suspicionstarttime",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "(Optional) extra information indicating how far back the game thinks is interesting for this user"
+                },
+                {
+                    "name": "severity",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "(Optional) level of severity of bad action being reported"
+                },
+                {
+                    "name": "matchid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "(Optional) matchid to identify the game instance"
+                },
+                {
+                    "name": "cheating_type",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "(Optional) app specific data about the type of cheating"
+                }
+            ]
+        },
+        {
+            "name": "RequestPlayerGameBan",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Requests a ban on a player",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "steamid of the user who is reported as cheating."
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid."
+                },
+                {
+                    "name": "reportid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "The reportid originally used to report cheating."
+                },
+                {
+                    "name": "cheatdescription",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Text describing cheating infraction."
+                },
+                {
+                    "name": "duration",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "Ban duration requested in seconds."
+                },
+                {
+                    "name": "delayban",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "Delay the ban according to default ban delay rules."
+                },
+                {
+                    "name": "flags",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "Additional information about the ban request."
+                },
+                {
+                    "name": "invisible_ban",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "The ban will be recorded but not be visible or deny access to secure servers."
+                }
+            ]
+        },
+        {
+            "name": "RemovePlayerGameBan",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Remove a ban on a player",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "steamid of the user who is reported as cheating."
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid."
+                }
+            ]
+        },
+        {
+            "name": "GetCheatingReports",
+            "version": 1,
+            "httpmethod": "GET",
+            "description": "Get a list of cheating reports submitted for this app",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid."
+                },
+                {
+                    "name": "timeend",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The beginning of the time range ."
+                },
+                {
+                    "name": "timebegin",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The end of the time range."
+                },
+                {
+                    "name": "reportidmin",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "Minimum reportID to include"
+                },
+                {
+                    "name": "includereports",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "(Optional) Include reports."
+                },
+                {
+                    "name": "includebans",
+                    "type": "bool",
+                    "optional": false,
+                    "description": "(Optional) Include ban requests."
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "(Optional) Query just for this steamid."
+                }
+            ]
+        },
+        {
+            "name": "RequestVacStatusForUser",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Checks a user's VAC session status. If verification fails, then do not let the user matchmake into a secure game.",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "steamid of the user."
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid the user is playing."
+                },
+                {
+                    "name": "session_id",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "session id"
+                }
+            ]
+        },
+        {
+            "name": "StartSecureMultiplayerSession",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Tell the VAC servers that a secure multiplayer session has started",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "steamid of the user."
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid the user is playing."
+                }
+            ]
+        },
+        {
+            "name": "EndSecureMultiplayerSession",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Tell the VAC servers that a secure multiplayer session has ended.",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "steamid of the user."
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid the user is playing."
+                },
+                {
+                    "name": "session_id",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "session id"
+                }
+            ]
+        },
+        {
+            "name": "ReportCheatData",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Reports cheat data. Only use on test account that is running the game but not in a multiplayer session.",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "steamid of the user running and reporting the cheat."
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "The appid."
+                },
+                {
+                    "name": "pathandfilename",
+                    "type": "string",
+                    "optional": false,
+                    "description": "path and file name of the cheat executable."
+                },
+                {
+                    "name": "webcheaturl",
+                    "type": "string",
+                    "optional": false,
+                    "description": "web url where the cheat was found and downloaded."
+                },
+                {
+                    "name": "time_now",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "local system time now."
+                },
+                {
+                    "name": "time_started",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "local system time when cheat process started. ( 0 if not yet run )"
+                },
+                {
+                    "name": "time_stopped",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "local system time when cheat process stopped. ( 0 if still running )"
+                },
+                {
+                    "name": "cheatname",
+                    "type": "string",
+                    "optional": false,
+                    "description": "descriptive name for the cheat."
+                },
+                {
+                    "name": "game_process_id",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "process ID of the running game."
+                },
+                {
+                    "name": "cheat_process_id",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "process ID of the cheat process that ran"
+                },
+                {
+                    "name": "cheat_param_1",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "cheat param 1"
+                },
+                {
+                    "name": "cheat_param_2",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "cheat param 2"
+                },
+                {
+                    "name": "cheat_data_dump",
+                    "type": "string",
+                    "optional": false,
+                    "description": "data collection in json format"
+                }
+            ]
+        }
+    ]
+}

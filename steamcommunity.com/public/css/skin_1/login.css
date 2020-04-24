@@ -1,0 +1,366 @@
+
+body {
+
+}
+
+.modal_box h1 {
+	padding-left:20px;
+	font-size: 36px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+.modal_box p {
+	padding-left:20px;
+	margin: 0px;
+}
+
+
+.modal_buttons a.btn_white {
+	float: left;
+}
+
+.modal_buttons a.btn_white.leftbtn {
+	margin-right: 16px;	
+	
+}
+
+.modal_buttons {
+}
+
+
+#modalBG {
+	position:absolute;
+	z-index:900;
+	background-color:#000000;
+	filter:alpha(opacity=60);
+	opacity:0.8;
+}
+
+.modal_frame {
+	width:508px;
+	position:absolute;
+	z-index:1000;
+	background-color:#000000;
+}
+
+.auth_message_area, .twofactorauth_message_area {
+	position: relative;
+	padding-left: 70px;
+	min-height: 92px;
+}
+
+.auth_icon, .twofactorauth_icon {
+	position: absolute;
+	top: 16px;
+	left: 0px;
+	width: 67px;
+	height: 48px;
+
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/login/emailauth_icons.png );
+	background-repeat: no-repeat;
+}
+
+.auth_icon.auth_icon_trash {
+	background-position: center 0px;
+}
+
+.auth_icon.auth_icon_key {
+	background-position: center -48px;
+}
+
+.auth_icon.auth_icon_lock {
+	background-position: center -96px;
+}
+
+.auth_icon.auth_icon_unlock {
+	background-position: center -144px;
+}
+
+.auth_icon.auth_icon_steam {
+	background-position: center -192px;
+}
+
+.auth_icon.ipt_icon {
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/login/ipt_lockout_icon.png );
+	height: 62px;
+	width: 53px;
+
+	left: 12px;
+	top: 6px;
+}
+
+.auth_details_messages, .twofactorauth_details_messages {
+	color: #8F98A0;
+	font-size: 12px;
+	height: 38px;
+}
+.notice {
+	color: #ff7b00;
+}
+
+.authcode_entry_area, .twofactorauthcode_entry_area {
+	height: 32px;
+	margin-top: 4px;
+	margin-bottom: 6px;
+}
+
+.authcode_entry_box, .twofactorauthcode_entry_box {
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/login/code_box.png?v=1 );
+	background-repeat: no-repeat;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	border-radius: 3px;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 0 0 rgba( 91, 132, 181, 0.2 );
+	color: #C6D4DF;
+	width: 220px;
+	height: 27px;
+}
+
+.friendly_name_box
+{
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/login/friendlyname_box.png?v=1 );
+	background-repeat: no-repeat;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	border-radius: 3px;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 0 0 rgba( 91, 132, 181, 0.2 );
+	color: #C6D4DF;
+	width: 220px;
+	height: 27px;
+}
+
+input.authcode_entry_input, input.twofactorauthcode_entry_input {
+	border: none;
+	background-color: transparent;
+	margin-left: 8px;
+	margin-top: 2px;
+	color: #cdcac1;	
+	outline: none;
+	width: 220px;
+}
+
+
+input.authcode_entry_input.defaulttext, input.twofactorauthcode_entry_input.defaulttext {
+	font-style: italic;
+}
+
+input.textField {
+	margin: 0px;
+
+
+	color: #BFBFBF;
+	outline: none;
+	padding: 4px 6px;
+
+	background-color: rgba( 0, 0, 0, 0.4 );
+
+}
+
+.checkboxRow {
+	margin: 0px;
+	padding-top: 4px;
+}
+
+.checkboxContainer {
+	margin-bottom: 15px;
+	height: 31px;
+}
+
+#auth_buttonset_waiting, #login_twofactorauth_buttonset_waiting {
+	height: 66px;
+	
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif );
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.auth_button, .twofactorauth_button {
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/login/emailauth_button.png );
+	background-repeat: no-repeat;
+	width: 219px;
+	height: 58px;
+}
+
+.auth_button.auth_button_spacer,
+.twofactorauth_button.auth_button_spacer {
+	background-image: none;
+	width: 0px;
+}
+
+a.auth_button, a.auth_button:hover, a.twofactorauth_button, a.twofactorauth_button:hover {
+	display: block;
+	text-decoration: none;
+}
+
+.auth_button h3, .twofactorauth_button h3 {
+	font-weight: normal;
+	font-size: 22px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			color: #66C0F4;
+}
+
+.twofactorauth_button h3, .twofactorauth_button h5 {
+	margin-left: 16px;
+}
+
+.auth_button h5, .twofactorauth_button h5 {
+	font-size: 13px;
+	color: #66C0F4;
+	text-transform: none;
+}
+.auth_button:hover h3,
+.auth_button:hover h5 {
+	color: #ffffff;
+}
+
+
+.modal_buttons .auth_button, .modal_buttons .twofactorauth_button {
+	float: left;
+}
+
+.modal_buttons a.auth_button.leftbtn, .modal_buttons a.twofactorauth_button.leftbtn {
+	margin-right: 16px;		
+}
+
+.modal_box_ctn a.auth_button {
+	background: -webkit-linear-gradient( top, rgba(102,192,244,0.2) 5%, rgba(47,137,188,0.2) 95%);
+	background: linear-gradient( to bottom, rgba(102,192,244,0.2) 5%, rgba(47,137,188,0.2) 95%);
+	padding: 12px 12px 15px 12px;
+	border-radius: 2px;
+}
+.modal_box_ctn a.auth_button:hover {
+	background: -webkit-linear-gradient( top, rgba(102,192,244,1) 5%, rgba(47,137,188,1) 95%);
+	background: linear-gradient( to bottom, rgba(102,192,244,1) 5%, rgba(47,137,188,1) 95%);
+}
+
+#loginIPTModal .modal_box {
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/login/ipt_lockout_bg.png );
+	width: 466px;
+	height: 231px;
+}
+
+#auth_details_computer_name{
+	margin: 52px 0 28px 0;
+}
+
+#friendly_name_box{
+    position: absolute; 
+    bottom: 22px; 
+    left: 22px;
+}
+.oauthLoginButton {
+	margin-top: 12px;
+	border: 0;
+	
+}
+
+.OpenID_MainHeader {
+	background-color: #1c1c1c;
+	width: 950px;
+	height: 110px;
+}
+
+	.OpenID_MainHeader h1{
+		font-size: 24px;
+		color: #ffffff;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 200; /* thin */
+
+				font-weight: normal;
+		padding: 24px 0px 0px 18px;
+	}
+	
+	.OpenID_MainHeader h2{
+		font-size: 16px;
+		color: #e1b54a;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 200; /* thin */
+
+				font-weight: normal;
+		padding: 10px 8px 8px 0px;
+		height: 45px;
+	}
+	
+.OpenID_LowerContents {
+	background-color: #242424;
+	width: 950px;
+	padding: 24px 0 30px 0;
+}
+.OpenID_LowerContents_right {
+	width: 436px;
+	float: left;
+	padding: 0px 18px 0px 18px;
+	border-left: 1px solid #374862;
+}
+	.OpenID_LowerContents_right h2 {
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: normal;
+		font-family: Arial, Tahoma;
+	}
+
+.OpenID_LowerContents_left {
+	width: 436px;
+	float: left;
+	padding: 0px 18px 0px 18px;
+}
+
+.OpenID_loggedInText {
+
+}
+	.OpenID_LowerContents h2 {
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: normal;
+		font-family: Arial, Tahoma;
+		margin-bottom: 10px;
+	}
+	
+.OpenID_UserContainer {
+	background-color: #1c1c1c;
+	border-radius: 3px;
+	padding: 8px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+	.OpenID_UserName {
+		float: left;
+	}
+	.OpenID_loggedInName {
+		color: #86b5d9;
+		font-size: 14px;
+		display: block;
+		margin-top: 3px;
+	}
+	.OpenID_loggedInAccount {
+	}
+	.playerAvatar {
+		float: left;
+		margin-right: 12px;
+	}
+	
+.OpenID_Logout {
+	float: right;
+	text-decoration:underline;
+	margin-top: 21px;
+}
+
+.OpenID_linkLoggedInAccount {
+
+}
+
+.OpenID_list
+{
+	float: left;
+	font-size: 13px;
+	width: 370px;
+}
+
+.OpenID_listitem
+{
+	margin-bottom: 8px;
+	}

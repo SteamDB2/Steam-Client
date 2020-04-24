@@ -1,0 +1,2444 @@
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit;
+	margin: 0;
+}
+
+.market_header_bg {
+	background-color: #46602a;
+	width: 100%;
+}
+#BG_top {
+	position:relative;
+	width: 949px;/*100%;*/
+	height: 121px;
+	background-color: #46602a;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#BG_top > img {
+	border: none;
+}
+
+#BG_top > .betaicon {
+	position: absolute;
+
+	height: 30px;
+	width: 86px;
+
+	left: 422px;
+	top: 59px;
+}
+
+#BG_top > .user_info {
+	position: absolute;
+	height: 51px;
+	padding: 13px 13px 0 13px;
+
+	background-color: #1B1B1B;
+	border: 1px solid #39393A;
+	border-right: 1px solid #0F0F0F;
+	border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+
+	min-width: 290px;
+	max-width: 400px;
+
+	right: 0;
+	top: 29px;
+}
+
+.market_header_hidden {
+	/* allow these to still be read by screen readers */
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.market_header
+{
+	width: 100%;
+}
+
+.market_header_logo
+{
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	background-image: url('https://steamcommunity-a.akamaihd.net/public/images/economy/market/header/market_banner.jpg');
+	background-repeat: no-repeat;
+	height: 121px;
+	width: 949px;
+
+}
+
+.market_header_text
+{
+	display: block;
+	width: 600px;
+	text-align: left;
+	padding: 20px 10px 0px;
+}
+
+.market_title_text
+{
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 34px;
+	color: #ffffff;
+}
+
+.market_subtitle_text
+{
+	font-size: 14px;
+	color: #9dc473;
+}
+
+
+.market_whatsthis {
+	color: #529CDE;
+	font-size: 85.7%;
+}
+
+.user_info_text {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 7px;
+
+	font-size: 14px;
+	color: #E1E1E1;
+
+	max-width: 350px;
+}
+
+.user_info_text a:hover {
+	text-decoration: underline;
+}
+
+#marketReservedFunds {
+	color: #878787;
+	font-size: 11px;
+}
+
+#BG_bottom {
+	width:949px;
+	text-align:left;
+	margin: 0 auto;
+}
+
+#market_warning_header {
+	color: #ffffff;
+	margin: 0 0 15px 10px;
+	font-size: 17px;
+}
+
+#market_warning_icon {
+	margin-top: -12px;
+	margin-right: 5px;
+	float: left;
+	width: 38px;
+	height: 38px;
+}
+
+div.market_restrictions {
+	clear: both;
+	line-height: 20px;
+}
+
+div.market_restrictions a:hover, #market_newapp_warning a{
+	text-decoration: underline;
+}
+
+.market_hover_tip_header {
+	background-color: #3F3F3F;
+	color: #D6D6D6;
+	position: fixed;
+	z-index: 100;
+	border: 1px solid #747474;
+
+	width: 288px;
+	padding: 12px;
+
+	box-shadow: 4px 4px 3px black;
+	-moz-box-shadow: 4px 4px 3px black;
+	-webkit-box-shadow: 4px 4px 5px black;
+}
+
+#market_timecanuse_header {
+	color: #84BD3A;
+}
+
+#market_headertip_saleslimit {
+	border:1px solid #AEAEAE;
+	background-color:#333333;
+	padding:5px;
+}
+
+ul.market_restrictions li {
+	margin: 10px 0 0 0;
+}
+
+#market_restriction_expire {
+	margin-top: 20px;
+}
+
+#mainContents {
+	padding: 0;
+	text-align:left;
+}
+
+.market_content_block {
+	padding: 0 0 10px 0;
+}
+
+#myMarketTabs {
+	position: relative; /* position:absolute children need to be relative to this */
+	height: 30px;
+	padding: 9px 15px 0 0;
+	margin-top: 30px;
+
+}
+
+.my_listing_section {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.my_market_header {
+	font-size: 16px;
+	color: #C2C2C2;
+}
+
+.my_market_header_active {
+	color: white;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+.my_market_header_count {
+	font-size: 75%;
+	color: #BCBCBC;
+}
+
+#escrow_description {
+	margin-bottom: 15px;
+}
+.escrow_description_link {
+
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 12px;
+}
+
+.escrow_description_link a {
+	text-decoration: underline;
+	color: white;
+}
+
+.missing_items_in_escrow {
+	background-color: #a6801b;
+	padding: 12px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+}
+.missing_items_in_escrow a {
+	text-decoration: underline;
+}
+
+.pick_and_sell_button {
+	line-height: 0;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	bottom: 8px;
+	z-index: 2;
+}
+
+.pick_and_sell_button .item_market_action_button_contents {
+	min-width: 112px;
+}
+
+.market_listing_table_header, .market_listing_table_message {
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0);
+	margin: 8px 0 10px;
+	height: 2.25em;
+	vertical-align: middle;
+	line-height: 2.25em;
+}
+
+.market_listing_table_message {
+	height: auto;
+	min-height: 1em;
+	padding: 15px 11px;
+	line-height: normal;
+}
+
+.market_listing_row {
+	overflow: hidden; /* used so that clears in the left column don't try to clear the right column */
+	clear: left;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0);
+	margin-top: 10px;
+	white-space: nowrap;
+}
+
+.my_listing_section .market_listing_row {
+	margin-top: 6px;
+
+	transition-property: background-color, border-color;
+	transition-timing-function: linear;
+	transition-duration: 3s;
+}
+
+.my_listing_section .market_listing_justconfirmed {
+	background-color: #4A4A4A;
+	border-color: #67C1F5;
+}
+
+a.market_listing_row_link, a.market_listing_row_link:hover, a.market_listing_row_link:active, a.market_listing_row_link:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+a.market_listing_row_link:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+.market_listing_table_active a.market_listing_row_link:hover .market_listing_row {
+	border: 1px solid #324965;
+}
+
+.market_listing_item_img {
+	float: left;
+	width: 62px;
+	height: 62px;
+	margin: 5px;
+	border: 1px solid #3A3A3A;
+	background-color: #333333;
+}
+
+.market_listing_purchase_message {
+	color: #EBEBEB;
+	margin: 30px 5px 0;
+	line-height: 16px;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.market_listing_purchase_message a {
+	text-decoration: underline;
+}
+
+.my_listing_section .market_listing_item_img {
+	width: 38px;
+	height: 38px;
+}
+
+.market_listing_item_name_block {
+	vertical-align: top;
+	margin-top: 21px;
+	line-height: 16px;
+	padding-left: 7px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.my_listing_section .market_listing_item_name_block {
+	margin-top: 7px;
+	padding-left: 0;
+}
+
+.market_listing_item_name {
+	font-weight: bold;
+}
+
+.market_listing_item_name_link {
+	color: inherit;
+}
+
+a.market_listing_item_name_link:hover {
+	text-decoration: underline;
+}
+
+.market_listing_game_name, .market_listing_listed_date_combined {
+	font-size: 85.7%;
+}
+
+.market_listing_owner_avatar {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 17px;
+	line-height: 0;
+}
+
+.my_listing_section .market_listing_row .market_listing_owner_avatar {
+	margin-top: 5px;}
+
+.playerAvatar {
+	display: block;
+}
+
+.market_listing_owner_name {
+	float: right;
+	vertical-align: top;
+	margin-top: 29px;
+	line-height: 16px;
+	margin-left: 6px;
+	width: 85px;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.market_listing_price_block {
+	float: right;
+	vertical-align: top;
+	margin-top: 10px;
+	width: 99px;
+
+	border: 2px solid #5B5B5B;
+	border-radius: 2px;
+}
+
+.market_listing_whoactedwith .market_listing_owner_avatar {
+	float: left;
+}
+
+.market_listing_table_header {
+	font-size: 85.7%;
+}
+
+.market_listing_header_namespacer {
+	width: 5px;
+	display: inline-block;
+}
+
+.market_listing_table_header, .market_listing_table_header .market_listing_left_cell, .market_listing_table_header .market_listing_right_cell {
+	color: #AFAFAF;
+}
+
+.market_sortable_column {
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.market_sortable_column:hover {
+	background-color: #324965;
+}
+
+.market_listing_table_active .market_sortable_column:hover .market_sort_arrow {
+	/* flip the arrow when the user is hovering a sortable column to indicate the sort direction will change */
+	transform: rotate( 180deg );
+	-webkit-transform: rotate( 180deg );
+	-ms-transform: rotate( 180deg );
+}
+
+.market_listing_left_cell {
+	float: left;
+}
+
+.market_listing_right_cell {
+	float: right;
+}
+
+#popularItemsRows .market_listing_price_listings_block,
+#searchResults .market_listing_price_listings_block {
+	min-width: 172px;
+	float: right;
+}
+
+#popularItemsRows .market_listing_price_listings_block .market_listing_num_listings,
+#searchResults .market_listing_price_listings_block .market_listing_num_listings {
+	float: left;
+}
+
+.market_listing_price_listings_block .market_listing_price_listings_combined {
+	display: none;
+}
+
+.market_home_main_listing_table .market_listing_left_cell, .market_home_main_listing_table .market_listing_right_cell {
+	line-height: 73px;
+}
+
+.my_listing_section .market_listing_left_cell, .my_listing_section .market_listing_right_cell {
+	line-height: 50px;
+}
+
+.market_home_listing_table .market_listing_left_cell, .market_home_listing_table .market_listing_right_cell {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.market_home_listing_table .market_listing_right_cell {
+		border-left: 1px solid transparent;
+}
+
+.market_listing_table_header .market_listing_left_cell, .market_listing_table_header .market_listing_right_cell {
+	margin: 0;
+	height: 2.25em;     /* height + margin = 2.25em, the height of .market_listing_table_header */
+	line-height: 2.25em;
+	text-transform: uppercase;
+}
+
+.market_listing_table_header .market_listing_right_cell {
+	border-left: 1px solid #404040;
+	white-space: nowrap;
+}
+
+.market_sort_arrow {
+	display: inline-block;	font-size: 80%;
+	margin-left: 4px;
+}
+
+.market_listing_price {
+	color: white;
+	text-align: center;
+}
+
+.market_listing_price_without_fee {
+	display: none;
+}
+.market_listing_price_with_publisher_fee_only {
+	color: #a5cb00;
+	display: none;
+}
+
+.two_factor_sale_enabled .market_listing_price_without_fee {
+	display: none;
+}
+.two_factor_sale_enabled .market_listing_price_with_fee {
+	text-decoration: line-through;
+	color: #626366;
+	display: inline;
+}
+.two_factor_sale_enabled .market_listing_price_with_fee:after {
+	content:"\a";
+	white-space: pre;
+}
+.two_factor_sale_enabled .market_listing_price_with_publisher_fee_only {
+	display: inline;
+}
+
+#market_buynow_dialog_contents .market_listing_price_without_fee {
+	display: inline;
+}
+
+#market_buynow_dialog_contents .market_listing_price_with_fee,
+#market_buynow_dialog_contents .market_listing_price_with_publisher_fee_only {
+	display: none;
+}
+
+.two_factor_sale_enabled #market_buynow_dialog_totals_transactionfee {
+	color: #626366;
+	text-decoration: line-through;
+}
+
+.market_listing_my_price {
+	width: 115px;
+}
+
+.market_listing_inline_buyorder_qty {
+	display: none;
+}
+
+.market_listing_their_price {
+	position: relative;
+	width: 90px;
+}
+
+.market_listing_their_price > span.market_table_value, .market_listing_my_price > span.market_table_value, .market_listing_num_listings > span.market_table_value {
+	font-size: 85.7%;
+	line-height: 1.25em;
+	vertical-align: middle;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+
+		margin: 10px 0;
+}
+
+.market_listing_searchresult .market_listing_their_price > span {
+	vertical-align: top;
+	margin: 1.3em 0;
+}
+
+.market_listing_their_price > .market_table_value .normal_price,
+.market_listing_their_price > .market_table_value .sale_price {
+	color: white;
+}
+
+.two_factor_sale_enabled .market_listing_their_price > .market_table_value .normal_price {
+	color: #626366;
+	text-decoration: line-through;
+	display: inline;
+}
+.two_factor_sale_enabled .market_listing_their_price > .market_table_value .normal_price:after {
+	content:"\a";
+	white-space: pre;
+}
+.market_listing_their_price > .market_table_value .sale_price {
+	display: none;
+}
+.two_factor_sale_enabled .market_listing_their_price > .market_table_value .sale_price {
+	display: inline;
+	color: #a5cb00;
+}
+
+.market_listing_num_listings {
+	width: 80px;
+}
+
+.market_listing_num_listings_qty {
+	font-size: 14px;
+	color: #8F98A0;
+}
+
+.market_listing_listed_date {
+	min-height: 1px;
+	float: right;
+	width: 133px;
+	color: #AFAFAF;
+}
+
+.market_listing_listed_date_combined {
+	display: none;
+}
+
+.market_listing_seller {
+	float: right;
+	width: 89px;
+}
+
+.market_listing_whoactedwith {
+	float: right;
+	width: 156px;
+	padding: 0 12px;
+}
+
+.market_listing_gainorloss {
+	float: left;
+	width: 32px;
+	min-height: 1px;
+	color: #76a247;
+
+	font-size: 16px;
+	font-weight: bold;
+	height: auto !important;}
+
+.market_listing_row .market_listing_whoactedwith {
+	text-align: left;
+}
+
+.market_listing_whoactedwith_name_block {
+	margin-top: 9px;
+	line-height: 16px;
+	padding-left: 7px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.market_listing_edit_buttons.placeholder {
+	float: right;
+}
+
+.market_listing_edit_buttons.actual_content {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.market_listing_edit_buttons {
+	height: 50px;
+	width: 280px;
+	text-align: center;
+
+		border-left: 1px solid transparent;
+}
+
+.market_listing_cancel_button, .market_listing_edit_button {
+	margin: 9px 4px 0;
+	height: 41px;
+}
+
+.market_listing_action_buttons {
+	float: right;
+	height: 74px;
+	width: 100px;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+
+		border-left: 1px solid transparent;
+}
+
+.market_listing_buy_button {
+	line-height: 0;
+	margin-top: 25px;
+}
+
+.market_listing_buy_button .item_market_action_button_contents {
+	width: 86px;
+}
+
+a.item_market_action_button:hover .item_market_action_button_contents {
+	color: white;
+}
+
+a.item_market_action_button_disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+#tabContentsMyListings .market_paging {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: -1em;
+	margin-bottom: 0;
+}
+
+#tabContentsMyListings .market_pagesize_options {
+	margin: 0 0 2em 0;
+	font-size: 12px;
+}
+
+.market_pagesize_options .disabled {
+	cursor: text;
+	color: inherit;
+}
+
+.market_page_left {
+	padding-top: 2em;
+	max-width: 639px;
+}
+
+.market_page_fullwidth {
+	padding-top: 2em;
+	max-width: 949px;
+}
+
+.market_page_listings_container {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.market_large_tab_well_sep {
+	background-color: black;
+	height: 1px;
+	border-right: 1px solid #303030;
+}
+
+.market_large_tab_well, .market_section_header {
+	height: 30px;
+	padding: 10px 15px 0 0;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+
+.market_page_fullwidth .market_large_tab_well,
+.market_page_fullwidth .market_section_header {
+	max-width: 919px;
+}
+
+.market_large_tab_well_gradient {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 474px;
+	max-height: 102px;
+
+	z-index: 1;
+}
+
+.market_large_tab_well .market_section_header_cap, .market_section_header .market_section_header_cap {
+	position: absolute;
+	top: 0;
+	right: -4px;
+	height: 102px;
+	width: 4px;
+}
+
+.market_page_fullwidth .market_large_tab_well .market_section_header_cap, .market_page_fullwidth .market_section_header .market_section_header_cap {
+	display: none;
+}
+.market_page_fullwidth .market_large_tab_well, .market_page_fullwidth .market_section_header {
+	margin-right: 0;
+}
+
+.market_section_title {
+	color: white;
+	font-size: 28px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+.market_large_tab_well > .market_section_title, .market_section_header > .market_section_title {
+	position: absolute;
+	z-index: 2;
+}
+
+.market_section_header > .market_section_title {
+	bottom: 16px;
+}
+
+#searchResults .market_section_title {
+	max-width: 605px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.market_tab_well_tab {
+	display: inline-block;
+	position: relative;
+}
+
+.market_tab_well_tabs{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	bottom: 0;
+	font-size: 5px;	left: 0;
+	right: 0;
+	white-space: nowrap;
+}
+
+.market_tab_well_tab_contents {
+	display: block;
+	line-height: 39px;
+	padding: 0 4px;
+	margin: 0px;
+	min-width: 195px;
+
+	font-size: 14px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			text-align: center;
+	color: #969aa1;
+}
+
+#sellListings .market_tab_well_tab_contents {
+	min-width: 139px;
+}
+
+a.market_tab_well_tab {
+	text-decoration: none;
+}
+
+a.market_tab_well_tab {
+	cursor: default;
+}
+
+a.market_tab_well_tab_inactive:hover {
+	cursor: pointer;
+}
+
+.market_tab_well_tab_active > span {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(75, 103, 45, 1), rgba(108, 149, 65, 1)) repeat scroll 0 0;
+	color: #ffffff;
+}
+
+.market_tab_well_tab_inactive:hover > span {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(75, 103, 45, 1), rgba(108, 149, 65, 1)) repeat scroll 0 0;
+	color: #ffffff;
+}
+
+.market_listing_table {
+	padding-bottom: 2em;
+}
+
+#searchResultsTable {
+	padding-bottom: 0;}
+
+#searchResultsTable, #sellListingsTable, #soldListingTable {
+
+}
+
+.market_listing_table_showmore {
+	line-height: 2em;
+	min-height: 2em;	text-align: center;
+	margin-top: 10px;
+}
+
+.market_listing_table_showmore > .btnv6_blue_hoverfade{
+	width: 100%;
+}
+
+
+.market_listing_table_showmore a {
+
+}
+
+#sideBar {
+	float: right;
+}
+
+#sideBar > div {
+	margin-top: 2em;
+	width: 295px;
+
+}
+
+#moreInfo a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+#findItems hr {
+	border-bottom: 1px solid #333;
+	border-top: 1px solid black;
+	border-right: none;
+	border-left: none;
+	margin: 0;
+}
+
+.market_search_sidebar_contents {
+	width: 265px;
+	padding: 12px 15px 15px 15px;
+	background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+}
+
+#market_search_advanced label {
+	font-size: 80%;
+	vertical-align: text-top;
+}
+
+#findItems .market_section_title {
+	margin-bottom: 16px;
+}
+
+.econ_tag_filter_category {
+	color: #D2D2D2;
+	display: inline-block;
+	margin-bottom: 1em;
+	margin-right: 15px;
+	vertical-align: top;
+}
+
+.econ_tag_filter_category > select {
+	background-color: #5a5a5a;
+	box-shadow: 1px 1px 2px #3a3a3a inset;
+	color: #BFBFBF;
+}
+
+.econ_tag_filter_category_label {
+	margin-bottom: 2px;
+	color: #828282;
+}
+
+.econ_tag_filter_label > span {
+	/* text-shadow: 1px 1px 1px #696969; */
+	text-shadow: 1px 2px 2px #191919;
+}
+
+.market_search_sidebar_section_tip {
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #828282;
+}
+
+.market_search_sidebar_section_tip_small {
+	margin-bottom: 5px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 12px;
+	color: #4582A5;
+}
+
+.market_search_game_button_group{
+	margin-top: 20px;
+}
+
+.market_search_game_button_group .game_button_contents {
+	width: 255px;
+
+}
+
+.market_show_more_games {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.market_more_games, .market_unvetted_games {
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s;
+	visibility: hidden;
+}
+
+.market_search_box_container {
+	position: relative;
+	margin-top: 10px;
+}
+
+.market_search_sidebar_search_box {
+
+
+}
+
+
+.market_search_advanced_button {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(49, 54, 58, 1), rgba(43, 46, 52, 1)) repeat scroll 0 0;
+	border: 1px solid transparent;
+	border-image: linear-gradient(to bottom, #3a4043 0%, #25282d 100%);
+	border-image-slice: 1;
+	padding: 2px 4px 2px;
+
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 12px;
+	color: #fff;
+	line-height: 24px;
+
+	cursor: pointer;
+}
+
+.market_search_advanced_button:hover {
+	background: #324965;
+}
+
+.market_search_advanced_button > .btn_details_arrow {
+	position: absolute;
+	right: 0px;
+	margin-right: 10px;
+	margin-top: 4px;
+
+}
+
+
+#findItemsSearchBox {
+	width: 253px;
+	height: 20px;
+	border-radius: 0px;
+	color: #fff;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			padding: 2px 0 2px 4px;
+	background-color: #324965;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #182636 #45566A #45566A #182636;
+}
+
+.market_search_filter_search_box {
+	width: 250px;
+	padding-right: 20px;
+}
+
+.market_search_input_container {
+	position: relative;
+}
+
+input.filter_search_box:focus {
+	border-color: #4D4D4D;
+}
+
+.market_search_submit_button {
+	position: absolute;
+	top: -3px;
+	right: 2px;
+	border: none;
+	color: transparent;
+	background: url('https://steamcommunity-a.akamaihd.net/public/images/economy/market/search_icon.png') no-repeat center;
+
+	width: 26px;
+	height: 25px;
+
+	cursor: pointer;
+}
+
+.market_listing_filter .market_search_submit_button {
+	right: 0;
+	top: 1px;
+}
+
+.market_paging {
+	position: relative;
+	line-height: 25px;
+	height: 25px;
+
+	padding: 24px 0px;
+	margin: 8px 0;
+}
+
+.market_paging_controls {
+	float: right;
+	padding-right: 6px;
+}
+
+.market_paging_controls .pagebtn {
+	height: 17px;
+	line-height: 17px;
+}
+
+.market_paging_pagelink, .market_paging_controls .commentthread_pagelink {
+	color: #ffffff;
+	cursor: pointer;
+	margin: 0 3px;
+}
+
+.market_paging_pagelink:hover, .market_paging_controls .commentthread_pagelink:hover {
+	text-decoration: underline;
+}
+
+.market_paging_pagelink.active, .market_paging_controls .commentthread_pagelink.active {
+	color: #747474;
+	cursor: default;
+}
+
+.market_paging_pagelink.active:hover {
+	text-decoration: none;
+}
+
+.market_listing_nav_container {
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 12px;
+
+}
+
+.market_listing_nav {
+	padding-top: 24px;
+}
+
+.market_listing_nav a{
+	color: #8F98A0;
+}
+
+
+.market_sale_icon {
+	float: left;
+	margin-right: 10px;
+}
+
+.market_sale_msg
+{
+	position: relative;
+	max-width: 929px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-bottom: 30px;
+	color: #6fa9d1;
+	font-size: 16px;
+	background: url('https://steamcommunity-a.akamaihd.net/public/images/economy/market/header/auth_banner.jpg') no-repeat center;
+}
+
+.market_sale_msg a
+{
+	color: #6fa9d1;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.market_sale_msg_header
+{
+	font-size: 22px;
+	color: white;
+	padding-bottom: 5px;
+}
+
+
+.market_sale_msg_discount
+{
+	display: inline-block;
+	text-transform: uppercase;
+	color: #9cd608;
+	font-size: 16px;
+}
+
+.market_sale_msg_seller
+{
+	display: inline-block;
+	color: #3b6886;
+	font-size: 12px;
+}
+
+.market_listing_warning_msg {
+	margin-top: 1em;
+	margin-left: 16px;
+	margin-right: 16px;
+	padding: 10px;
+	border: 1px solid orange;
+	color: #8F98A0;
+}
+
+.market_listing_iteminfo {
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 15px;
+}
+
+.market_listing_iteminfo hr {
+	background-color: #1b2939;
+	border-style: solid none none;
+	border-color: black;
+	border-width: 1px 0 0;
+	height: 2px;
+}
+
+.market_listing_largeimage {
+	background: #071215;
+
+	-webkit-box-shadow: 0 0 14px #030303 inset;
+	-moz-box-shadow: 0 0 14px #030303 inset;
+	box-shadow: 0 0 14px #030303 inset;
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+
+	width: 360px;
+	height: 360px;
+	padding: 0 40px;
+	margin-right: 15px;
+	float: left;
+	text-align: center;
+}
+
+#market_activity_section {
+	padding: 12px;
+}
+
+.market_activity_header {
+	font-size: 16px;
+	color: white;
+	margin: 6px 0px 6px 0px;
+}
+
+#market_activity_block {
+	padding: 2px;
+	height: 132px;
+	overflow: hidden;
+}
+
+.market_activity_line_item {
+	height: 32px;
+	padding: 6px;
+}
+
+.market_ticker_avatar img {
+	padding: 3px;
+	border-radius: 3px;
+	background-color: #545454;
+	background: -moz-linear-gradient(top, #706c6b 5%, #4e4d4d 95%);background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#706c6b), color-stop(95%,#4e4d4d));background: -webkit-linear-gradient(top, #706c6b 5%,#4e4d4d 95%);background: -o-linear-gradient(top, #706c6b 5%,#4e4d4d 95%);background: -ms-linear-gradient(top, #706c6b 5%,#4e4d4d 95%);background: linear-gradient(to bottom, #706c6b 5%,#4e4d4d 95%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#706c6b', endColorstr='#4e4d4d',GradientType=0 );	/* IE <= 9 doesn't support rounded corners and gradient.  The gradient isn't too noticable so just disable the filter in IE9 */
+	filter: none;
+	vertical-align: middle;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+#market_activity_waiting_text {
+	margin: 20px;
+}
+
+.market_ticker_name {
+	font-weight: bold;
+}
+
+.market_commodity_order_block {
+
+}
+
+.market_commodity_explanation {
+    margin: 30px 18px;
+}
+
+.market_commodity_explanation ul, #largeiteminfo_warning ul, .market_purchase_restrictions ul {
+	margin: 0;
+}
+
+.market_purchase_restrictions {
+	margin-left: 20px;
+	color: #B0AEAC;
+	font-size: 85.7%;
+}
+
+#market_commodity_order_spread {
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+.market_commodity_orders_block {
+	position: relative;
+	float: left;
+	width: calc( 50% - 2px - 20px );
+	min-height: 298px;
+	text-align: center;
+	border: 1px solid #000;
+	margin: 0 10px;
+	background-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 14px #0d1b27 inset;
+}
+
+.market_commodity_orders_interior {
+}
+
+.market_commodity_orders_header {
+	min-height: 108px;
+	margin-top: 10px;
+	font-size: 16px;
+	border-bottom: 1px solid black;
+}
+
+.market_commodity_order_summary {
+	min-height: 2.5em;
+	font-size: 18px;
+}
+
+.market_commodity_orders_header_promote {
+    color: whitesmoke;
+    margin: 0 2px;
+}
+
+#listings .market_commodity_orders_header_promote {
+	margin: 0;
+}
+
+.market_commodity_orders_table_container {
+	border-top: 1px solid #1b2939;
+}
+
+#listings .market_commodity_orders_table_container {
+	border-top: none;
+}
+
+.market_commodity_orders_table {
+	margin: 10px auto;
+}
+
+.market_commodity_orders_table th {
+}
+
+.market_commodity_orders_table tr:nth-child(even) {
+	background-color: #1b2939;
+}
+
+.market_commodity_orders_table td {
+	min-width: 100px;
+	text-align: center;
+}
+
+.market_commodity_orders_table th {
+	margin: 0;
+	text-align: center;
+	min-width: 100px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.market_commodity_buy_button {
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 200; /* thin */
+
+			min-width: 45%;
+	margin: 16px;
+}
+
+.market_commodity_buy_button > span {
+	line-height: 54px;
+	font-size: 36px;
+	text-align: center;
+}
+
+#market_buy_commodity_popup {
+	width: 744px;
+	max-width: 100%;
+}
+
+.market_buy_commodity_input_block {
+	float: right;
+}
+
+#market_buy_commodity_popup input {
+    text-align: right;
+    padding-right: 6px;
+}
+
+#market_buy_commodity_popup .market_listing_item_img_container,
+#market_buy_commodity_popup .market_listing_item_img,
+#market_buy_commodity_popup .market_listing_item_name_block
+{
+	display: inline-block;
+	float: none;
+}
+
+.market_buy_commodity_popup_left_block {
+    float: left;
+    width: 260px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.market_buy_commodity_input_label {
+	display: inline-block;
+	text-align: right;
+	overflow: hidden;
+}
+
+.market_buy_commodity_input_row {
+	text-align: right;
+	margin: 7px 0;
+}
+
+.market_buy_commodity_input {
+	display: inline-block;
+	text-align: left;
+	min-width: 148px;
+	margin-left: 10px;
+}
+
+.market_buy_commodity_item_display {
+	float: left;
+	font-size: 100%;
+}
+
+.market_buy_commodity_item_display .market_listing_game_name {
+	white-space: normal;
+}
+
+.market_buy_commodity_item_display .market_listing_item_name_block {
+	margin-top: 6px;
+}
+
+.market_buy_commodity_popup_right_block {
+	float: left;
+	max-width: 160px;
+	line-height: 30px;
+}
+
+.market_buy_commodity_popup_right_block > div {
+	max-height: 30px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#market_buy_commodity_input_price {
+    width: 60px;
+}
+
+#market_buy_commodity_input_quantity {
+    width: 60px;
+}
+
+#market_buy_commodity_order_total {
+	width: 64px;
+	padding-right: 84px;
+	min-width: 0;
+	font-size: 16px;
+	text-align: right;
+	color: whitesmoke;
+}
+
+#market_buynow_dialog_placing_order, #market_buyorder_dialog_placing_order {
+	min-height: 100px;
+}
+
+#market_buy_commodity_throbber {
+	position: absolute;
+	bottom: 58px;
+	right: 48px;
+}
+
+#market_buy_commodity_view_in_inventory {
+	margin-top: 10px;
+}
+
+#market_buy_commodity_status {
+	color: #dddddd;
+}
+
+#largeiteminfo {
+	overflow: hidden;
+	max-width: 444px;
+}
+
+#largeiteminfo_clienthover {
+	border: none;
+}
+
+#largeiteminfo_content {
+	padding-top: 0;
+	background: none;
+}
+
+#largeiteminfo_content > .item_desc_icon {
+	display: none;
+}
+
+#largeiteminfo_warning {
+	margin: 30px 18px;
+}
+
+.market_listing_filter {
+	margin: 15px 0px;
+}
+
+.market_listing_filter_active {
+	color: white;
+	border: 1px solid #6C9831;
+	background-color: #4C682D;
+	padding: 4px;
+}
+
+.market_listing_filter_active input.filter_search_box {
+	color: white;
+	border: 1px solid #6C9831;
+}
+
+.market_listing_filter_contents {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 15px;
+}
+
+.market_listing_filter_active .market_listing_filter_contents {
+	border: 1px solid #6C9831;
+}
+
+.market_listing_filter_active .market_listing_filter_searchhint {
+	display: inline-block;
+	max-width: 350px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.market_listing_filter_clear_button_container {
+	float: right;
+}
+
+.market_page_fullwidth.market_listing_firstsection {
+	padding-top: 1em;
+}
+
+.market_dialog_totals_cost {
+	float: right;
+}
+
+.market_dialog_totals_label {
+	text-align: right;
+	font-size: 85.7%;
+	display: block;
+	overflow: hidden;
+}
+
+.market_dialog_totals_cost {
+	text-align: right;
+	font-size: 85.7%;
+
+	border-right: 1px solid transparent;	width: 157px;	max-width: 20%;
+	color: white;
+	padding-right: 24px;
+}
+
+.market_buynow_dialog_totals_fee_collector {
+	font-size: 64.3%;
+}
+
+.market_dialog_totals_separator {
+	height: 1px;
+	background-color: #626262;
+	margin: 12px 0;
+}
+
+#market_buynow_dialog .market_listing_action_buttons,
+#market_buyorder_dialog .market_listing_action_buttons {
+	display: none;
+}
+
+#market_buynow_dialog_paymentinfo, #market_buyorder_dialog_paymentinfo {
+	position: relative;
+	padding: 18px 4%;
+}
+
+.market_buynow_paymentinfo_row {
+	margin-bottom: 8px;
+}
+
+.market_buynow_paymentinfo_label {
+	float: left;
+	width: 139px;
+	max-width: 40%;
+}
+
+.market_buynow_paymentinfo_content {
+	overflow: hidden;
+}
+
+#market_buynow_dialog_paymentinfo_option_labels, #market_buyorder_dialog_paymentinfo_option_labels {
+	float: left;
+	margin-right: 32px;
+	color: #B0AEAC;
+}
+
+#market_buynow_dialog_paymentmethod, #market_buyorder_dialog_paymentmethod {
+	color: #66CC00;}
+
+#market_buynow_dialog_walletbalance, #market_buyorder_dialog_walletbalance {
+	color: #939393;
+}
+
+#market_buynow_dialog_myaccountname, #market_buyorder_dialog_myaccountname {
+	color: white;
+}
+
+#market_buynow_dialog_accept_ssa,
+#market_buyorder_dialog_accept_ssa,
+#market_multi_accept_ssa
+{
+	margin-left: 0;
+}
+
+#market_buynow_dialog_accept_ssa_label,
+#market_buyorder_dialog_accept_ssa_label,
+#market_multi_accept_ssa_label{
+	font-size: 85.7%;
+	color: #B0AEAC;
+}
+
+#market_buynow_dialog_purchase, #market_buynow_dialog_addfunds, #market_buynow_dialog_purchase_throbber,
+#market_buyorder_dialog_purchase, #market_buyorder_dialog_addfunds, #market_buyorder_dialog_purchase_throbber {
+	float: right;
+	margin-left: 15px;
+	bottom: 18px;
+	right: 18px;
+}
+
+#market_buynow_dialog_purchase_throbber, #market_buyorder_dialog_purchase_throbber {
+	text-align: center;
+}
+
+#market_removelisting_dialog_confirmation {
+	position: relative;
+}
+
+#market_removelisting_dialog_buttons {
+	min-height: 32px;
+	text-align: right;
+}
+
+#market_removelisting_dialog_accept_throbber {
+	position: absolute;
+	bottom: 18px;
+	right: 18px;
+	text-align: center;
+}
+
+.market_listing_item_img_container {
+	position: relative;
+	float: left;
+	width: 74px;
+	height: 74px;
+}
+
+.market_actionmenu_button {
+	position: absolute;
+	z-index: 21;
+	right: 6px;
+	bottom: 6px;
+	width: 16px;
+	height: 16px;
+
+	background-image: url( 'https://steamcommunity-a.akamaihd.net/public/images/skin_1/info_btn.png' );
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.market_actionmenu_button:hover {
+	background-position: left bottom;
+}
+
+.market_actionmenu_button {
+	display: none;
+}
+
+.market_listing_row:hover .market_actionmenu_button {
+	display: block;
+}
+
+@media screen and (max-width: 910px)
+{
+	html.responsive .market_listing_row:hover .market_actionmenu_button {
+		display: none;
+	}
+
+}
+	html.responsive.touch .market_listing_row:hover .market_actionmenu_button {
+		display: none;
+	}
+
+#market_action_popup {
+	z-index: 1600;
+}
+
+.market_arrow_up {
+	display: inline-block;
+	width: 11px;
+	height: 9px;
+	background-repeat: no-repeat;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAJCAYAAADkZNYtAAAAU0lEQVQY02P4//8/AxqWA+JFWMQZ0AXYgPjkfwioI6S49z8q8Mal2O8/JvgAxCroikHufPsfO7gKxDwwxcjuxAVWwxT3/icOVKB7EBvAGRp4FQMA8RFXcvhObVIAAAAASUVORK5CYII=);
+}
+
+.market_arrow_down {
+	display: inline-block;
+	width: 11px;
+	height: 9px;
+	background-repeat: no-repeat;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAJCAYAAADkZNYtAAAAS0lEQVQY02NgQAL/sQAGXICgYiC/4j9xoBemYTUBhSeBmA2mmAeIr+JQ+BaI5dCdowLEH7Ao9sPlQW+s7sQTInUY7iSgYRGGO4EAAD9z3N6SuTl0AAAAAElFTkSuQmCC);
+}
+
+.market_listing_their_price .market_arrow_up, .market_listing_their_price .market_arrow_down {
+	position: absolute;
+	bottom: 0.87em;
+	right: 2px;
+}
+
+#market_buyorder_info {
+	padding: 10px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+#market_buyorder_info #market_commodity_buyrequests {
+	font-size: 18px;
+	margin: 5px 0;
+}
+
+#market_buyorder_info_show_details > span {
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#market_buyorder_info_details {
+	margin-top: 15px;
+}
+
+#market_buyorder_info_details > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#market_buyorder_info_details_tablecontainer {
+	background-color: #202020;
+	width: 240px;
+	background-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 14px #0d141c inset;
+	border: 1px solid #000;
+}
+
+#market_buyorder_info_details_explanation {
+	margin-left: 15px;
+	white-space: normal;
+	max-width: calc(100% - 255px);
+}
+
+.market_search_box_container .game_button {
+	margin-top: 5px;
+}
+
+#market_search_advanced_show {
+	width: 259px;
+	margin-top: 10px;
+}
+
+#market_search_advanced_show > span {
+	padding: 0 5px;
+	line-height: 30px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+.market_search_results_header {
+	min-height: 60px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 200; /* thin */
+
+			padding: 5px 15px 0px 0px;
+}
+
+.market_search_results_title {
+	display: inline-block;
+	font-size: 22px;
+	color: white;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+
+
+.market_searchedForTerm
+{
+	display: inline-block;
+
+	min-height: 28px;
+	line-height: 28px;
+	padding: 2px 5px;
+	background-color: #68932f;
+	border: 2px solid #68932f;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	color: #d2ff96;
+	font-size: 14px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.market_searchedForTerm img {
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	margin: 0 5px 0 -2px;
+}
+
+.market_searchedForTerm .removeIcon {
+	display: inline-block;
+	width: 20px;
+	height: 12px;
+
+	background-image: url( 'https://steamcommunity-a.akamaihd.net/public/images//sharedfiles/deleteSearchTerm.png' );
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.market_searchedForTerm:hover
+{
+	background-color: #8ac33e;
+	border: 2px solid #8ac33e;
+}
+
+#market_advancedsearch_dialog {
+	width: 900px;
+	max-width: 100%;
+	}
+
+#market_advancedsearch_dialog form > div {
+	position: relative;
+}
+
+#market_advancedsearch_left {
+	float: left;
+	width: 280px;
+	margin-right: 24px;
+	max-width: 32%;
+}
+
+#market_advancedsearch_dialog .market_search_sidebar_search_box {
+	width: 258px;
+	height: 19px;
+	font-size: 14px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			color: #D2D2D2;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #182636 #45566A #45566A #182636;
+	background-color: rgba(0,0,0,0.4);;
+	box-shadow: 1px 1px 2px black inset;
+	padding: 10px;
+
+	max-width: calc( 100% - 20px - 2px );
+}
+
+#market_advancedsearch_options {
+	margin-top: 10px;
+}
+
+#market_advancedsearch_dialog .market_search_submit_button {
+	height: 41px;
+	width: 28px;
+	top: 0;
+	right: 0;
+	background: url('https://steamcommunity-a.akamaihd.net/public/images/header/ico_search.gif') no-repeat left center;
+	opacity: 0.6;
+}
+
+#market_advancedsearch_dialog .market_search_checkbox {
+	margin-left: 6px;
+	margin-top: 6px;
+}
+
+.market_advancedsearch_bottombuttons {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.market_advancedsearch_bottombuttons > div {
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+.market_app_selector {
+	margin-bottom: 15px;
+}
+
+#market_advancedsearch_appselect, #market_advancedsearch_appselect_options {
+	width: 100%;}
+
+#market_advancedsearch_appselect {
+		background-color: #33383f;
+	background-image: url('https://steamcommunity-a.akamaihd.net/public/images/economy/filter_dropdown.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+		border: 1px solid #4D4D4D;
+	cursor: pointer;
+}
+
+.market_advancedsearch_appname {
+	line-height: 38px;
+	height: 39px;
+	color: #D2D2D2;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.market_advancedsearch_appname > img {
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.market_advancedsearch_appname > span {
+	margin-left: 10px;
+	margin-right: 15px;
+	vertical-align: top;
+}
+
+#market_advancedsearch_appselect_options {
+	overflow-y: scroll;
+	max-height: 250px;
+	border: 1px solid #82807C;
+}
+
+#market_advancedsearch_appselect .market_advancedsearch_appname {
+	box-shadow: 1px 1px 2px black inset;
+}
+
+#market_advancedsearch_appselect_options .market_advancedsearch_appname {
+	border-bottom: 1px solid #6C6C6C;
+	cursor: default;
+}
+
+#market_advancedsearch_appselect_options_apps {
+	border: none;
+}
+
+#market_advancedsearch_appselect_options_apps .popup_menu_item {
+	padding: 0;
+	line-height: 38px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#market_advancedsearch_dialog .item_market_action_button_contents {
+	font-size: 14px;
+	padding: 0 12px;
+}
+
+.market_advancedsearch_filters {
+	padding: 10px 10px;
+	height: 310px;
+			border: 1px solid #4D4D4D;
+	background-color: #33383f;
+	box-shadow: 1px 1px 1px black inset;
+	overflow-y: auto;
+	max-height: 75vh;	/* don't make it more than 75% of the viewport height */
+}
+
+.econ_tag_filter_container {
+	margin-bottom: 2px;
+}
+
+.resultsbluebg {
+	position: relative;
+	top: -250px;
+}
+
+.resultsbluebg img{
+	width: 100%;
+	height: auto;
+	position:absolute;
+	z-index: -1;
+}
+
+.market_multibuy h2,
+.market_multisell h2
+{
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 200; /* thin */
+
+			font-size: 22px;
+	padding: 15px;
+	color: white;
+	text-align: center;
+}
+
+.market_multisell .LoadingWrapper
+{
+	max-width: 600px;
+}
+
+.market_multi_table
+{
+	width: 100%;
+	border-spacing: 0 10px;
+}
+
+.market_multi_table thead td
+{
+	text-transform: uppercase;
+}
+
+.market_multi_table td
+{
+	height: 30px;
+	padding: 0 5px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.market_multi_table .market_listing_item_img
+{
+	float: none;
+	vertical-align: middle;
+}
+
+.market_multi_throbber
+{
+	transform: scale(0.5);
+	margin-left: -10px;
+}
+
+.market_multi_warning
+{
+	display: inline-block;
+	font-size: 20px;
+	cursor: default;
+	vertical-align: text-top;
+}
+
+.market_multi_warning.market_multi_warning_withimg
+{
+	vertical-align: initial;
+}
+
+.market_multi_warning > img
+{
+	width: 24px;
+	height: 24px;
+}
+
+.market_multi_warning_tooltip
+{
+	padding: 8px 12px;
+	width: 281px;
+	border: 1px solid #2D566B;
+
+	background-color: #417A9B;
+	color: #C6D4DF;
+
+	margin: 12px;
+	box-shadow: 0 0 12px #000000;
+	overflow: hidden;
+	word-wrap: break-word;
+
+	text-align: left;
+}
+
+.market_multi_quantity
+{
+	width: 4em;
+}
+
+.market_multisell .market_multi_quantity
+{
+	width: 3em;
+}
+
+.market_multi_qtyown
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.market_multi_qtyown_container .market_multi_warning
+{
+	padding-left: 4px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+.market_multi_status
+{
+	width: 32px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.market_multi_table .LoadingThrobber
+{
+	margin-bottom: 0;
+}
+
+#market_multisell_errmsg
+{
+	padding-top: 1em;
+	text-align: center;
+	font-size: 18px;
+	color: #60acde;
+}
+
+@media screen and (max-width: 910px) {
+	html.responsive #sideBar {
+		float: none;
+	}
+
+	html.responsive #sideBar > div {
+		width: auto;
+		margin: 0 15px 1em 15px;
+	}
+
+	html.responsive #sideBar > div.responsive_local_menu_placeholder {
+		display: none;
+	}
+
+	html.responsive .localmenu_content .market_search_sidebar_contents,
+	html.responsive .localmenu_content .market_search_game_button_group {
+		padding: 0;
+	}
+
+	html.responsive .market_search_sidebar_contents {
+		width: auto;
+	}
+
+	html.responsive form#market_search {
+		display: inline-block;
+	}
+
+	html.responsive #BG_top,
+	html.responsive #BG_bottom {
+		width: auto;
+		padding: 0;
+		margin: 0 1%;
+	}
+
+	html.responsive #BG_top {
+		height: auto;
+	}
+
+	html.responsive #BG_top > h1 {
+		overflow: hidden;
+	}
+
+	html.responsive #BG_top img.market_header_logo {
+		width: 200%;
+		max-width: 949px;
+		display: block;
+	}
+
+	html.responsive #BG_top > .user_info {
+		position: static;
+		width: auto;
+		max-width: none;
+		border: none;
+	}
+
+	html.responsive .market_listing_largeimage {
+		height: auto;
+		max-width: 45%;
+		padding: 0 5%;
+	}
+
+	html.responsive .market_listing_largeimage img {
+		width: 100%;
+	}
+
+	html.responsive .market_listing_iteminfo {
+		padding: 15px 1.6%;
+	}
+
+	html.responsive .market_content_block {
+		padding: 10px 1.6% 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	html.responsive .market_listing_whoactedwith {
+		display: none;
+	}
+
+	html.responsive .market_listing_edit_buttons.placeholder {
+		display: none;
+	}
+
+	html.responsive .market_listing_edit_buttons.actual_content {
+		position: static;
+		width: auto;
+		height: auto;
+		text-align: left;
+	}
+
+	html.responsive .market_listing_edit_buttons .market_listing_cancel_button,
+	html.responsive .market_listing_edit_buttons .market_listing_edit_button,
+	html.responsive .market_listing_edit_buttons .item_market_action_button,
+	html.responsive .market_listing_edit_buttons .item_market_action_button_edit {
+		margin: 0;
+		height: auto;
+	}
+
+	html.responsive .market_search_submit_button {
+		right: 3px;
+	}
+
+	html.responsive .market_listing_filter .market_search_submit_button {
+		right: 3px;
+		top: 2px;
+	}
+
+}
+
+/* market left col max width */
+@media screen and (max-width: 639px)
+{
+	html.responsive #sellListings .market_tab_well_tab_contents,
+	html.responsive .market_tab_well_tab_contents {
+		min-width: 0;
+	}
+
+	html.responsive .market_listing_their_price {
+		width: 75px;
+	}
+
+	/* make sure Quantity text stays centered */
+	html.responsive .market_listing_num_listings {
+		min-width: 97px;	}
+
+	html.responsive .market_listing_listed_date.can_combine {
+		display: none;
+	}
+
+	html.responsive .market_listing_listed_date_combined {
+		display: block;
+	}
+
+	html.responsive .market_listing_inline_buyorder_qty {
+		display: inline;
+	}
+
+	html.responsive .market_listing_buyorder_qty {
+		display: none;
+	}
+
+	html.responsive .market_listing_largeimage {
+		margin: 0;
+		float: none;
+		max-width: 90%;
+	}
+
+	html.responsive #market_buynow_dialog_accept_ssa_container,
+	html.responsive #market_buyorder_dialog_accept_ssa_container
+	html.responsive .market_purchase_restrictions {
+		clear: right;	/* otherwise ugly collisions with the "PURCHASE" button */
+	}
+
+	html.responsive .market_buy_commodity_item_display {
+		float: none;
+		width: auto;
+	}
+	html.responsive .market_buy_commodity_input_block {
+		float: none;
+		width: auto;
+		max-width: 360px;
+	}
+
+}
+
+@media screen and (max-width: 600px)
+{
+	html.responsive #market_advancedsearch_left {
+		float: none;
+		width: auto;
+		max-width: none;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	html.responsive #market_advancedsearch_dialog .market_search_sidebar_search_box {
+		width: 100%;
+	}
+
+
+}
+
+@media screen and (max-width: 560px)
+{
+	html.responsive #sellListingRows .market_listing_seller {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	html.responsive .market_listing_price_listings_block {
+		float: right;
+		width: 100px;
+	}
+	html.responsive #popularItemsRows .market_listing_price_listings_block,
+	html.responsive #searchResults .market_listing_price_listings_block{
+		width: 80px;
+	}
+
+	html.responsive .market_listing_price_listings_block > .market_listing_right_cell,
+	html.responsive #popularItemsRows .market_listing_price_listings_block > .market_listing_right_cell,
+	html.responsive #searchResults .market_listing_price_listings_block > .market_listing_right_cell {
+		float: none;
+		width: auto;
+		display: block;
+	}
+
+	html.responsive .market_listing_row .market_listing_price_listings_block > .market_listing_right_cell {
+		line-height: normal;
+		height: auto;
+	}
+
+	html.responsive #popularItemsRows .market_listing_table_header .market_listing_price_listings_block .market_listing_right_cell,
+	html.responsive #searchResultsRows .market_listing_table_header .market_listing_price_listings_block .market_listing_right_cell,
+	html.responsive #sellListingRows .market_listing_table_header .market_listing_price_listings_block .market_listing_action_buttons {
+		display: none;
+	}
+
+	html.responsive #popularItemsRows .market_listing_table_header .market_listing_price_listings_block .market_listing_right_cell.market_listing_price_listings_combined,
+	html.responsive #searchResultsRows .market_listing_table_header .market_listing_price_listings_block .market_listing_right_cell.market_listing_price_listings_combined {
+		display: block;
+	}
+
+	html.responsive .market_listing_their_price .market_arrow_up, 
+	html.responsive .market_listing_their_price .market_arrow_down {
+		position: static;
+	}
+
+	html.responsive .market_listing_price_listings_block .market_listing_their_price > span.market_table_value,
+	html.responsive .market_listing_price_listings_block .market_listing_my_price > span.market_table_value,
+	html.responsive .market_listing_price_listings_block .market_listing_num_listings > span.market_table_value {
+		display: block;
+		width: auto;
+	}
+
+	html.responsive #popularItemsRows .market_listing_price_listings_block span.market_table_value {
+		margin: 4px 0;
+	}
+
+	html.responsive #market_buynow_dialog_item .market_listing_price_listings_block .market_listing_their_price > span.market_table_value {
+		margin-top: 30px;
+	}
+
+	html.responsive .market_listing_searchresult .market_listing_their_price > span {
+		margin: 0 auto;
+	}
+
+	html.responsive .market_listing_price_listings_block .market_listing_action_buttons {
+		padding: 0;
+	}
+
+	html.responsive .market_listing_buy_button {
+		margin-top: 16px;
+	}
+
+	html.responsive .market_commodity_orders_block {
+		margin: 10px 0;
+		float: none;
+		width: auto;
+	}
+	html.responsive .market_commodity_order_summary {
+		min-height: 0;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	html.responsive .market_tab_well_tab_contents {
+		line-height: 36px;
+		font-size: 14px;
+	}
+
+	html.responsive .market_tab_well_tabs {
+		left: 2%;
+		right: 2%;
+		overflow-x:auto;
+	}
+
+	html.responsive .market_listing_seller {
+		display: none;
+	}
+
+	html.responsive .pick_and_sell_button {
+		bottom: auto;
+		top: 8px;
+	}
+
+	/* make sure there's space for the pick and sell button if there's a warning displayed
+		the padding-top ensures that the margin-top on the headertip container stays inside the div (overflow:auto won't work here because the tabs intentionally overflow) */
+	html.responsive #myMarketTabs {
+		height: 72px;
+		margin-top: 10px;
+
+	}
+	html.responsive .market_headertip_container {
+		margin-top: 40px;
+	}
+
+	html.responsive .market_buynow_paymentinfo_label,
+	html.responsive .market_buynow_paymentinfo_content {
+		display: inline;
+		float: none;
+		width: auto;
+		max-width: none;
+	}
+
+	html.responsive .resultsbluebg {
+		top: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	html.responsive #market_buynow_dialog_item .market_listing_price_listings_block,
+	html.responsive #market_buynow_dialog_item .market_listing_table_header,
+		display: none;
+	}
+
+}

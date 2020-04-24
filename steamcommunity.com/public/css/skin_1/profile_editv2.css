@@ -1,0 +1,474 @@
+
+
+.formRow.PrivacySettingsTitle {
+	padding-left: 0;
+	min-height: 0;
+}
+.formRow.PrivacySettings {
+	padding-left: 16px;
+	margin-bottom: 32px;
+}
+
+.formRow.PrivacySettings .formRowFields {
+	line-height: 125%;
+}
+
+.formRow.PrivacySettings .formRowFields > div {
+	margin-bottom: 4px;
+}
+
+.privacy_setting_name {
+	color: #ffffff;
+}
+
+.PrivacySetting_Additional {
+	margin-top: 16px;
+}
+
+	/* to match the width of the profile page left column */
+.profile_showcase_selector {
+	max-width: 636px;
+}
+
+.customization_edit_area {
+	margin-bottom: 48px;
+}
+
+.customization_controls {
+	padding-top: 10px;
+	margin-bottom: 7px;
+}
+
+.customization_controls .btn_grey_black.btn_medium > span {
+	font-size: 13px;
+	line-height: 27px;
+	padding: 0 12px;
+}
+
+.customization_controls select {
+	width: 250px;
+}
+
+.customization_controls_nextprev {
+	display: inline;
+}
+
+.showcase_style_select_ctn {
+	margin-bottom: 4px;
+}
+
+.showcase_slot.openslot {
+	border: 2px dashed #5491CF;
+	border-radius: 5px;
+}
+
+.showcase_slot.openslot:hover {
+	border-color: #ffffff;
+}
+
+.showcase_openslot_placeholder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+
+	text-align: center;
+
+	cursor: pointer;
+
+	background-color: rgba( 0, 0, 0, 0.6 );
+}
+
+.showcase_slot:hover .showcase_openslot_placeholder, .showcase_slot.openslot .showcase_openslot_placeholder {
+	display: block;
+}
+
+.showcase_clearslot {
+	display: none;
+	opacity: 0.6;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+}
+
+.showcase_slot:hover .showcase_clearslot {
+	display: block;
+}
+
+.showcase_clearslot:hover {
+	opacity: 1;
+}
+
+.showcase_slot.openslot .showcase_clearslot {
+	display: none !important;
+}
+
+.featured_game_dialog_header {
+	font-size: 15px;
+	margin-bottom: 16px;
+}
+
+.customtext_showcase_editheader {
+	padding-top: 6px;
+}
+
+.profile_customization_edit_icon.bluebox {
+	background-color: #5491cf;
+	border-radius: 3px;
+	width: 31px;
+	height: 31px;
+}
+
+.profile_background_select_option {
+	float: left;
+	width: 47%;
+	margin-left: 5%;
+
+	color: #6d6d6b;
+	font-size: 13px;
+	border-radius: 3px;
+
+	cursor: pointer;
+}
+
+.profile_background_select_option_inner {
+	padding: 3px;
+}
+
+.profile_background_select_image {
+	width: 100%;
+}
+
+.profile_background_select_option:hover {
+/*	padding: 2px;
+	border: 1px solid #5491CF;*/
+	background-color: #33425A;
+}
+
+.profile_background_select_row .profile_background_select_option:first-child {
+	margin-left: 0;
+}
+
+.profile_background_blank {
+	background-color: #262627;
+	border: 1px solid #797272;
+	width: auto;
+	height: 138px;
+	margin-bottom: 4px;
+}
+
+.profile_background_select_row {
+	margin-bottom: 33px;
+}
+
+.profile_background_select_row:last-child {
+	margin-bottom: 0;
+}
+
+.profile_background_current {
+	line-height: normal;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	padding: 10px 8px;
+	color: #6d6d6b;
+	margin-bottom: 13px;
+
+	border-top: 1px solid #25384c;
+	border-left: 1px solid #25384c;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 3px;
+
+}
+
+.profile_background_current_image_ctn {
+	position: relative;
+	float: left;
+	width: 140px;
+	margin-right: 11px;
+}
+
+.profile_background_current_image_ctn.primary_group {
+	width: 64px;
+	height: 64px;
+}
+
+.profile_background_current_image_ctn .showcase_openslot_placeholder {
+	line-height: 80px;
+}
+
+.profile_background_current_image_ctn.primary_group .showcase_openslot_placeholder {
+	line-height: 64px;
+}
+
+.profile_background_current_image_ctn:hover .showcase_openslot_placeholder {
+	display: block;
+}
+
+
+.profile_background_current_description {
+	padding-top: 11px;
+}
+
+.publishedfile_modal_content {
+	position: relative;
+	width: 700px;
+	min-height: 400px;
+}
+
+.publishedfile_modal_iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	border: none;
+	height: 100%;
+	width: 100%;
+}
+
+
+.profile_background_current_image_ctn.favorite_badge {
+	width: 54px;
+	height: 54px;
+}
+
+.profile_background_current_image_ctn.favorite_badge img {
+	width: 100%;
+}
+
+.profile_background_current_image_ctn.favorite_badge .showcase_openslot_placeholder {
+	line-height: 70px;
+}
+
+
+.group_list_option.badge_option {
+	height: 54px;
+	padding-left: 69px;
+}
+
+.group_list_option.badge_option .badge_icon, .group_list_option.badge_option .badge_icon img {
+	height: 54px;
+	width: 54px;
+}
+
+.group_list_option.badge_option .badge_icon {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.group_list_option.badge_option .group_list_groupname {
+	line-height: 54px;
+}
+
+.showcase_achievement_picker {
+	width: 600px;
+}
+
+.showcase_achievement_picker_list {
+	padding-top: 16px;
+	min-height: 300px;
+}
+
+.showcase_achievement_picker_instructions {
+	text-align: center;
+	padding-top: 120px;
+	font-size: 16px;
+}
+
+.achievement_list_item {
+	min-height: 64px;
+	position: relative;
+	padding-left: 70px;
+
+	margin-bottom: 12px;
+
+	cursor: pointer;
+}
+
+.achievement_list_item:hover .achievement_list_desc {
+	background-color: #33425A;
+}
+
+.achievement_list_item .achievement_icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 64px;
+	width: 64px;
+}
+
+.achievement_list_item .achievement_list_desc {
+	border: 1px solid #4f4f4e;
+	border-radius: 3px;
+	padding: 8px;
+	min-height: 46px;
+}
+
+.achievement_list_item .achievement_list_desc b {
+	color: #ffffff;
+}
+
+.avatar_previews {
+	margin-bottom: 12px;
+}
+
+.edit_subpage_selector {
+	padding-left: 4%;
+	margin-bottom: 16px;
+}
+
+.edit_subpage_selector .subpage_selector_label {
+	color: #61696D;
+}
+
+.avatarDisabledError {
+	color:#ff3333;
+	text-align: center;
+}
+
+.avatarBanTimeEnd {
+	margin: 10px 0;
+}
+
+.personaNameDisabledError {
+	color:#ff3333;
+	text-align: center;
+}
+
+.personaNameBanTimeEnd {
+	margin: 10px 0;
+}
+
+/* react-based profile privacy page */
+.ProfilePrivacyRoot
+{
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			color: #939ea7;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.ProfilePrivacyRoot a
+{
+	color: #dbdbdb;
+}
+
+.ProfilePrivacyRoot_Indent
+{
+	padding-left: 10%;
+}
+
+.ProfilePrivacyHeader
+{
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			color: #66c0f4;
+	font-size: 18px;
+	line-height: 24px;
+
+	margin-bottom: 10px;
+}
+
+.ProfilePrivacyDesc
+{
+	margin-bottom: 18px;
+}
+
+.ProfilePrivacyDropDown
+{
+	display: inline-block;
+	color: #c6d4df;
+	text-decoration: underline;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+.ProfilePrivacyDropDown:not(.readonly):hover
+{
+	color: #ffffff;
+}
+
+.ProfilePrivacyDropDown_Arrow
+{
+	margin-left: 6px;
+}
+
+.ProfilePrivacyDropDown.readonly
+{
+	text-decoration: none;
+	cursor: default;
+}
+
+.ProfilePrivacyRoot_Indent .ProfilePrivacyHeader
+{
+	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 4px;
+}
+
+.ProfilePrivacyHR
+{
+	height: 1px;
+	margin: 18px 0;
+	background: linear-gradient( to right, rgba( 61, 77, 94, 1.0 ), rgba( 61, 77, 94, 0.0 ) );
+}
+
+.ProfilePrivacyCheckbox
+{
+	margin-top: 12px;
+	padding-left: 12px;
+}
+
+.ProfilePrivacyCheckbox > label
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.ProfilePrivacyCheckbox_Desc
+{
+	flex: 1;
+	padding-left: 6px;
+	min-width: 0;
+	white-space: pre-line;
+}
+
+.PrivacySaveNotice
+{
+	display: inline-block;
+	color: #737e87;
+	margin-left: 12px;
+}
+
+.PrivacySaveNotice.Error
+{
+	color: red;
+}
+
+.PrivacySaveNotice.Saved
+{
+	animation-duration: 2s;
+	animation-name: PrivacySaveNoticeVanish;
+	opacity: 0;
+}
+
+@keyframes PrivacySaveNoticeVanish
+{
+	from {
+		opacity: 1.0;
+	}
+	75% {
+		opacity: 1.0;
+	}
+	100% {
+		opacity: 0;
+	}
+}

@@ -1,0 +1,45 @@
+"linux"
+{
+	"version"		"1585328668"
+	"steamcmd_public_all"
+	{
+		"file"		"steamcmd_public_all.zip.5ef234f01f149176276e248beb0c2ba2be6c7726"
+		"size"		"73457"
+		"sha2"		"9d27f17c19a97a238686e01cfdc114d3f49b616959ec148c9c9c1fe524fa3528"
+		"zipvz"		"steamcmd_public_all.zip.vz.4d69ad04216fc015d04107923b3a918ef1e30585_28142"
+		"sha2vz"		"567d5492e365dd26a5d92dc426fce234bc098f8e9fedf513e7da0f5caafc2aab"
+	}
+	"steamcmd_bins_linux"
+	{
+		"file"		"steamcmd_bins_linux.zip.dd57e73db06ecd652d23f8ffc8aaf0d5ef787e14"
+		"size"		"21255568"
+		"sha2"		"74dd5bf6e593f2e00aa7523df9828c8287ff7fb7965f67f997041d4e8968f36a"
+		"zipvz"		"steamcmd_bins_linux.zip.vz.9512edc34b4b843ce80b90abfc68858a45a42ca0_14348390"
+		"sha2vz"		"a1e69a9147151936e6cbc3979a139bec1c46356d29cea3d813dee1be6c510c34"
+	}
+	"steamcmd_siteserverui_linux"
+	{
+		"file"		"steamcmd_siteserverui_linux.zip.46a7cf835141fab1f83df16306ec5cda4275751a"
+		"size"		"52635446"
+		"sha2"		"20f88fe1e763f31ef7016709a0d3db9f9ec6c69029324a8c3621a23f5dad35d0"
+		"zipvz"		"steamcmd_siteserverui_linux.zip.vz.ed6642af60364619dea695a7013ead230fdc3a58_36035096"
+		"sha2vz"		"783136b77a7e1ce465910d967e7f74348dddf92224d5386b6585022c5f64bda7"
+	}
+	"steamcmd_linux"
+	{
+		"file"		"steamcmd_linux.zip.e639073a195cf0a6f290cde0acecce29f6dabb43"
+		"size"		"2047547"
+		"sha2"		"641a96c7878ac600f95923cbcd141b1f2c14fc40a9962629e8dce856da4c8e67"
+		"zipvz"		"steamcmd_linux.zip.vz.bde19fbaba46323659617db9869b6400f9194f45_1579344"
+		"sha2vz"		"69d62ef7f8336b279f51f4d7b4211617ef63b4a465f5a11fedbf9c1addb75eb6"
+		"IsBootstrapperPackage"		"1"
+	}
+}
+"kvsign2"
+{
+	"linux"		"ef53bccdd744fdd306c3a98852a10027f44402ca2169093aa618edb38b9db2b073cf40aa63e5e57232bad4295d3372068a7a801ada721465e20cf7170c367705"
+}
+"kvsignatures"
+{
+	"linux"		"ca11f652b09af891e9e11cd522974ece4a7971cf81268fbd202ccb6aee9a82d5267e899749d62efe5747c47461c3fd3502ff7039e3c2b8aae0666e0737b2f4241f877dcd7ca49dacdb0c913f8f7983d9eedf0cdad1b0adb10f23e9ff5b2ab83d9e57cfaf813b0651629949c3bb616d6a7cd455e3d6f21cf1763e3527f38f77f0"
+}

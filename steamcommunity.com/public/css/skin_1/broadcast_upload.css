@@ -1,0 +1,224 @@
+
+body
+{
+	background-color: #1f2126;
+		font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+h1 {
+    color: white;
+    font-size: 27px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h3 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #b2b5ba;
+}
+h4 {
+    font-size: 13px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+#PageContents {
+    width: 950px;
+    margin: auto;
+    background: none;
+    text-align: left;
+    min-height: 100%;
+    padding-top: 40px;
+    margin-top: 00px;
+    padding-left: 0;
+}
+#PageColumns
+{
+  display: flex;
+    flex-direction: row;
+  position: relative;
+}
+#PageColumns .rightCol {
+    width: 30%;
+    margin-left: 16px;
+}
+#PageColumns .leftCol {
+    width: 70%
+}
+.sectionCtn {
+    background: rgba(59, 63, 72, 0.5);
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.subCtn {
+    background: #363b45;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #b2b5ba;
+
+}
+.subCtn P {
+    font-size: 12px;
+    color: #90949d;
+}
+.subCtn input {
+    height: 24px;
+    padding-left: 6px;
+    margin-left: 4px;
+}
+
+.rightSectionTitle {
+    color: #7e7e7e;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+.rightSectionHolder {
+    background: #25282e;
+    padding: 12px;
+    border-radius: 4px;
+}
+.rightSectionHolder.quickLinks span {
+    display: flex;
+}
+.rightSectionHolder.quickLinks a {
+    display: block;
+    flex-grow: 1;
+    margin-bottom: 8px;
+}
+
+
+.uploadTable {
+    width: 100%;
+    background: rgba(59, 63, 72, 0.5);
+    border-collapse: collapse;
+
+}
+.uploadTable p {
+    margin: 0px;
+}
+.uploadTable > thead > tr {
+    background-color: rgba(55, 65, 78, 0.6);
+}
+
+.uploadTable th {
+    color: #8F98A0;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    padding: 4px 14px;
+}
+
+.uploadTable > tbody > tr {
+    border: none;
+}
+
+.uploadTable > tbody > tr:last-child {
+    border-bottom: 1px solid #4d4b49;
+}
+
+.session_summary {
+background: -webkit-linear-gradient( top, #373b43 5%, #2d3037 95%);
+	background: linear-gradient( to bottom, #373b43 5%, #2d3037 95%);
+}
+.session_summary td {
+    border-top: 1px solid #07BFFF;
+    height: 30px;
+    padding-left: 14px;
+}
+.session_summary_spacer td {
+    height: 30px;
+}
+
+.session_end {
+    width: 168px;
+}
+.upload_start {
+    width: 160px;
+}
+
+
+.uploadTable td {
+    padding: 5px 14px;
+}
+
+#UploadInfoDelay
+{
+    width: 64px;
+}
+
+.UploadButtonColumn {
+	text-align: right;
+}
+
+.upload_error_msg {
+	color: red;
+	font-weight: bolder;
+	padding: 10px;
+	background-color: #0b2337;
+}
+
+
+
+.UploadDetailInfo {
+padding: 2px;
+color: white;
+}
+
+.broadcast_upload_note {
+	color: #c79b57;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.valveOnly {
+	color: #ca5029;
+	font-size: 10px;
+}
+.valveArea,
+.landingRightCol .panel.valveArea{
+	background-color: #351e18;
+	border: 1px solid #542f26;
+}
+.valveArea.padded {
+	padding: 8px;
+}
+
+.uploadTable .broadcast_history_numeric,
+.broadcast_history_numeric {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.broadcast_row_img {
+	height: 40px;
+}
+.tokenCtn {
+    display: flex;
+}
+.infoField {
+    background: rgba(0,0,0,0.2);
+    padding: 6px 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+#UploadInfoToken {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.top_warning {
+	padding: 20px;
+	background-color: #ffcb0c;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #bf9600;
+	color: black;
+
+	margin-bottom: 20px;
+}

@@ -1,0 +1,1009 @@
+
+/* detail page */
+
+.guideTop
+{
+	background-color: rgba( 84, 133, 183, 0.2);
+	margin-top: 10px;
+	padding-top: 16px;
+	margin-bottom: 20px;
+
+}
+
+.guideTopContent
+{
+	position: relative;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.guideTopContent .dotHR 
+{
+	height: 1px;
+	border-bottom: 1px #61696d dotted;
+	margin: 10px 0px 10px 84px;
+}
+
+.guideTopDescription
+{
+	font-size: 17px;
+	color: #c6d4df;
+	word-wrap: break-word;
+	margin-top: 10px;
+	line-height: 22px;
+	padding-bottom: 16px;
+	padding-right: 8px;
+	overflow: hidden;
+}
+
+.guideAuthors
+{
+	color: #61696d;
+}
+
+.guideTop .workshopItemControlsCtn
+{
+	z-index: 21;
+}
+
+.guideTop .workshopItemControls
+{
+	background-color: #223349;
+
+	max-width: 930px;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 0px 7px #000000;
+	-webkit-box-shadow: 0px 0px 7px #000000;
+	box-shadow: 0px 0px 7px #000000;
+	padding: 10px;
+}
+
+.guideTop .workshopItemControlsCtn.fixed_in_scroll
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+/* don't float the controls down at small widths (they wrap poorly) or small heights */
+@media screen and ( max-width: 450px ), screen and ( max-height: 360px )
+{
+	html.responsive .guideTop .workshopItemControlsCtn.fixed_in_scroll
+	{
+		position: static;
+	}
+
+	html.responsive .guideTop #ScrollWrapperPadding_ScrollingItemControls
+	{
+		display: none;
+	}
+}
+
+.editGuideEmptyDetailBox .guidePreviewImagesToUpload
+{
+	padding-bottom: 10px;
+}
+
+.guidePreviewImagesToUpload
+{
+	padding: 0px;
+	padding-left: 5px;
+}
+
+.guidePreviewImagesToUpload li
+{
+	list-style: none;
+}
+
+.guidePreviewImage
+{
+	float: left;
+	width: 74px;
+	height: 74px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+}
+
+.guidePreviewImage img
+{
+	max-width: 74px;
+	max-height: 74px;
+	width: auto;
+	height: auto;
+	border-top: 1px solid #262626;
+	border-left: 1px solid #262626;
+	border-right: 1px solid #111111;
+	border-bottom: 1px solid #111111;
+}
+
+.guidePreviewImageSmall
+{
+	float: left;
+	width: 36px;
+	height: 74px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+}
+
+.guidePreviewImageSmall img
+{
+	max-width: 36px;
+	max-height: 36px;
+	width: auto;
+	height: auto;
+}
+
+#GuideTableOfContents
+{
+	width: 272px;
+}
+
+#GuideTableOfContents.fixed_in_scroll
+{
+	position: fixed;
+}
+
+html.responsive .responsive_page_menu #GuideTableOfContents
+{
+	width: auto;
+}
+
+html.responsive .responsive_page_menu #GuideTableOfContents.fixed_in_scroll
+{
+	position: static;
+}
+
+html.responsive .responsive_page_menu .FixedElementOnScrollWrapper_padding
+{
+	display: none;
+}
+
+.guideSubSectionSelection
+{
+	position: relative;
+}
+
+.guideSubSectionSelectionLink
+{
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.guideSubSectionSelection .browseOptionImage
+{
+	display: none;
+}
+
+.guideSubSectionSelection.selected
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.guideSubSectionSelection.selected .browseOptionImage
+{
+	display: block;
+	top: 0px;
+}
+
+.guideSubSectionSelection.selected a
+{
+	cursor: default;
+	text-decoration: none;
+	color: #EBEBEB;
+}
+
+/* edit page header */
+.editGuideHeader
+{
+	position: relative;
+	background-color: #000;
+	font-size: 12px;
+	color: white;
+	margin: 0px auto;
+	width: 948px;
+	margin-top: 10px;
+}
+
+.editGuideHeaderTabs
+{
+}
+
+.editGuideHeaderTab
+{
+	position: relative;
+	color: #aaaaaa;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.editGuideHeaderTab a, .editGuideHeaderTab a:hover, .editGuideHeaderTab a:visited
+{
+	color: white;
+}
+
+.editGuideHeaderTab.first
+{
+	padding-left: 18px;
+}
+
+.editGuideHeaderTab.last
+{
+	float: right;
+	padding-right: 18px;
+}
+
+.editGuideHeaderTab.publish
+{
+	float: right;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+.editGuideHeaderTab.publish .btn_small_thin > span
+{
+	line-height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.editGuideHeaderTab.selected
+{
+	color: white;
+	background-color: #3b4f6c;
+	margin-right: 10px;
+}
+
+.editGuideHeaderBullet
+{
+	margin-top: 16px;
+	float: left;
+	width: 4px;
+	height: 8px;
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/sharedfiles/workshop_collection_processArrow.png);
+	background-repeat: no-repeat;
+	padding-right: 10px;
+}
+
+.editGuideHeaderBullet.last
+{
+	float: right;
+}
+
+.editGuideHeader .general_btn
+{
+	float: right;
+	background-color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+}
+
+.editGuideHeaderSelectionArrow
+{
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	margin-left: -7.5px;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/sharedfiles/guides/selection_bubble_arrow.png');
+	background-repeat:no-repeat;
+	width: 15px;
+	height: 8px;
+}
+
+.descField.guide
+{
+	resize: none;
+	height: 200px;
+}
+
+/* page */
+
+.editGuidePageTitle
+{
+	font-size: 22px;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	line-height: 37px;
+}
+
+.editGuideHR
+{
+	height: 2px;
+	background-color: #343d4a;
+	margin-bottom: 10px;
+	width: 944px;
+}
+
+.editGuidePageSectionTitle
+{
+	font-size: 17px;
+	line-height: 30px;
+	color: #529CDE;
+}
+
+.editGuidePageSectionDesc
+{
+	font-size: 13px;
+	padding-right: 16px;
+}
+
+.editGuideAlertHeader {
+	text-align: left;
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	height: 27px;
+	line-height: 27px;
+	color: #FFC369;
+	background-color: rgba(153, 112, 51, 0.4);
+	border: 1px solid rgba(153, 112, 51, 0.2);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	font-size: 13px;
+}
+
+/* manage page */
+#BG_bottom
+{
+	background: none;
+	width: 948px;
+}
+
+.editGuideEmptyDetailBox
+{
+	background-color: rgba( 0, 0, 0, 0.2 );
+	min-height: 150px;
+	text-align: center;
+}
+
+.editGuideEmptyDetailBoxTitle
+{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.editGuideTableOfContents
+{
+	margin-top: 20px;
+	padding-right: 16px;
+}
+
+.editGuideTOCSection
+{
+	padding: 3px;
+	padding-right: 15px;
+	background-color: rgba( 84, 133, 183, 0.2);
+	margin-top: 2px;
+	line-height: 35px;
+	box-shadow: 0px 0px 3px 0px rgba(20,20,20,0.75);
+}
+
+.editGuideTOCSection.empty
+{
+	background-color: #3d4858;
+}
+
+.editGuideTOCSectionGrabber
+{
+	width: 10px;
+	cursor: move;
+	cursor: -moz-grab;
+	float: left;
+	padding-top: 13px;
+	padding-left: 5px;
+	margin-right: 10px;
+}
+
+.editGuideTOCSectionGrabberTop
+{
+	height: 1px;
+	border-top: 1px solid #333334;
+	border-bottom: 1px solid #333334;
+	background-color: #737373;
+	width: 100%;
+}
+
+.editGuideTOCSectionGrabberBottom
+{
+	height: 1px;
+	border-top: 1px solid #737373;
+	border-bottom: 1px solid #737373;
+	background-color: #333334;
+	width: 100%;
+}
+
+.editGuideTOCSectionTitle
+{
+	float: left;
+	min-width: 300px;
+	color: white;
+	font-size: 14px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+.editGuideTOCSectionControls
+{
+	float: right;
+}
+
+.editGuideTOCSectionControls .btn_grey_black
+{
+	margin-bottom: 0px;
+}
+
+.editGuideTOCSectionControls img
+{
+	vertical-align: middle;
+	margin-left: -6px;
+	margin-top: -2px;
+	margin-right: 3px;
+}
+
+.editGuideTOCSectionControls .btn_small_thin
+{
+	line-height: 30px;
+	padding-right: 5px;
+}
+
+.editGuideTOCControls
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.editGuideTOCControls input
+{
+	top: 0px;
+}
+
+/* upload images */
+.editGuideUploadImages
+{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #333334;
+}
+
+.editGuideUploadImagesDesc
+{
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size: 12px;
+}
+
+/* contributors */
+.editGuideContributorName
+{
+	float: left;
+	min-width: 300px;
+	color: white;
+}
+
+.editGuideContributorsControls
+{
+	float: right;
+}
+
+.editGuideContributorsControls a, .editGuideContributorsControls a:visited
+{
+	color: #828282;
+}
+
+.editGuideContributorsControls .btn_grey_black
+{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.editGuideContributorsControls img
+{
+	vertical-align: middle;
+	padding-left: 5px;
+}
+
+.editGuideContributorsControls .btn_small_thin
+{
+	line-height: 30px;
+	padding-right: 5px;
+}
+
+#sortable_previews
+{
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+#sortable_previews.expanded
+{
+	max-height: none;
+	overflow: hidden;
+}
+
+.editGuidePreviews
+{
+	padding-top: 15px;
+	padding-right: 10px;
+}
+
+.editGuidePreviewsContainer
+{
+	background-color: #1a1a1b;
+	padding: 10px;
+}
+
+.editGuidePreviewsContainer .dotHR
+{
+	height: 1px;
+	border-bottom: 1px #444444 dotted;
+	margin: 10px 0px 10px 0px;
+}
+
+.editGuidePreviewsControls
+{
+	font-size: 11px;
+	color: #797979;
+}
+
+#ExpandAllImagesAreaBtn
+{
+	float: right;
+
+}
+
+#ExpandAllImagesAreaBtn .doubleArrow
+{
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	background-image:url('https://steamcommunity-a.akamaihd.net/public/images/sharedfiles/icons/icon_double_arrows.png');
+	float: right;
+	background-position: 15px 0px;
+}
+
+.editGuidePreviewsControls a, .editGuidePreviewsControls a:visited
+{
+	color: #e5e5e5;
+	text-decoration: none;
+	padding-left: 10px;
+	text-transform: lowercase;
+}
+
+.editGuidePreviewsControls a:hover
+{
+	text-decoration: underline;
+}
+
+.editGuideContributors
+{
+	padding-top: 15px;
+	margin-right: 16px;
+}
+
+.editGuidePageControls
+{
+	margin-top: -10px;
+	margin-bottom: 10px;
+	float: right;
+}
+
+
+.editGuideSubSectionTabFix
+{
+	height: 42px;
+	width: 948px;
+	margin: 0px auto;
+}
+
+.editGuideSubSectionPageControls
+{
+	float: right;
+}
+
+.editGuideSubSectionPageControlsContainer
+{
+	background-color: rgba( 0, 0, 0, 0.2 );
+	padding: 10px;
+	width: 926px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+.editGuideSubSectionPageControlsContainer.contentModified
+{
+	background-color: #445874;
+	border: 1px solid #6a809f;
+	padding: 9px;
+}
+
+.editGuideSubSectionContentsChangedWarningText
+{
+	color: #ffd09e;
+	display: none;
+	float: left;
+	line-height: 22px;
+}
+
+.editGuideSubSectionPageControlsContainer.contentModified .editGuideSubSectionContentsChangedWarningText
+{
+	display: inline;
+}
+
+.editGuideSubSectionContentsSavedText
+{
+	color: #ffd09e;
+	float: left;
+	line-height: 22px;
+}
+
+#PageControlsBottom
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.editGuideSubSectionLabel
+{
+	font-size: 14px;
+	padding-bottom: 0px;
+	line-height: 27px;
+}
+
+input[type=text].editGuideSubSectionTitleField
+{
+	font-size: 22px;
+	line-height: 27px;
+	height: 27px;
+	width: 930px;
+	top: 0px;
+	background-color: rgba( 0, 0, 0, 0.2);
+	border: solid 1px #000;
+	box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+	padding: 4px 5px 6px 8px;
+	color: #BFBFBF;
+	margin-bottom: 20px;
+}
+
+.editGuideSubSectionDescField
+{
+	font-size: 14px;
+	line-height: 20px;
+	height: 614px;
+	width: 628px;
+	background-color: rgba( 0, 0, 0, 0.2);
+	border: solid 1px #000;
+	box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+	padding: 10px;
+	color: #BFBFBF;
+}
+
+.editGuideSubSectionMediaSelectionContainer
+{
+	position: absolute;
+	width: 278px;
+	top: 146px;
+	right: 10px;
+}
+
+#EditorPane
+{
+	position: relative;
+}
+
+#EditorPane .sectionTabsHR
+{
+	width: auto;
+	margin-bottom: 0px;
+}
+
+#PreviewPane
+{
+	min-height: 500px;
+}
+
+.editGuideSubSectionMediaSelectionContainerBG
+{
+	position: relative;
+	top: -2px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 3px;
+	border-top: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	padding: 6px;
+	height: 624px;
+}
+
+.editGuideSubSectionMediaSelections
+{
+
+}
+
+.editGuideSubSectionPreviewImagesDesc
+{
+	color: #999999;
+	padding-bottom: 5px;
+}
+
+.editGuideSubSectionPreviewImages
+{
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: rgba( 255, 255, 255, 0.1);
+	height: 600px;
+	overflow-y: auto;
+}
+
+#PreviewImages
+{
+	height: 540px;
+	margin-bottom: 5px;
+}
+
+#UploadPreviewImages
+{
+	margin-left: 2px;
+	margin-top: 5px;
+}
+
+
+.editGuideSubSectionPreviewImages .previewImage
+{
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	cursor: pointer;
+	max-height: 66px;
+	width: 117px;
+	overflow: hidden;
+}
+
+.editGuideSubSectionPreviewImages .previewImage:hover
+{
+	outline: 1px solid #97C0E3;
+}
+
+.editGuideSubSectionPreviewImages .previewImage img
+{
+	width: 117px;
+}
+
+.editGuideSubSectionPreviewImages .previewImage.video img
+{
+	margin-top: -8px;
+
+}
+
+.editGuideSubSectionContents
+{
+	width: 649px;
+}
+
+.editGuideSubSectionControls
+{
+	padding: 5px 0px;
+}
+
+.editGuideSubSectionControls .btn_grey_black
+{
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+.editGuideSubSectionControls .btn_grey_black > span
+{
+	padding: 0px;
+}
+
+.editGuideSubSectionControls .btn_grey_black img
+{
+	vertical-align: middle;
+}
+
+.editGuideInsertOptionControls
+{
+	z-index: 200;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+}
+
+.editGuideInsertOptionControls .popupArrowTop
+{
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/sharedfiles/guides/popup_arrow_up.png);
+	background-repeat: no-repeat;
+	width: 11px;
+	height: 6px;
+	margin-left: 30px;
+	position: relative;
+	top: 12px;
+}
+
+.editGuideInsertOptionControls .popupArrowRight
+{
+	background-image: url( https://steamcommunity-a.akamaihd.net/public/images/skin_1/arrow_rt.gif);
+	background-repeat: no-repeat;
+	width: 5px;
+	height: 9px;
+	float: right;
+	position: relative;
+	top: 100px;
+	right: -15px;
+}
+
+.editGuideInsertOptionControls .popupContainer
+{
+	background-color: #c2c2c2;
+	padding: 5px 10px 5px 10px;
+	width: 256px;
+}
+
+.previewImageInPopupContainer
+{
+	max-height: 256px;
+	overflow: hidden;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.previewImageInPopupContainer img
+{
+	max-width: 256px;
+}
+
+.editGuideInsertOptionControls .popupTitle
+{
+	text-transform: uppercase;
+	color: black;
+	padding-bottom: 2px;
+}
+
+.previewImageInsertColumn
+{
+	color: black;
+	float: left;
+	width: 124px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.previewImageInsertColumn.left
+{
+	margin-right: 8px;
+}
+
+.previewImageInsertOption
+{
+	padding: 2px;
+	margin-bottom: 2px;
+	background-color: #a3a3a3;
+	color: black;
+	cursor: pointer;
+}
+
+.previewImageInsertOption.selected
+{
+	background-color: #9199a3;
+}
+
+.previewImageInsertOption img
+{
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+.previewImageInsertOption label
+{
+	cursor: pointer;
+}
+
+.inputYouTubeVideo
+{
+	background-color: #939395;
+	color: black;
+	font-style: italic;
+	width: 250px;
+	height: 25px;
+	margin-bottom: 5px;
+	padding: 2px;
+	top: 0px;
+}
+input[type=text].inputYouTubeVideo {
+	color: #fff;
+}
+
+.guide .bb_ul
+{
+	padding-left: 0px;
+	margin-left: 1em;
+}
+
+.guide .bb_ul li
+{
+	position: relative;
+	left: 1em;
+	padding-right: 1em;
+}
+
+
+/* Mini Tabs */
+.editGuideSubSectionMediaSelectionContainer .sectionTab
+{
+	padding: 0px 4px;
+}
+
+.editGuideSubSectionMediaSelectionContainer .sectionTab.active
+{
+	padding: 1px;
+}
+
+.editGuideSubSectionMediaSelectionContainer .sectionTab.active > span
+{
+	padding: 0px 4px;
+}
+
+/* diffing */
+
+.editGuideChangesDesc
+{
+	padding: 5px;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.editGuideShowChanges
+{
+	font-size: 14px;
+	line-height: 20px;
+	width: 628px;
+	background-color: #333333;
+	border: solid 1px #262627;
+	border-radius: 3px;
+	padding: 10px;
+	color: #bfbfbf;
+}
+
+.editGuide_diff_insert
+{
+	color: #00cc00;
+}
+
+.editGuide_diff_delete
+{
+	color: #cc0000;
+}
+
+/* integrated guide */
+.integrated_guide
+{
+	width: 638px;
+	min-height: 500px;
+	border: 0px;
+}
+
+#WaitingForIntegratedGuide
+{
+	text-align: center;
+	font-size: 20px;
+}
+
+#WaitingForIntegratedGuide img
+{
+	vertical-align: middle;;
+	padding-right: 20px;
+}

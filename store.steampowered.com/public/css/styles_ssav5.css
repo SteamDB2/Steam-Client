@@ -1,0 +1,113 @@
+#main {
+	position: relative;
+	max-width: 950px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+.page_title_area {
+	padding-top: 16px;
+}
+.page_name {
+	position: relative;
+	font-size: 30px;
+	color: #d6d7d8;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+
+.page_name .blockbg {
+	min-height: 40px;
+}
+
+#ssa_popup_box > h2 {
+	font-size:19px;
+	font-weight:bold;
+	background-color:#8bb9e0;
+	color:#262626;
+	display:inline;
+	padding:3px;
+}
+
+#ssa_box {
+	max-width:860px;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 12px 2%;
+	color: #d6d7d8;
+	margin-bottom: 80px;
+}
+
+#ssa_box img {
+	max-width: 100%;
+}
+
+#ssa_box li {
+	margin-left: 10px;
+}
+
+#ssa_popup_box {
+	width:450px;
+	height:466px;
+	background: rgba(0, 0, 0, 0.3);
+	padding:16px;
+	color: #b0aeac;
+	margin: 0px auto;
+}
+
+#ssa_body {
+	border:solid #4d4d49 1px;
+	margin-top:10px;
+	padding: 8px;
+	font-size: 14px;
+}
+
+#ssa_body p {
+	margin:9px 0px;
+}
+
+#ssa_body a {
+	text-decoration: underline;
+}
+
+#ssa_popup_box > p {
+	margin:6px 0px 3px 0px;
+}
+
+#priv_and_sub {
+	margin-top:10px;
+}
+
+#close_button {
+	float:right;
+}
+
+#privacy_link {
+	margin-left:16px;
+	padding-top:8px;
+}
+
+
+#ssa_box.online_conduct {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#ssa_box ul {
+	margin-left: 20px;
+}
+
+#ssa_box ul li {
+	margin: 8px 0;
+}
+
+.ssa_privacy_input {
+	padding: 8px;
+	font-size: 16px;
+}
+
+.ssa_desc {
+	font-size: 14px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 500; /* medium */
+
+			color: #66c0f4;
+}

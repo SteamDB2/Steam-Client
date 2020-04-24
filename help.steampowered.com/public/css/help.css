@@ -1,0 +1,4546 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.a:focus {
+	outline: 0px none;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #66c0f4;
+}
+
+a.nohover:hover {
+	text-decoration: none;
+}
+
+textarea
+{
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 12px;
+	color: #ffffff;
+	background-color: #1a2738;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 0 #45556c;
+	padding: 4px;
+}
+
+
+html {
+	height: 100%;
+}
+
+input[type=submit] {
+	font-size: 14px;
+	padding: 6px 10px 6px 10px;
+	background-color: #264963;
+	color: #6abcf0;
+	margin-top: 34px;
+	cursor: pointer;
+	border: none;
+}
+
+input[type=submit]:hover {
+	color: #ffffff;
+}
+
+input[type=text],
+input[type=date],
+input[type=time] {
+	color: #ffffff;
+	background-color: #324965;
+	border-top: solid 1px #182636;
+	border-left: solid 1px #182636;
+	border-right: solid 1px #45566a;
+	border-bottom: solid 1px #45566a;
+	padding: 4px;
+}
+
+input.custom_form_text
+{
+	width: calc( 100% - 10px );
+	clear: left;
+}
+
+input.custom_form_text.right_hint
+{
+	width: calc( 50% - 16px );
+	margin-right: 16px;
+}
+
+
+.custom_form_label
+{
+	padding-bottom: 4px;
+}
+
+.create_request_form_row
+{
+	padding-bottom: 20px;
+	clear: both;
+}
+
+.create_request_form_row .hint_text
+{
+	padding-top: 2px;
+	font-size: 12px;
+	color: #8c96a0;
+}
+
+.create_request_form_row .hint_text.right_hint
+{
+	width: calc( 50% - 16px );
+	display: inline-block;
+	color: #5eafde;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+
+.create_request_form_colset_1
+{
+	float: left;
+	width: calc( 100% - 16px );
+	margin-right: 16px;
+}
+
+
+.create_request_form_colset_2
+{
+	float: left;
+	width: calc( 50% - 16px );
+	margin-right: 16px;
+}
+
+.create_request_form_colset_3
+{
+	float: left;
+	width: calc( 33% - 16px );
+	margin-right: 16px;
+}
+
+@media screen and (max-width: 580px)
+{
+	.create_request_form_colset_2, .create_request_form_colset_3
+	{
+		width: calc( 100% - 16px );
+		clear: left;
+		padding-top: 20px;
+	}
+
+	.create_request_form_colset_2:first-child,
+	.create_request_form_colset_3:first-child
+	{
+		padding-top: 0px;
+	}
+
+
+}
+
+
+.help_site_button {
+	display: inline-block;
+	padding: 6px 10px 6px 10px;
+	background-color: #264963;
+	color: #6abcf0;
+	cursor: pointer;
+	border: none;
+}
+
+.help_site_button:hover {
+	color: #ffffff;
+}
+
+.dropcontainer ul {
+	list-style-type:none;
+	line-height: 22px;
+	margin:0;
+	position:absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 90;
+
+	overflow: auto;
+	overflow-x: hidden;
+
+	box-shadow: 0 0 5px 0 #000000;
+	background: #417A9B;
+
+	max-height: 300px;
+}
+.dropdownhidden{
+	display: none;
+}
+.dropdownvisible{
+	display: block;
+}
+.dropcontainer ul li {
+	padding: 0;
+	margin: 0;
+}
+.dropcontainer ul li.emptyvalue {
+	font-style: italic;
+}
+.dropcontainer ul a {
+	padding: 0 10px;
+	display:block;
+	text-decoration:none;
+	color: #e5e4dc;
+	line-height: 22px;
+	height: 22px;
+
+	white-space: nowrap;
+}
+
+.dropcontainer{
+	position:relative;
+}
+
+.dselect_container
+{
+	font-size: 12px;
+}
+
+.dselect_container.day_picker
+{
+	float: left;
+	width: 64px;
+}
+
+.dselect_container.month_picker
+{
+	float: left;
+	padding-left: 6px;
+	width: 120px;
+}
+
+.dselect_container.year_picker
+{
+	float: left;
+	padding-left: 6px;
+	width: 72px;
+}
+
+.dselect_container {
+	position: relative;
+
+}
+.dselect_container a.trigger, .dselect_container a.activetrigger {
+	display: block;
+	color: #67C1F5;
+	padding: 0 30px 0 8px;
+	font-size: 12px;
+	line-height: 24px;
+	border: 0;
+	border-radius: 3px;
+	text-decoration: none;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dselect_container a.trigger {
+	background: rgba( 103, 193, 245, 0.2 );
+}
+
+.dselect_container a.activetrigger, .dselect_container a.activetrigger:hover {
+	color: #ffffff;
+	background: #67c1f5;
+}
+
+
+.dselect_container a.activetrigger {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	z-index: 91;
+	position: relative;
+}
+
+.dselect_container a.trigger::after, .dselect_container a.activetrigger::after {
+	position: absolute;
+	right: 0;
+	top: 3px;
+	width: 24px;
+	height: 14px;
+	background: url('https://help.steampowered.com/public/images//ico_arrow_dn_for_select.png') no-repeat right;
+	content: '';
+}
+
+.dselect_container a.trigger:hover,
+.dselect_container .dropcontainer a.highlighted_selection
+{
+	color: #ffffff;
+	background-color: #67c1f5; /* Old browsers */
+	background: -webkit-linear-gradient( 150deg, #417a9b 5%,#67c1f5 95%);
+	background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
+}
+
+
+body.v6 {
+	position: relative;
+	min-height: 100%;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			color: #c6d4df;
+	font-size: 13px;
+}
+
+body.v6.in_client {
+	background-position: center top;
+}
+
+body.v6 {
+	background: url( 'https://help.steampowered.com/public/images/blue_body_top.jpg?v=2' ) center top no-repeat,
+		url( 'https://help.steampowered.com/public/images/blue_body_repeat.jpg?v=2' ) center top repeat-y #000000;
+}
+
+body.v6 > div#global_header {
+	border-bottom-color: #171a21;
+}
+
+.page_background {
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+body.v6 #footer {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 16px 0 60px 0;
+	margin: 0;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.5) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.5) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.5) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+body.v6 #footer.small_footer {
+	position: relative;
+	top: auto;
+	bottom: auto;
+}
+
+body.v6 #footer_spacer.small_footer {
+	height: 50px;
+}
+
+body.v6 #footer .footer_content {
+	width: 950px;
+	margin: 0px auto;
+	padding-top: 16px;
+}
+body.v6 #footer #footer_logo {
+	float: left;
+	padding-top: 2px;
+}
+body.v6 #footer #footer_text {
+	float: left;
+	margin-left: 12px;
+	color: #8F98A0;
+}
+body.v6 #footer #footer_text a {
+	color: #C6D4DF;
+}
+body.v6 #footer #footer_text a:hover {
+	color: #ffffff;
+}
+body.v6 #footer .rule{
+	height: 8px;
+}
+body.v6 #footer .valve_links {
+	margin-top: 8px;
+	float: left;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-size: 13px;
+	color: #61686D;
+}
+body.v6 #footer .valve_links a {
+   color: #C6D4DF;
+}
+body.v6 #footer .valve_links a:hover {
+	color: #ffffff;
+}
+body.v6 #footer .valve_links img {
+	vertical-align: bottom;
+}
+
+body.v6.blue #footer {
+	background: #000000;
+}
+
+body.v6 #footer_spacer {
+	height: 260px;
+}
+
+body.v6 > .perf_timing_area .perf_timing_link {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+}
+
+.perf_timing_data {
+	position: relative;
+	background-color: #000000;
+	margin: 0px auto 48px auto;
+	padding: 8px;
+	text-align: left;
+	width: 936px;
+	font-size: 14px;
+	z-index: 5;
+}
+
+body.v6 h2 {
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-weight: normal;
+	font-size: 18px;
+	color: #67c1f5;
+}
+body.v6 h2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+body.v6 h2 a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body.v6 .home_rightcol h2 {
+    margin-bottom: 7px;
+    margin-top: 0px;
+}
+body.v6 .home_rightcol.recommended h2, body.v6 .home_leftcol h2 {
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+body.v6 .discovery_queue_ctn h2, body.v6 .steam_curators_ctn h2, body.v6  .apps_recommended_by_curators_ctn h2 {
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+
+body.v6 .upcoming_queue_ctn h2, body.v6 .steam_curators_ctn h2 {
+    margin-top: 40px;
+    margin-bottom: 7px;
+}
+
+body.v6 h2 .header_inline {
+	color: #9099a1;
+	font-size: 15px;
+}
+
+body.v6 h2 .header_inline a {
+	color: #c6d4df;
+	cursor: pointer;
+}
+body.v6 h2 .header_inline a:hover {
+	color: #67c1f5;
+}
+
+body.v6 h2.pageheader {
+	color: #ffffff;
+	font-size: 34px;
+	text-shadow: 1px 1px 0 #000000;
+	margin-top: -4px;
+}
+
+body.v6 h3 {
+	color: #ffffff;
+	font-size: 22px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			font-weight: normal;
+}
+
+body.v6 h4 {
+	font-size: 16px;
+	color: white;
+
+	margin-bottom: 12px;
+}
+
+body.v6 .page_content {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.breadcrumbs {
+    color: #61686d;
+    font-size: 12px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: normal; /* normal */
+
+			padding-top: 10px;
+}
+.breadcrumbs a {
+    color: #8f98a0;
+}
+.breadcrumbs a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div.leftcol {
+	width: 616px;
+	float: left;
+}
+div.leftcol.large {
+    width: 686px;
+}
+
+div.rightcol {
+	width: 308px;
+	margin-left: 14px;
+	float: right;
+}
+div.rightcol.small {
+    width: 238px;
+}
+
+body.v6 .supernav_content, body.v6 #global_header, body.v6 #global_header .content
+{
+	background: #171a21;
+}
+
+/* Dark page cut */
+
+body.v6 .page_content_ctn.dark {
+	background-color: #000;
+	padding: 25px 0;
+}
+
+body.v6 .page_content_ctn.dark:last-child {
+	margin-bottom: -52px;
+}
+
+.page_content_ctn.dark .pageheader:after {
+	content: ' ';
+	display: block;
+	height: 1px;
+	margin-top: 5px;
+	background: -webkit-linear-gradient( left, #3b6e8c 5%,#000000 95%);
+	background: linear-gradient( to right, #3b6e8c 5%,#000000 95%);
+}
+
+
+#page_background_holder {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	overflow: hidden;
+	z-index: -1;
+	min-width: 972px;
+}
+
+#page_background {
+	text-align: center;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 1024px;
+	min-width: 972px;
+}
+
+#wizard_perf_data {
+	margin-top: 100px;
+}
+
+#page_content
+{
+	position: relative;
+	min-height: 450px;
+}
+
+@-webkit-keyframes fade_in
+{
+	0% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes fade_in
+{
+	0% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+
+#loading_throbber.page_loaded
+{
+    opacity: 0.0;
+    visibility: hidden;
+}
+
+#loading_throbber
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    opacity: 1.0;
+    visibility: visible;
+
+    transition:  opacity 0.3s linear;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+}
+
+#system_report_label
+{
+	float: left;
+}
+
+#system_report_throbber
+{
+	transition-delay: 0.1s;
+	transition:  opacity 0.3s linear;
+	opacity: 0.0;
+	float: left;
+	margin-top: -12px;
+	margin-left: 12px;
+	transform: scale( 0.75 );
+	-webkit-transform: scale( 0.75 );
+}
+
+#system_report_throbber.working
+{
+	opacity: 1.0;
+}
+
+#system_report_details
+{
+	display: none;
+	visibility: collapse;
+}
+
+#system_report_details_inner .header
+{
+	margin: 10px;
+	font-size: 14px;
+}
+
+#system_report_details_inner .details
+{
+	margin: 20px;
+	line-height: 20px;
+}
+
+#wizard_contents, #error_contents
+{
+	opacity: 0.0;
+	visibility: hidden;
+
+			transition: visibility 0.0s linear 0.5s, opacity 0.5s linear;
+}
+
+#error_contents
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+}
+
+.page_loaded #wizard_contents,
+.page_error #error_contents
+{
+	opacity: 1.0;
+	visibility: visible;
+	transition: none;
+
+		-webkit-animation: fade_in 0.3s linear;
+	animation: fade_in 0.3s linear;
+}
+
+.page_error #wizard_contents
+{
+	opacity: 0.0;
+	visibility: hidden;
+	transition: none;
+}
+
+#wizard_contents
+{
+	padding: 20px 0px 20px 0px;
+}
+
+#error_contents
+{
+	padding: 40px 0px 20px 0px;
+}
+
+.error_bg
+{
+	background-color: rgba( 0, 0, 0, 0.2 );
+	max-width: 890px;
+	padding: 0px 32px 32px 32px;
+	margin-top: 15px;
+}
+
+#error_header
+{
+	color: #67c1f5;
+	font-size: 44pt;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			padding-top: 32px;
+}
+
+#error_description
+{
+	color: #a94847;
+	font-size: 14px;
+	padding-top: 32px;
+}
+
+#error_reload
+{
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.error_reload
+{
+	margin-top: 20px;
+}
+
+.help_page_title {
+	color: #5eafde;
+	font-size: 18px;
+	padding: 6px 0px 6px 0px;
+	margin-top: 15px;
+}
+
+.help_page_title.steamworks {
+	border-top: 2px solid #67c1f5;
+	margin-top: 14px;
+	padding-top: 12px;
+}
+
+.help_page_text{
+	line-height: 18px;
+	max-width: 712px;
+}
+
+.help_page_inside_title {
+	color: #5eafde;
+	font-size: 18px;
+	padding: 0px 0px 10px 0px;
+}
+
+#payment_header_title{
+	padding-top: 30px;
+}
+
+.submit_proof{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.help_page_purchasetoprove {
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	max-width: 712px;
+	margin-top: 15px;
+}
+
+.help_wizard_button {
+	display: block;
+	max-width: 712px;
+
+	/* buttons may have different padding, but want them to always be max 712 wide to match everything else */
+	box-sizing: border-box;
+
+	margin-top: 10px;
+	padding-right: 30px;
+	border: solid 1px;
+	border-color: #445468;
+
+	font-size: 15px;
+	color: white;
+
+	background-color: #445468;
+}
+
+.help_wizard_button.disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.help_wizard_button:hover,
+.help_wizard_button.opened {
+	color: white;
+}
+
+.help_wizard_button a:hover,
+.help_wizard_button.opened a {
+	color: #ffffff;
+}
+
+.help_wizard_button > span {
+	margin: 10px 14px 10px 14px;
+	display: block;
+	overflow: hidden;
+}
+
+.help_wizard_button_large > span {
+	margin: 20px 14px 20px 14px;
+}
+
+.help_wizard_button > img {
+	float: left;
+	margin: 3px 8px 4px 6px;
+}
+
+.help_wizard_button > img + span {
+	margin-left: 8px;
+}
+
+.help_wizard_button_text {
+	padding: 10px 14px 10px 14px;
+}
+
+.help_wizard_button:not(.disabled):not(.nohover):hover,
+.help_wizard_button.opened {
+	background-color: #4581a5;
+	border-color: #4581a5;
+}
+
+.help_wizard_arrow_right {
+	background-image: url("https://help.steampowered.com/public/images/arrow_right.png");
+	background-repeat: no-repeat;
+	background-position: right 14px center;
+	background-size: auto 16px;
+}
+
+.help_wizard_button_dark {
+	color: darkgray;
+	font-size: 80%;
+}
+
+.help_wizard_button_gap {
+	margin-top: 30px;
+}
+
+.help_game_playtime {
+	color: darkgray;
+	font-size: 12px;
+	margin: 1px 0px 1px 0px;
+}
+
+.help_game_other_issues {
+	margin-top: 30px;
+}
+
+.help_wizard_product_info {
+	margin: 4px;
+}
+
+.help_wizard_button_notes {
+	background-color: rgba(0,0,0,0.2);
+	max-width: 616px;
+	padding: 12px;
+	margin: 10px 0 0 0;
+	font-size: 14px;
+}
+
+.help_wizard_button_notes p{
+	padding-bottom: 10px;
+}
+
+.hipri_button_ctn {
+	margin-bottom: 24px;
+}
+
+.help_wizard_button.help_wizard_button_highpri {
+	border-color: #6d892f;
+	background-color: #6d892f;
+	}
+
+.help_wizard_button.help_wizard_button_highpri:not(.disabled):not(.nohover):hover {
+	border-color: #7c9b35;
+	background-color: #7c9b35;
+}
+
+.help_wizard_arrow_right.help_wizard_button_highpri {
+	background-image: url("https://help.steampowered.com/public/images/arrow_right_white.png");
+}
+
+.login_page {
+	padding: 20px 0px;
+}
+
+.login_page h2 {
+	margin-bottom: 6px;
+}
+
+.loginbox_highlight {
+	margin-top: 18px;
+	padding-bottom: 20px;
+	background-image: url( 'https://help.steampowered.com/public/images/login_highlight.png' );
+	background-size: 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.loginbox_background, .login_help_links_box {
+	max-width: 890px;
+	position: relative;
+	padding: 24px 30px;
+	background-color: rgba( 0, 0, 0, 0.2 );
+}
+
+.login_help_links_box {
+	padding: 24px 30px 30px 30px;
+	margin-top: 20px;
+}
+
+.login_help_links_box .title {
+	font-size: 17px;
+	line-height: 20px;
+	color: #ffffff;
+	padding-bottom: 8px;
+}
+
+.loginbox input.text_input {
+	width: 270px;
+	font-size: 16px;
+	line-height: 125%;
+	padding: 2px 4px;
+	margin-top: 4px;
+	color: #ffffff;
+	background-color: #324965;
+	border-top: solid 1px #182636;
+	border-left: solid 1px #182636;
+	border-right: solid 1px #45566a;
+	border-bottom: solid 1px #45566a;
+	max-width: calc( 100% - 8px );
+}
+
+.loginbox .captcha_image_row {
+	position: relative;
+}
+
+.loginbox .login_row {
+	margin-bottom: 18px;
+}
+
+.loginbox #captchImg {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+.loginbox #captchaRefresh {
+	margin-left: 220px;
+	padding-top: 8px;
+}
+
+.login_error {
+	padding-bottom: 12px;
+}
+
+#login_btn_signin .btn_medium > span {
+	padding: 0px 30px;
+}
+
+.login_forgot_info {
+	margin-top: 20px;
+}
+
+.loginbox {
+	float: left;
+	margin-right: 16px;
+}
+
+.login_signin_msg {
+	max-width: 352px;
+	min-height: 128px;
+	overflow: hidden;
+	padding: 34px 34px;
+	background-color: #24445f;
+	margin-top: 16px;
+	margin-right: 16px;
+	text-align: center;
+	display: table;
+	float: right;
+}
+
+@media screen and (max-width: 800px)
+{
+	html.responsive .login_signin_msg {
+		float: none;
+		overflow: hidden;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 580px)
+{
+	html.responsive .loginbox {
+		float: none;
+		margin-right: 0;
+	}
+
+	html.responsive .login_signin_msg {
+		padding: 12px;
+		min-height: 0;
+	}
+
+	html.responsive .login_signin_msg span {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	html.responsive input.unlockcode_entry_input
+	{
+		padding: 4px 5%;
+		font-size: 16px;
+		width: 90%;
+	}
+
+}
+
+.login_signin_msg span {
+	color: white;
+	font-size: 18px;
+	line-height: 30px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.forgot_login h2 {
+	margin-top: 16px;
+}
+
+.small_timestamp {
+	font-size: 14px;
+	color: lightgray;
+}
+
+.help_informational_block {
+	padding: 10px;
+}
+
+#help_refund_reason {
+	min-width: 400px;
+}
+#gift_refundable_notes h2{
+	margin-top: 20px;
+	color: #67c1f5;
+}
+
+.help_header {
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 24px;
+	color: #FFFFFF;
+}
+
+.help_header:hover {
+	color: #ffffff;
+}
+
+.help_intro_text {
+	color: #5eafde;
+	font-size: 20px;
+	margin: 16px 0px 20px 0px;
+}
+
+.help_section_text {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #5eafde;
+}
+
+.help_arrow_right {
+	float: right;
+	padding: 14px;
+	background: url("https://help.steampowered.com/public/images/arrow_right.png") center no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.help_divider {
+	background-color: #3b718d;
+	height: 1px;
+	max-width: 712px;
+	margin: 14px 0px;
+}
+
+.help_divider.full {
+	max-width: none;
+}
+
+#help_search_support_input {
+	height: 54px;
+	width: 712px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-style: italic;
+	font-size: 24px;
+	color: #c6d4df;
+	padding: 10px;
+	background-color: #324965;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 0 #45556c;
+	box-sizing: border-box;
+}
+
+#help_search_support_input .input {
+	color: #67c1f5;
+}
+
+#help_search_support_form {
+	margin-top: 5px;
+}
+
+::-webkit-input-placeholder {
+	font-style: italic;
+	text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	font-style: italic;
+	text-align: center;
+}
+
+:-ms-input-placeholder {
+	font-style: italic;
+	text-align: center;
+}
+
+.help_refund_request_area {
+	background-color: rgba(0, 0, 0, 0.2);
+	min-height: 200px;
+	margin-top: 30px;
+	max-width: 910px;
+	padding: 15px;
+}
+
+.refund_directions {
+
+}
+
+body.v6 .help_refund_request_area h1 {
+	font-size: 18px;
+	margin-bottom: 15px;
+	color: #67c1f5;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+body.v6 .help_refund_request_area h2 {
+	font-size: 12px;
+	margin-bottom: 15px;
+	color: #c6d4df;
+}
+
+body.v6 .help_refund_request_area h2 a {
+	color: #ffffff;
+}
+
+body.v6 .help_refund_request_area h2 a:hover {
+	color: #ffffff;
+}
+
+.refund_request_warnings
+{
+	color: #67c1f5;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.refund_result_message
+{
+	margin-top: 20px;
+	max-width: 604px;
+}
+
+.warning
+{
+	color: #a94847;
+}
+
+.help_refund_request_area h1.failed
+{
+	color: #a94847;
+}
+
+#refund_tell_why_text {
+	max-width: 800px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.refund_notes {
+	margin-bottom: 40px;
+}
+
+.refund_notes_left {
+	float: left;
+	width: 100px;
+	text-align: right;
+	margin-top: 2px;
+}
+
+.refund_notes_left > div
+{
+	line-height: 24px;
+	margin-right: 6px;
+	margin-top: 6px;
+}
+
+.refund_notes_right {
+	overflow: hidden;
+}
+
+.refund_notes_right > div {
+	margin: 6px 0 6px 0;
+}
+
+.refund_field {
+
+}
+
+.refund_sale_points_title {
+	margin-top: 10px;
+}
+
+.refund_item_image {
+	padding: 5px;
+}
+
+.refund_token_balance_name {
+	color: #67c1f5;
+	padding: 0 16px 14px;
+	max-width: 300px;
+}
+.refund_token_balance_amount {
+	color: #c6d4df;
+	vertical-align: top;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.refund_token_balance_hr {
+	height: 0px;
+	margin: 15px;
+	margin-top: 0px;
+	border-top: 1px solid #c6d4df;
+}
+
+.refund_item_header {
+	color: #c6d4df;
+}
+.refund_item_header.title {
+	padding: 0 16px 14px;
+	max-width: 300px;
+	text-align: left;
+}
+.refund_item_header.tokens {
+	vertical-align: top;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.refund_item_image img {
+	max-height: 32px;
+}
+
+.purchase_gift_message_box
+{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: rgb( 23, 27, 34 );
+	color: #82909a;
+	min-width: 300px;
+	max-width: 400px;
+}
+
+.purchase_gift_message_box div
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.purchase_rma_details_box
+{
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: rgb( 23, 27, 34 );
+	color: #82909a;
+	min-width: 300px;
+	max-width: 400px;
+}
+
+.purchase_rma_details_help_issue
+{
+	color: #67c1f5;
+}
+
+.purchase_totals .refund_value
+{
+	text-align: right;
+}
+
+.refund_value {
+	color: #67c1f5;
+}
+
+.refund_value_details {
+	color: #67c1f5;
+	text-align: left;
+}
+
+.promotion_details {
+	color: rgb( 255, 128, 0 ) !important;
+}
+
+.refund_info_box {
+	padding: 10px;
+	background-color: #1d2a3b;
+	margin-right: 9%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.refund_notes_box
+{
+	padding: 10px 10px 10px 0px;
+	margin-right: 9%;
+}
+
+@media screen and (max-width: 480px)
+{
+	html.responsive .refund_info_box,
+	html.responsive .refund_notes_box {
+		margin-right: 0;
+	}
+}
+
+.refund_info_box_section {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.refund_info_box_left {
+	width: 90px;
+	min-height: 1px;
+	text-align: right;
+	padding-right: 10px;
+	float: left;
+}
+
+.refund_info_box_left.multiple_options {
+	line-height: 24px;
+}
+
+.refund_info_box_right {
+	overflow: hidden;
+}
+
+.refund_note {
+	color: #9d9d9f;
+}
+
+/*.refund_bright {
+	color: #fdfdfd;
+}*/
+
+.info_box {
+	padding: 10px;
+	background-color: #1d2a3b;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.purchase_detail_field {
+	color: #67c1f5;
+	text-align: right;
+}
+
+.remove_app_field
+{
+	color: #67c1f5;
+	text-align: left;
+	float: left;
+
+	max-width: 400px;
+	padding: 0px 16px;
+	background: url('https://help.steampowered.com/public/images//icon_remove.png') no-repeat top left;
+}
+
+.view_in_store_link
+{
+	float: right;
+}
+
+.refund_game_name {
+	color: #67c1f5;
+	padding: 0 16px 14px;
+	max-width: 300px;
+	background: url('https://help.steampowered.com/public/images//icon_remove.png') no-repeat top left;
+}
+
+.refund_game_detail {
+	color: #c6d4df;
+	vertical-align: top;
+	padding-right: 20px;
+}
+
+.refund_game_line_item {
+	border-spacing: 0;
+}
+
+.refund_game_block {
+	margin-top: 10px;
+	border-spacing: 0;
+	background-color: #151f2d;
+	padding: 14px 10px 6px 10px;
+	border: solid 1px #324965;
+	width: 88%;
+}
+
+.remove_games_block {
+	margin-top: 10px;
+	border-spacing: 0;
+	background-color: #151f2d;
+	padding: 14px 10px 10px 10px;
+	border: solid 1px #324965;
+}
+
+
+#refund_text_input
+{
+	width: 100%;
+	font-size: 13px;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+#refund_selector_droplist .not_refundable
+{
+	text-decoration: line-through;
+}
+
+.help_app_header_divider {
+	background-color: #3b718d;
+	height: 1px;
+	max-width: 940px;
+	margin: 6px 0 2px 0;
+}
+
+.help_app_header {
+	background-color: rgba(0, 0, 0, 0.2);
+	max-width: 924px;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.help_app_header .subbox_left {
+	padding: 6px;
+	width: 592px;
+	max-width: calc( 66% - 12px );
+	float: left;
+}
+
+.help_app_header img {
+	float: left;
+	margin-right: 12px;
+	max-width: 40%;
+}
+
+.help_app_header .game_name {
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 28px;
+}
+
+.help_app_header .game_name a:hover {
+	color: #ffffff;
+}
+
+.help_app_header {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.account_details {
+    overflow: hidden;
+    margin-top: 10px;
+    float: right;
+    width: 33%;
+
+}
+
+.help_app_header .subbox {
+	float: left;
+	min-width: 130px;
+	margin-top: 8px;
+}
+
+.account_details > div {
+	margin-bottom: 4px;
+}
+
+.help_highlight_text {
+	color: #67c1f5;
+}
+
+.help_highlight_bans_text
+{
+	color: #a94847;
+}
+
+a .help_highlight_text:hover {
+	color: #ffffff;
+}
+
+.help_whitelight_text {
+	color: #ffffff;
+}
+
+.help_lowlight_text {
+	color: #b0b6c0;
+}
+
+div.help_official_support_row {
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+.help_official_box {
+	background: rgba(0, 0, 0, 0) linear-gradient(135deg, rgba(78, 145, 187, 0.3) 0%, rgba(226, 244, 255, 0.3) 100%) repeat scroll 0 0;
+	min-height: 88px;
+	max-width: 912px;
+	padding: 14px 14px 24px 14px;
+	margin-top: 6px;
+	margin-bottom: 14px;
+}
+
+.help_official_box .subbox {
+	float: left;
+	width: 33%;
+	margin-top: 10px;
+}
+
+.help_official_box .help_highlight_text {
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 36px;
+}
+
+.help_header_link a {
+	font-size: 12px;
+}
+
+.help_header_nolink {
+	font-size: 12px;
+	color: #b0b6c0;
+}
+
+.help_header_right {
+	float: right;
+	width: 33%;
+}
+
+.help_header_left {
+	float: left;
+	width: 66%;
+}
+
+@media screen and (max-width: 480px )
+{
+	html.responsive .help_app_header .subbox_left,
+	html.responsive .help_header_right {
+		float: none;
+		width: auto;
+		max-width: none;
+	}
+
+	html.responsive .help_app_header .account_details {
+		padding: 0 6px;
+	}
+
+	html.responsive .help_header_right {
+		margin: 0;
+		border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+		padding-bottom: 8px;
+		margin-bottom: 8px;
+	}
+}
+
+.help_text_block {
+	color: #8c96a0;
+	padding: 5px 0px 10px 0px;
+	line-height: 18px;
+}
+
+.help_game_header {
+	color: #67c1f5;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 18px;
+	font-weight: normal;
+}
+
+.help_game_header a {
+	font-size: 14px;
+	color: #3c739a;
+	float: right;
+}
+
+.help_game_header a:hover {
+	color: #ffffff;
+}
+
+.help_your_issue {
+	font-size: 14px;
+}
+
+.help_your_issue_start {
+	color: #8c96a0;
+	font-size: 14px;
+	margin-bottom: 16px;
+	padding-top: 10px;
+}
+
+.help_your_issue_start.steamworks {
+	border-bottom: 2px solid #67c1f5;
+	margin-bottom: 14px;
+	padding-bottom: 12px;
+}
+
+.help_game_guides_box {
+	background-color: rgba(0,0,0,0.2);
+	padding: 14px;
+	margin-bottom: 20px;
+}
+
+.help_game_guides_box .guide {
+	padding: 2px 2px 2px 2px;
+	/*background: rgba( 103, 193, 245, 0.1 );*/
+}
+
+a.guide_row {
+	display: block;
+	line-height: 32px;
+	padding: 2px;
+}
+
+.guide_row img {
+	float: left;
+	margin-right: 6px;
+}
+
+.guide_row .guide_views {
+	float: right;
+	margin-left: 20px;
+	padding-right: 4px;
+}
+
+.guide_row .guide_title {
+
+}
+
+.help_game_guides_box .guide .guide_title {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-left: 2px;
+}
+
+.help_game_guides_box .guide a {
+	color: #8c96a0;
+	display: block;
+}
+
+.help_game_guides_box .guide a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background: #67c1f5; /* Old browsers */
+	background: -moz-linear-gradient(-60deg,  #67c1f5 0%, #417a9b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#67c1f5), color-stop(100%,#417a9b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-60deg,  #67c1f5 0%,#417a9b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-60deg,  #67c1f5 0%,#417a9b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-60deg,  #67c1f5 0%,#417a9b 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #67c1f5 0%,#417a9b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67c1f5', endColorstr='#417a9b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.help_game_content_left {
+	width: 600px;
+	float: left;
+}
+
+.help_game_content_right {
+	float: right;
+	margin-right: 8px;
+	width: 320px;
+	min-height: 800px;
+}
+
+@media screen and (max-width: 910px)
+{
+	html.responsive .help_game_content_left,
+	html.responsive .help_game_content_right {
+		float: none;
+		width: auto;
+		min-height: 0;
+		clear: both;
+		margin: 0;
+	}
+
+	html.responsive .help_game_content_right .help_game_guides_box {
+		width: calc( 50% - 28px - 4px);
+		float: right;
+	}
+
+	html.responsive .help_game_content_right .help_game_guides_box:nth-child(2n + 1) {
+		clear: left;
+		float: left;
+		margin-right: 8px;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+
+	html.responsive .help_game_content_right .help_game_guides_box,
+	html.responsive .help_game_content_right .help_game_guides_box:nth-child(2n + 1) {
+		float: none;
+		clear: none;
+		width: auto;
+		margin-right: 0;
+	}
+
+	html.responsive .help_official_box .subbox {
+		width: 50%;
+	}
+}
+
+.help_game_refund_box {
+	background-color: #121a25;
+	padding: 14px;
+	color: #8c96a0;
+	line-height: 17px;
+	margin-bottom: 20px;
+}
+
+.help_game_request_refund_button {
+	padding: 6px 10px 6px 10px;
+	background-color: #264963;
+	color: #6abcf0;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.help_game_request_refund_button:hover {
+	color: #ffffff;
+}
+
+.help_purchases .help_purchase_button {
+	font-size: 14px;
+}
+
+.help_purchase_time {
+	float: left;
+	min-width: 60px;
+}
+
+.help_purchase_img {
+	float: left;
+}
+
+.help_purchase_img img {
+	float: left;
+	margin: 0 6px 0 0;
+}
+
+.help_purchase_right {
+	float: right;
+	text-align: right;
+}
+
+.help_purchase_detail_text {
+	color: #9cacba;
+}
+
+.help_purchase_price {
+	display: inline-block;
+	text-align: right;
+}
+
+.help_purchase_price.price_strikeout {
+	text-decoration: line-through;
+	color: #9cacba;
+}
+
+.lineitem_price_strikeout {
+	text-decoration: line-through;
+	color: #9cacba;
+}
+
+.help_purchase_qty {
+	color: #9cacba;
+	font-size: 14px;
+	float: right;
+	margin-right: 10px;
+}
+
+.help_purchase_detail_box {
+	background-color: #1c2837;
+	padding: 10px;
+	margin: 6px;
+	line-height: 20px;
+	color: #82909a;
+}
+
+.help_purchase_detail_box .purchase_line_items {
+	margin-top: 10px;
+}
+
+.help_purchase_detail_box .purchase_totals {
+	margin-top: 10px;
+}
+
+.help_purchase_detail_box.help_purchase_package {
+	margin: 30px 0px;
+}
+
+.help_itempurchase_detail_box {
+	background-color: #1c2837;
+	padding: 20px 8px 8px;
+	line-height: 20px;
+	color: #82909a;
+	max-width: 924px;
+	min-height: 150px;
+}
+
+.help_purchase_content {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.help_purchase_content img {
+	vertical-align: middle;
+}
+
+.help_purchase_failure_note {
+	color: #67c1f5;
+}
+
+.help_purchase_failure_box {
+	background: rgba(0, 0, 0, 0) linear-gradient(135deg, rgba(78, 145, 187, 0.3) 0%, rgba(52, 67, 93, 0.3) 100%) repeat scroll 0 0;
+	padding: 14px 14px 24px 14px;
+	margin-top: 6px;
+	margin-bottom: 14px;
+	color: white;
+	line-height:18px;
+}
+
+.help_purchase_failure_box > p {
+	margin-top: 10px;
+}
+
+.help_purchase_package.price_strikeout .refund_value,
+.help_microtxn_info.price_strikeout .refund_value
+{
+	text-decoration: line-through;
+	color: #9cacba;
+}
+
+.help_purchase_package.price_strikeout .refund_value span,
+.help_microtxn_info.price_strikeout .refund_value span
+{
+	color: #67c1f5;
+}
+
+.help_microtxn_info{
+	min-height: 150px;
+}
+
+.help_microtxn_info .warning
+{
+	color: #a94847;
+	margin-bottom: 1em;
+}
+
+.help_purchase_money {
+	text-align: right;
+	padding: 0px 8px 0px 8px;
+}
+
+.help_issue_details,
+.help_notinlibrary_details,
+.help_missingrefund_details,
+.help_cannot_launch_game_details,
+.help_cannot_install_game_details,
+.help_before_contacting_steam_support_details
+{
+	background-color: rgba( 0, 0, 0, 0.2 );
+	padding: 20px;
+	max-width: 712px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.help_issue_delete
+{
+	background-color: rgba( 0, 0, 0, 0.2 );
+	padding: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.help_issue_delete_header
+{
+	margin-bottom:20px;
+	max-width: 680px;
+}
+
+.help_issue_column
+{
+	float:left;
+	width: 40%;
+	margin-right: 50px;
+	padding:10px;
+}
+
+.help_delete_how
+{
+	font-size: 16px;
+	color: white;
+	margin-bottom: 12px;
+}
+
+.help_delete_step
+{
+	padding-bottom: 20px;
+}
+
+.help_delete_step_text
+{
+	color: #c6d4df;
+}
+
+.help_delete_important
+{
+	color: #ef5e30;
+}
+
+.help_issue_details .HighlightedText {
+	color: white;
+}
+
+.help_issue_details p,
+.help_notinlibrary_details p,
+.help_missingrefund_details p
+{
+	margin-top: 20px;
+	line-height: 16px;
+}
+
+.help_issue_details p:first-child,
+.help_notinlibrary_details p:first-child,
+.help_missingrefund_details p:first-child
+{
+	margin-top: 0px;
+}
+
+
+.help_issue_details.help_section_body.steam_feature {
+	max-width: 940px;
+}
+
+.help_issue_details.help_section_body.steam_saleevent {
+	max-width: 712px;
+}
+
+.help_missingrefund_details b
+{
+	font-weight: normal;
+	color: white;
+}
+
+.help_issue_details .bold
+{
+	color: #67c5f1;
+	font-weight: 500;
+}
+
+.help_issue_details.no_start_issue{
+	background-color: rgba( 0, 0, 0, 0.2 );
+	padding: 20px;
+	max-width: 712px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+.help_issue_details .info_box
+{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.help_footer_information
+{
+    padding: 20px;
+    width: calc( 644px - 40px );
+    margin-bottom: 20px;
+}
+
+
+
+.help_vacorgameban_account {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: white;
+	background-color: #243040;
+	line-height: 16px;
+}
+
+.help_vacorgameban_accountheader {
+	color: #5eafde;
+	margin-bottom: 4px;
+}
+
+.microtxn_purchase_date {
+	margin-left: 10px;
+}
+
+.purchase_line_items {
+	line-height: 20px;
+}
+
+.purchase_totals {
+	color: #82909a;
+	line-height: 14px;
+}
+
+.purchase_totals .line_break
+{
+	border-top: 1px solid #8faec7;
+	padding-top: 3px;
+}
+
+.purchase_totals td {
+	padding-right: 8px;
+}
+
+.purchase_total_header {
+	text-align: right;
+}
+
+.help_search_result {
+	display: block;
+	padding: 10px;
+}
+
+.help_search_result:hover {
+	background-color: #264963;
+}
+
+.help_search_result:hover h2 {
+	color: white;
+}
+
+.help_search_results_apps {
+	margin-top: 20px;
+}
+
+.help_search_results_faqs {
+	margin-top: 20px;
+	max-width: 680px;
+}
+
+.help_faq_text {
+	color: #949494;
+}
+
+
+/*******************************************/
+/* Help with login info
+/*******************************************/
+#forgot_login_search, #forgot_login_code, #verify_cdkey {
+	color: #ffffff;
+	background-color: #324965;
+	border-top: solid 1px #182636;
+	border-left: solid 1px #182636;
+	border-right: solid 1px #45566a;
+	border-bottom: solid 1px #45566a;
+	padding: 8px;
+	margin-top: 8px;
+	width: 300px;
+}
+
+.account_recovery_box {
+	display: table;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	padding: 10px 20px 20px 20px;
+	margin-top: 30px;
+	min-width: 500px;
+
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.account_recovery_loggedin p {
+
+}
+
+@media screen and (max-width: 910px)
+{
+	html.responsive .account_recovery_box {
+		min-width: 0;
+		display: block; /* why table?*/
+	}
+
+	html.responsive #forgot_login_search,
+	html.responsive #forgot_login_code {
+		max-width: calc( 100% - 16px );
+	}
+}
+
+.account_recovery_box .help_page_title {
+	margin: 0px;
+}
+
+.account_recovery_instructions {
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.account_recovery_submit {
+	margin-top: 26px;
+}
+
+.account_recovery_submit .throbber {
+	padding-left: 14px;
+	margin-top: 0px;
+}
+
+.account_recovery_submit input[type=submit],
+.account_recovery_submit .help_site_button
+{
+	margin-top: 0px;
+}
+
+.loading .account_recovery_submit input[type=submit],
+.loading .account_recovery_submit .help_site_button
+{
+	display: none;
+}
+
+#verify_code_error_msg, #changepw_error_msg, #search_error_msg, #form_submit_error {
+	color: #ffffff;
+	border: 1px solid #810000;
+	background-color: #500000;
+	margin: 30px 8px 8px 0px;
+	padding: 8px;
+	display: inline-block;
+}
+
+#form_submit_search_error {
+	color: #ffffff;
+	border: 1px solid #3e75a3;
+	background-color: #24445f;
+	margin: 30px 8px 8px 0px;
+	padding: 16px;
+	display: inline-block;
+	min-width: 90%;
+}
+
+#form_submit_search_error a {
+	color: #66c0f4;
+}
+
+#form_submit_search_error a:hover {
+	color: #ffffff;
+}
+
+#form_submit_search_error div {
+	padding: 0 0 0px 0;
+}
+
+#search_error_title {
+	font-size: 16px;
+}
+
+#search_error_contact_support {
+	margin-top: 25px;
+}
+
+.search_error_left {
+	float: left;
+}
+
+.search_error_right {
+	float: right;
+}
+
+.search_error_know_account {
+	margin-top: 0px;
+}
+
+.search_error_know_account a {
+	margin-top: 8px;
+}
+
+.search_error_tip_prefix {
+	color: #66c0f4;
+}
+
+.search_error_tip_container {
+	margin-top: 20px;
+}
+
+.search_error_hr {
+	margin: 20px auto 20px auto;
+	width: 95%;
+	border-bottom: 3px solid rgba( 0, 0, 0, 0.2 );
+}
+
+#recovery_code_resent {
+	color: #ffffff;
+	border: 1px solid #00adee;
+	background-color: #003f57;
+	margin: 30px 8px 8px 0px;
+	padding: 8px;
+	display: inline-block;
+}
+
+.code_trouble_header
+{
+	margin-top: 40px;
+}
+
+.account_select_headers
+{
+	margin-top: 16px;
+}
+
+.account_select_headers > div,
+.account_select_row > div
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.account_select_row > div
+{
+	height: 42px;
+	background-color: rgba( 0, 0, 0, 0.2 );
+}
+
+.account_login_column
+{
+	padding-left: 6px;
+}
+
+.account_profile_column
+{
+	width: 300px;
+}
+
+.account_login_column
+{
+	width: 220px;
+}
+
+.account_select_row .account_reset_column
+{
+	background-color: transparent;
+	padding-left: 8px;
+	width: 80px;
+}
+
+.account_select_row .account_reset_column .help_site_button
+{
+	font-size: 14px;
+	padding: 8px 34px;
+}
+
+.account_select_row
+{
+	margin-top: 6px;
+}
+
+.account_select_first_button {
+	margin-top: 40px;
+}
+
+.player_avatar,
+.player_name
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.player_avatar
+{
+	padding: 2px 6px 0px 2px;
+}
+
+.accountname_area
+{
+	margin-top: 20px;
+	padding: 8px 12px;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	position: relative;
+	max-width: 576px;
+}
+
+.pwreset_left_column
+{
+	float: left;
+	width: 52%;
+}
+
+.pwreset_right_column
+{
+	overflow: hidden;
+	width: 46%;
+}
+
+@media screen and (max-width: 480px)
+{
+	html.responsive .pwreset_left_column,
+	html.responsive .pwreset_right_column {
+		float: none;
+		width: auto;
+		max-width: none;
+	}
+}
+
+.pwreset_right_column .player_avatar, .pwreset_right_column .player_name
+{
+	height: 42px;
+}
+
+.pwreset_account_name
+{
+	font-size: 20px;
+	line-height: 42px;
+}
+
+.password_area
+{
+	margin-top: 20px;
+}
+
+.password_fields
+{
+}
+
+.password_field
+{
+	margin-bottom: 10px;
+}
+
+.password_fields input
+{
+	margin-top: 2px;
+}
+
+#password_reset, #password_reset_confirm, #password_twofactor, #twofactor_password, #twofactor_resetcode, #twofactor_smscode, #email_change_code, #email_reset
+{
+	color: #ffffff;
+	background-color: #324965;
+	border-top: solid 1px #182636;
+	border-left: solid 1px #182636;
+	border-right: solid 1px #45566a;
+	border-bottom: solid 1px #45566a;
+	padding: 4px;
+	width: 300px;
+	margin-top: 2px;
+	max-width: calc( 100% - 8px );
+}
+
+#twofactor_username
+{
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	color: #C6D4DF;
+}
+
+#password_twofactor, #twofactor_resetcode
+{
+	width: 50px;
+}
+
+#twofactor_smscode
+{
+	width: 50px;
+	margin-right: 20px;
+}
+
+.password_tag {
+	opacity: 0.0;
+	background-color: #a0382b;
+	color: white;
+	padding: 8px;
+	border-radius: 4px;
+	margin-left: 6px;
+	max-width: 500px;
+
+	display: inline-block;
+	position: relative;
+	transition-property: opacity;
+	transition-timing-function: ease-out;
+	transition-duration: 0.3s;
+	-webkit-transition-property: opacity;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 0.3s;
+}
+
+.password_tag:before {
+	display: inline-block;
+	content: "";
+	position: absolute;
+	right: 100%;
+	top: 5px;
+	width: 0px;
+	height: 0px;
+	border-top: 10px solid transparent;
+	border-right: 11px solid #a0382b;
+	border-bottom: 10px solid transparent;
+}
+
+.password_tag.visible {
+	opacity: 1.0;
+}
+
+.password_tag.error {
+	background-color: #a0382b;
+}
+
+.password_tag.error:before {
+	border-right: 11px solid #a0382b;
+}
+
+.password_tag.warning {
+	background-color: #b78124;
+}
+
+.password_tag.warning:before {
+	border-right: 11px solid #b78124;
+}
+
+.reset_complete_email {
+	font-size: 20px;
+}
+
+.reset_complete_email_box {
+	margin: 40px 0 0 0;
+}
+
+.reset_twofactor_area
+{
+	margin-top: 20px;
+	width: 600px;
+}
+
+.reset_twofactor_instr
+{
+	margin-bottom: 20px;
+}
+
+.reset_twofactor_field
+{
+	margin-top: 20px;
+}
+
+#reset_twofactor_resend
+{
+	margin-top: 4px;
+}
+
+.start_hidden
+{
+	display: none;
+}
+
+.loading #twofactor_smscode, .loading #reset_twofactor_resend
+{
+	display: none;
+}
+
+.help_section_small_header {
+	margin-top: 16px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #5eafde;
+}
+
+.help_section_small_header_lowercase {
+	margin-top: 12px;
+	font-size:14px;
+	color: #5eafde;
+}
+
+.help_email_accent {
+	font-weight: bold;
+}
+
+.help_section_smallbody_header {
+	margin-top: 16px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.help_section_medium_header {
+	padding-bottom: 16px;
+	font-size: 16px;
+	color: #5eafde;
+}
+
+.help_section_medium_header_no_padding {
+	font-size: 16px;
+	color: #5eafde;
+}
+
+.help_section_mediumsteps_header {
+	margin-top: 16px;
+	font-size: 16px;
+	color: #5eafde;
+}
+
+
+.help_subsection_header {
+	font-size: 13px;
+	color: #c6d4df;
+}
+
+.help_section_mediumwhite_header {
+	padding-bottom: 16px;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+
+.help_section_content {
+	max-width: 712px;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: table;
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 10px 20px 30px 20px;
+}
+
+.help_section_content img {
+	max-width: 100%;
+}
+
+.help_section_body p {
+	margin-bottom: 8px;
+	line-height: 16px;
+}
+
+.help_section_body ol {
+	margin-left: 20px;
+}
+
+.help_section_body ul {
+	margin-left: 20px;
+}
+
+.help_section_body li {
+	margin-bottom: 4px;
+	line-height: 20px;
+}
+
+.help_section_body_small {
+	max-width: 712px;
+}
+
+.help_step_container {
+	position: relative;
+	overflow: hidden;
+}
+
+.help_step_section {
+	max-width: 712px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-height: 1000px;
+	transition: max-height .25s;
+}
+
+.help_step_section .help_section_body
+{
+	padding-top: 10px;
+}
+
+.help_step_section.help_section_hidden {
+	max-height: 0;
+	transition: max-height .25s;
+	overflow: hidden;
+}
+
+.help_section_alert {
+	max-width: 710px;
+	border: 2px solid #95423a;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: table;
+	font-size: 12px;
+	margin: 10px 0;
+	padding: 10px 20px 10px 20px;
+}
+
+.help_section_alert .title {
+	color: #5eafde;
+	margin-bottom: 8px;
+	font-size: 18px;
+}
+
+.help_section_alert .body {
+	margin-bottom: 8px;
+	line-height: 16px;
+}
+
+.captcha_section {
+	margin-top: 20px;
+}
+
+.captcha_section #captchaRefresh {
+	height: 40px;
+	line-height: 40px;
+	margin-left: 220px;
+}
+
+.captcha_section #input_captcha {
+	color: #ffffff;
+	background-color: #324965;
+	border-top: solid 1px #182636;
+	border-left: solid 1px #182636;
+	border-right: solid 1px #45566a;
+	border-bottom: solid 1px #45566a;
+	padding: 4px;
+	width: 100px;
+	margin-top: 4px;
+}
+
+/* store category_icon class */
+img.category_icon {
+	width: 26px;
+	height: 16px;
+	vertical-align: top;
+}
+
+.help_tooltip {
+	 background: #1c2837;
+	 color: #82909a;
+	 font-size: 11px;
+	 border-radius: 3px;
+	 padding: 5px;
+	 max-width: 225px;
+	 white-space: normal;
+	 box-shadow: 0 0 3px #000000;
+	 word-wrap: break-word;
+}
+
+.quicktext_usage .help_tooltip
+{
+	max-width: 600px;
+}
+
+.LoadingWrapper
+{
+	position: relative;
+	margin: auto auto;
+	vertical-align: middle;
+}
+
+.LoadingThrobber
+{
+	margin: 0px auto 0px auto;
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+}
+
+@keyframes loading_throbber_bar
+{
+	0%
+	{
+		transform: scaleX( 1.0 ) scaleY( 0.6 );
+		background-color: #67c1f5;
+	}
+
+	30%
+	{
+		transform: scaleX( 1.0 ) scaleY( 1.0 );
+		background-color: #67c1f5;
+	}
+
+	55%
+	{
+		transform: scaleX( 1.0 ) scaleY( 0.6 );
+		background-color: #67c1f5;
+	}
+
+	100%
+	{
+		transform: scaleX( 1.0 ) scaleY( 0.6 );
+		background-color: #67c1f5;
+	}
+}
+
+
+.LoadingThrobber .Bar
+{
+	margin-top: 3px;
+	-webkit-animation: test 2s infinite;
+	float: left;
+	margin-right: 4px;
+	width: 9px;
+	height: 36px;
+	background-color: #67c1f5;
+
+	animation: loading_throbber_bar 1s ease-in-out infinite;
+	-webkit-animation: loading_throbber_bar 1s ease-in-out infinite;
+}
+
+.LoadingThrobber .Bar1
+{
+}
+
+.LoadingThrobber .Bar2
+{
+	animation-delay: 0.16s;
+	-webkit-animation-delay: 0.16s;
+}
+
+.LoadingThrobber .Bar3
+{
+	animation-delay: 0.32s;
+	-webkit-animation-delay: 0.32s;
+}
+
+.throbber
+{
+	width: 35px;
+	height: 40px;
+	display: none;
+}
+
+.loading .throbber
+{
+	display: block;
+}
+
+.throbber > div
+{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background-color: #67c1f5;
+}
+
+.loading .throbber > div
+{
+	animation: loading_throbber_bar 1s ease-in-out infinite;
+}
+
+.throbber > div:nth-child(1)
+{
+	transform: scaleX( 1.0 ) scaleY( 0.6 );
+}
+
+.throbber > div:nth-child(2)
+{
+	margin-left: 12%;
+	transform: scaleX( 1.0 ) scaleY( 0.6 );
+	animation-delay: 0.16s;
+}
+
+.throbber > div:nth-child(3)
+{
+	margin-left: 12%;
+	transform: scaleX( 1.0 ) scaleY( 0.6 );
+	animation-delay: 0.32s;
+}
+
+
+.help_dialog_text {
+	max-width: 540px;
+}
+
+@media screen and (max-width: 910px)
+{
+	html.responsive body.v6 .page_content {
+		width: auto;
+		padding: 0 2%;
+		max-width: 950px;
+	}
+	html.responsive #help_search_support_input {
+		max-width: 712px;
+		width: 100%;
+	}
+}
+
+.lock_code_section
+{
+	margin-top: 20px;
+	width: auto;
+	background-color: rgba( 169, 72, 71, 0.5 );
+	padding: 20px;
+	min-width: 240px;
+}
+
+.code_text
+{
+	float: left;
+	color: #ffffff;
+	font-size: 38px;
+	padding-right: 18px;
+}
+
+.code_explanation
+{
+	color: #ffffff;
+	line-height: 18px;
+}
+
+.code_explanation .title
+{
+	padding-top: 3px;
+	font-family: Arial, Sans-Serif;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+.code_explanation .more
+{
+	padding-top: 4px;
+}
+
+@media screen and (max-width: 640px)
+{
+	.code_explanation
+	{
+		clear: both;
+	}
+
+	.code_explanation .title, .code_explanation .more
+	{
+		padding-top: 10px;
+	}
+}
+
+.lock_button_row
+{
+	margin-top: 10px;
+}
+
+.lock_button_row .lock_button
+{
+	min-width: 170px;
+	background: #212c3d;
+	height: 70px;
+	float: left;
+	width: calc( (100% - 40px)/3 - 74px );
+	margin: 10px;
+
+	color: #67c1f5;
+	font-size: 14px;
+
+	padding-left: 60px;
+	padding-right: 10px;
+
+	display: table;
+	border: 2px solid transparent;
+	border-radius: 2px;
+}
+
+.lock_button_row .lock_button:hover
+{
+	background-color: #2f3f57;
+}
+
+.lock_button span
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.lock_button.ico_print
+{
+	background-image: url('https://help.steampowered.com/public/images//icon_print.png');
+	background-position: 14px 20px;
+	background-repeat: no-repeat;
+}
+
+.lock_button.ico_bookmark
+{
+	background-image: url('https://help.steampowered.com/public/images//icon_bookmark.png');
+	background-position: 14px 20px;
+	background-repeat: no-repeat;
+}
+
+.lock_button.ico_nothing
+{
+	background-image: url('https://help.steampowered.com/public/images//icon_writedown.png');
+	background-position: 14px 20px;
+	background-repeat: no-repeat;
+}
+
+.lock_button_row .lock_button:nth-child( 1 )
+{
+	margin-left: 0px;
+}
+
+.lock_button_row .lock_button:nth-last-child( 2 )
+{
+	margin-right: 0px;
+}
+
+.lock_button_row .lock_button.selected
+{
+	border: 2px solid #67c1f5;
+	border-radius: 2px;
+}
+
+.ways_to_save
+{
+	margin-top: 10px;
+}
+
+.self_lock_header
+{
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.self_lock_button
+{
+	padding: 14px 16px;
+	background: #D87; /* Old browsers */
+	background: -moz-linear-gradient( 180deg, #D2E885 0%, #a4d007 8%, #aaceff 100% ); /* FF3.6+ */
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #D2E885), color-stop( 8%, #a4d007 ), color-stop( 100%, #536904 ) ); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(180deg, #D2E885 0%, #a4d007 8%, #536904 100% ); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(180deg, #D2E885 0%, #a4d007 8%, #536904 100% ); /* Opera 11.10+ */
+	background: -ms-linear-gradient(180deg, #D2E885 0%, #a4d007 8%, #536904 100% ); /* IE10+ */
+	background: linear-gradient(180deg, #D2E885 0%, #a4d007 8%, #536904 100% ); /* W3C */
+
+	border-radius: 3px;
+	display: inline-block;
+
+	color: #eEeFeF;
+	font-size: 14px;
+}
+
+.self_lock_row
+{
+	margin-top: 14px;
+}
+
+.self_lock_button:hover, a.self_lock_button:hover {
+	color: #eEeFeF;
+}
+
+.self_lock_button.disabled
+{
+	opacity: 0.4;
+}
+
+.self_lock_button
+{
+	opacity: 1.0;
+}
+
+#SaveURLPopup input
+{
+	top: 0px;
+	padding: 5px;
+	min-width: 800px;
+	background-color: #272626;
+	border: 1px solid #000000;
+	color: #8f8f8f;
+}
+
+#SaveURLPopup p
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+@media screen and (max-width: 910px)
+{
+	.lock_button_row .lock_button
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+		clear: both;
+		width: calc( 100% - 70px );
+	}
+}
+
+@media print
+{
+	#unauthorized_login
+	{
+		clear: both;
+	}
+
+	body.v6
+	{
+		background: none;
+		min-height: auto;
+	}
+
+	#global_header
+	{
+		visibility: collapse;
+		display: none;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.v6_responsive_page, .v6_responsive_page div
+	{
+		background-color: transparent;
+	}
+
+	.responsive_page_content_overlay, .responsive_local_menu_tab, .responsive_page_menu_ctn
+	{
+		visibility: collapse;
+		display: none;
+	}
+
+	#page_content
+	{
+		margin: 10px 10px;
+	}
+
+	#error_contents, .error_bg
+	{
+		display: none;
+		visibility: collapse;
+	}
+
+	.perf_timing_area, #wizard_perf_data
+	{
+		visibility: collapse;
+		display: none;
+	}
+
+	.login_help_links_box
+	{
+		max-width: none;
+		background-color: transparent;
+	}
+
+	.lock_button_row, #submit_lock_form, .self_lock_row
+	{
+		visibility: collapse;
+		display: none;
+	}
+
+	.lock_code_section
+	{
+		background: transparent;
+	}
+
+	.help_header
+	{
+		color: #000000;
+	}
+
+	.help_page_title
+	{
+		color: #000000;
+	}
+
+	#wizard_contents .title, #wizard_contents .help_section_body
+	{
+		color: #333333;
+	}
+
+	.lock_code_section div
+	{
+		color: #222222;
+	}
+}
+
+.unlockcode_entry_box {
+	height: 70px;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+input.authcode_entry_input, input.twofactorauthcode_entry_input {
+	border: none;
+	background-color: transparent;
+	margin-left: 8px;
+	margin-top: 2px;
+	color: #cdcac1;
+	outline: none;
+	width: 220px;
+}
+
+
+input.unlockcode_entry_input.defaulttext {
+	font-style: normal;
+	color: #ffffff;
+}
+
+input.unlockcode_entry_input
+{
+	font-size: 28px;
+	line-height: 38px;
+	height: 62px;
+	font-style: normal;
+	margin: 0px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+	outline: none;
+	padding: 4px 10px;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 0 #45556c;
+
+	background-color: #101925;
+}
+
+.unlockcode_entry_box
+{
+	float: left;
+}
+
+.paypay_result_box
+{
+    margin: 16px 16px 16px 16px;
+}
+
+.hardware_support_serial_section {
+	color: #c6d4df;
+}
+
+#hardware_serial_entry {
+	width: 400px;
+	font-style: normal;
+	margin: 10px 0 10px 0;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+	outline: none;
+	padding: 4px 6px;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 0 #45556c;
+
+	background-color: #101925;
+}
+
+.hardware_serial_divider {
+	background-color: #8f9eb1;
+	height: 1px;
+	width: auto;
+	margin: 6px 180px 22px 0px;
+}
+
+.shipping_form_left
+{
+	clear: left;
+	float: left;
+	text-align: left;
+}
+
+.shipping_form_right
+{
+	clear: right;
+	float: left;
+	text-align: left;
+	width: 292px;
+	margin-left: 76px;
+}
+
+.shipping_form_right label, .shipping_form_left label
+{
+	display: block;
+	text-align: left;
+	margin-bottom: 2px;
+	font-size: 12px;
+}
+
+#shipping_info_entry label {
+	margin-top: 8px;
+}
+
+#shipping_info_entry input {
+	font-size: 13px;
+	line-height: 18px;
+	padding: 2px 4px;
+	margin: 0px 0 4px 0;
+	color: #ffffff;
+	width: 260px;
+	color: #ffffff;
+	background-color: #324965;
+	border-top: solid 1px #182636;
+	border-left: solid 1px #182636;
+	border-right: solid 1px #45566a;
+	border-bottom: solid 1px #45566a;
+}
+
+#shipping_info_entry .dselect_container {
+	margin: 0px 0 18px 0;
+	width: 270px;
+}
+
+#shipping_error_display {
+	color: #ff9999;
+}
+
+.shipping_info_address_display_row {
+	font-size: 16px;
+}
+
+.shipping_info_address_display_row .form_row {
+	font-size: 16px;
+	margin: 4px 0 4px 0;
+}
+
+#shipping_info_confirm {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.shipping_change_address_button {
+	padding: 6px 16px 6px 16px;
+	margin: 2px 0 16px 0;
+}
+
+.shipping_change_address_button > span {
+	padding: 0;
+	margin: 0;
+}
+
+.change_password_intro {
+}
+
+.change_password_content {
+	padding: 20px;
+}
+
+.change_password_form {
+	margin-top: 20px;
+}
+
+.change_password_form > .left {
+	min-width: 80px;
+	margin-right: 10px;
+	float: left;
+}
+
+.change_password_form > .right {
+	min-width: 100px;
+	font-weight: bold;
+}
+
+.change_password_form > .left > div, .change_password_form > .right > div {
+	min-height: 36px;
+	line-height: 28px;
+}
+
+.change_password_form > .left > div {
+	text-align: right;
+}
+
+
+.change_password_form input, #change_password_code input {
+	font-size: 16px;
+	padding: 4px;
+	color: #ffffff;
+	min-width: 200px;
+	background-color: #000010;
+	border-top: solid 1px #182636;
+	border-left: solid 1px #182636;
+	border-right: solid 1px #45566a;
+	border-bottom: solid 1px #45566a;
+}
+
+.change_password_button {
+	display: inline-block;
+	padding: 6px 10px 6px 10px;
+	background-color: #264963;
+	color: #6abcf0;
+	cursor: pointer;
+	border: none;
+	margin-right: 20px;
+}
+
+.change_password_button:hover {
+	color: #ffffff;
+}
+
+#change_password_request_button {
+	padding: 0 20px 20px 20px;
+}
+
+#change_password_submit_button {
+	padding: 0 20px 20px 20px;
+	margin-top: 10px;
+}
+
+#change_password_code_input {
+	margin: 10px 0 0 140px;
+}
+
+#change_password_error {
+	color: #a94847;
+	font-size: 14px;
+}
+
+.help_home_error_events {
+	max-width: 712px;
+	margin-bottom: 20px;
+}
+
+.help_event_limiteduser {
+	border: 1px solid #e4ba00;
+	padding: 8px;
+	max-width: 720px;
+	margin: 15px 0;
+}
+
+.limited_user_list {
+	margin: 16px;
+}
+
+.help_event_limiteduser_spend {
+	margin-top: 20px;
+}
+
+.help_event_limiteduser_spend span {
+	color: #c6d4df;
+}
+
+.help_event_limiteduser_link {
+	display: block;
+	margin: 10px 0 10px 40px;
+}
+
+.help_event_description {
+	margin: 10px 0 20px 0;
+}
+
+.help_limiteduser_spend_ctn {
+	background-color: #324965;
+	height: 10px;
+	border-radius: 5px;
+	margin: 7px 0;
+
+	overflow: hidden;
+
+	box-shadow: inset 1px 1px 3px #353535;
+}
+
+.help_limiteduser_spend_progress_bar {
+	border: 1px solid #000000;
+	border-radius: 4px;
+	height: 8px;
+	background: -webkit-linear-gradient( top, #6a7787 5%, #182636 95%);
+	background: linear-gradient( to bottom, #6a7787 5%, #182636 95%);
+}
+
+.help_login_nag {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	max-width: 684px;
+	background: rgba( 0, 0, 0, 0.2 );
+	padding: 14px;
+}
+
+.help_login_nag_intro {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.help_login_nag_buttons{
+	margin: auto;
+	text-align: center;
+}
+
+.help_login_nag_left {
+	min-width: 40%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.help_login_nag a.btn_medium > span {
+	min-width: 200px;
+	text-align: center;
+}
+
+.help_login_nag_right {
+	min-width: 40%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.btn_login_nag_left.btnv6_blue_hoverfade {
+	background: #67c1f5;
+	color: #ffffff !important;	/* buttons.css uses !important, so the war has begun */
+}
+
+.btn_login_nag_right.btnv6_blue_hoverfade {
+	background: #2d3d50;
+	color: #ffffff !important;	/* buttons.css uses !important, so the war has begun */
+}
+
+.create_help_request_form {
+	display: none;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.show_create_help_request_form .create_help_request_form {
+	display: block;
+	opacity: 1.0;
+	margin-top: 20px;
+}
+
+.help_hide_for_create_request {
+	transition: visibility 0.5s, opacity 0.5s;
+}
+
+.show_create_help_request_form .help_hide_for_create_request {
+	visibility: hidden;
+	position: absolute;
+	opacity: 0;
+}
+
+.create_help_request_form {
+	background: #111a25;
+	padding: 20px;
+	max-width: 672px;
+}
+
+.create_help_request_instructions {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.create_help_request_instructions ul {
+	padding: 8px 0px 0px 40px;
+}
+
+.create_help_request_secondary {
+	font-size: 14px;
+	color: #67c1f5;
+	line-height: 16px;
+	margin-bottom: 16px;
+}
+
+.create_help_request_avatar_ctn {
+	float: left;
+	padding-right: 8px;
+}
+
+.help_request_textarea_ctn {
+	overflow: hidden;
+}
+
+.help_request_textarea_ctn textarea {
+	padding: 8px;
+	width: calc( 100% - 2px - 16px );
+	min-height: 80px;
+	height: 25vh;
+	resize: none;
+	font-size: 16px;
+}
+
+.help_request_textarea_ctn textarea.short {
+	padding: 8px;
+	width: calc( 100% - 2px - 16px );
+	min-height: 40px;
+	height: 10vh;
+	resize: none;
+	font-size: 16px;
+}
+
+
+
+.help_request_create_action {
+	padding-top: 8px;
+	text-align: right;
+}
+
+
+.help_request_table {
+	background: #1b2735;
+	margin-top: 20px;
+}
+
+.help_request_header {
+	background: #1d2836;
+	padding: 10px 10px 4px 10px;
+}
+
+.help_request_header > .title {
+	margin-bottom: 6px;
+}
+
+.help_request_headers .col {
+	color: #515d6a;
+	font-size: 11px;
+}
+
+.help_request_columns .col {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	padding: 0 4px;
+}
+
+.help_request_headers .col.message,
+.help_request_columns .col.message {
+	padding-left: 0px;
+}
+
+.help_request_columns .col:not(.message) {
+	float: right;
+	width: 15%;
+}
+
+a.help_request_row {
+	line-height: 16px;
+	display: block;
+	text-decoration: none;
+	padding: 10px 10px;
+
+	font-size: 13px;
+	color: #9eb3cc;
+}
+
+.help_request_name {
+	color: #ffffff;
+}
+
+.help_request_row .col.title {
+	color: #e3ebf4;
+}
+
+.help_request_header, .help_request_row {
+	border-bottom: 1px solid #25313f;
+}
+
+a.help_request_row.closed {
+	background: #121f30;
+}
+
+a.help_request_row.closed, a.help_request_row.closed .help_request_name {
+	color: #718192;
+}
+
+.help_request_state_msg {
+	font-size: 13px;
+	color: #515d6a;
+	margin-bottom: 8px;
+	white-space: normal;
+}
+
+.help_request_state_msg b {
+	font-size: 15px;
+	color: #8fca1d;
+	font-weight: normal;
+}
+
+.help_request_header_left {
+	display: inline-block;;
+}
+
+.help_request_header_info {
+	float: right;
+}
+
+.help_request_header_row {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	line-height: 20px;
+
+	color: #7c8da1;
+}
+
+.help_request_header_row b {
+	font-weight: normal;
+	color: #9eb3cc;
+}
+
+@media screen and ( max-width: 600px )
+{
+	.help_request_columns .col.date_created {
+		display: none;
+	}
+
+	.help_request_columns .col.status {
+		width: 20%;
+	}
+
+	html.responsive .help_request_header_left,
+	html.responsive .help_request_header_info {
+		display: block;
+		float: none;
+		margin-bottom: 12px;
+	}
+
+}
+
+.help_request_recent_submit {
+	padding: 10px;
+	margin: 50px 0px 8px 0px;
+	border: 1px solid #67c1f5;
+	background-color: #2e6484;
+	color: white;
+	line-height:18px;
+}
+
+.help_request_recent_submit b {
+	font-weight: 500;
+}
+
+.help_request_page {
+	font-size: 13px;
+	max-width: 950px;
+	background: url( 'https://help.steampowered.com/public/images/helprequests/footer_gradient.png' ) bottom center no-repeat;
+	padding-bottom: 48px;
+}
+
+.help_request_icon {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-right: 12px;
+}
+
+.help_request_title_container {
+	margin-top: 32px;
+	margin-bottom: 12px;
+}
+
+.help_request_title {
+	font-size: 14px;
+	color: #67c1f5;
+	line-height: 20px;
+}
+
+.help_request_area {
+	font-size: 12px;
+	color: #9eb3cc;
+	line-height: 20px;
+}
+
+.help_request_message {
+	background: #131d28;
+	color: #8193a7;
+	margin-bottom: 16px;
+}
+
+.help_request_message.new {
+	transition: background 0.5s, color 0.5s;
+	background: #253040;
+	color: #9eb3cc;
+}
+
+.help_request_message .help_request_text {
+	padding: 14px 30px 30px 60px;
+}
+
+.help_request_author_bar {
+	padding: 14px 20px 0 14px;
+	min-height: 36px;
+}
+
+.help_request_author_bar .author_bar_text {
+	padding: 8px 0;
+}
+
+.help_request_page .ticket_msg_category
+{
+	padding: 0px 20px 0px 20px;
+}
+
+.help_request_page .ticket_msg_category .ticket_category_header
+{
+	color: #9eb3cc;
+}
+
+.help_request_message.from_steam {
+	background: #253040;
+	color: #9eb3cc;
+}
+
+.help_request_message.from_steam .help_request_author_bar {
+	background: #4a8db4;
+	color: #c2d2e4;
+	padding: 14px;
+}
+
+.qt_preview .help_request_message.from_steam {
+	margin-bottom: 4px;
+}
+
+.help_request_author_bar .playerAvatar {
+	float: left;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.help_request_author_bar .steamAvatar {
+	background: url('https://help.steampowered.com/public/images//thumbnail_hwaccessories.png') no-repeat left;
+}
+
+.help_request_text ol,
+.help_request_text ul {
+	padding: 8px 0px 0px 40px;
+}
+
+.help_request_footerbox {
+	position: relative;
+	margin-top: 28px;
+
+	background: rgba( 15, 22, 31, 0.42 );
+	padding: 20px 20px 4px 20px;
+}
+
+.help_request_footerbox.update_options, .help_request_footerbox.add_reply {
+	padding-bottom: 20px;
+}
+
+.help_request_didthishelp {
+	text-align: center;
+}
+
+.help_request_footerbox .prompt {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+
+.help_request_didthishelp .btn_medium {
+	margin: 0 20px 16px 20px;
+}
+
+.help_request_footerbox .update_options_left {
+	float: left;
+	margin-right: 40px;
+}
+
+.help_request_footerbox .update_options_right {
+	overflow: hidden;
+	text-align: right;
+}
+.help_request_footerbox.update_options a {
+	white-space: nowrap;
+}
+
+.help_request_footerbox.update_options.close_only .update_options_left {
+	display: none;
+}
+.help_request_footerbox.update_options.close_only .update_options_right {
+	text-align: center;
+}
+
+@media screen and (max-width: 400px )
+{
+	html.responsive .help_request_footerbox .update_options_left {
+		float: none;
+		margin-bottom: 16px;
+		text-align: center;
+		margin-right: 0;
+	}
+
+	.help_request_footerbox .update_options_right {
+		text-align: center;
+	}
+
+	.help_request_footerbox.update_options a {
+	}
+}
+
+.attachment_upload_legacy{
+	margin-bottom: 6px;
+}
+
+.help_request_attachment_upload.formdata .attachment_upload_legacy {
+	display: none;
+}
+
+.help_request_attachment_upload.legacy .attachment_upload_formdata {
+	display: none;
+}
+
+.help_request_attachment_upload {
+	margin: 12px 0;
+}
+
+.attachment_upload_targetarea {
+	padding: 10px;
+	background: #253040;
+}
+
+.help_request_attachment_overlay_ctn {
+	position: relative;
+}
+
+@keyframes showAttachmentDropOverlay {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+body.ready_for_drop .help_request_attachment_overlay_ctn .attachment_drop_overlay {
+	opacity: 1;
+	display: flex;
+	animation: showAttachmentDropOverlay 0.4s;	/* animation instead of transition because we are changing display */
+}
+
+.help_request_attachment_overlay_ctn .attachment_drop_overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background: rgba( 0, 0, 0, 0.75 );
+	opacity: 0;
+	z-index: 10;
+
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.help_request_attachment_overlay_ctn .attachment_drop_overlay .text {
+	text-align: center;
+	font-size: 24px;
+}
+
+ul.attached_file_list {
+	padding-left: 24px;
+}
+
+.attached_file_size {
+	color: #9eb3cc;
+}
+
+.help_request_attachments {
+	margin-top: 16px;
+}
+
+.help_request_attachment_fakelink {
+	cursor: not-allowed;
+}
+
+
+#billing_state_select_droplist, #shipping_state_select_droplist, #shipping_state_droplist
+{
+    max-height: 225px;
+    overflow-y: auto;
+}
+
+#billing_country_droplist, #expiration_year_droplist
+{
+    max-height: 340px;
+    overflow-y: auto;
+}
+
+#expiration_month_dselect_container.dselect_container
+{
+    display: inline-block;
+    width: 54px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+#expiration_year_dselect_container.dselect_container
+{
+    display: inline-block;
+    width: 68px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+#security_code_section
+{
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+    margin: 4px 0 18px 0;
+}
+
+#security_code.text
+{
+    width: 36px;
+}
+
+#what_is_this
+{
+    padding-left: 5px;
+    text-align: left;
+    padding-top:5px;
+}
+
+#what_is_this a
+{
+    color: #67c1f5;
+    clear: none;
+    font-weight: normal;
+}
+
+.market_image {
+  background: rgba(0, 0, 0, 0.2);
+ /*
+    -webkit-box-shadow: 0 0 14px #030303 inset;
+    -moz-box-shadow: 0 0 14px #030303 inset;
+    box-shadow: 0 0 14px #030303 inset;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+	*/
+    width: 150px;
+    height: 150px;
+    padding: 0 40px;
+    margin: 0 15px 0 6px;
+    float: left;
+    text-align: center;
+}
+
+#largeiteminfo {
+    overflow: hidden;
+    max-width: 444px;
+    font-size: 14px;
+
+}
+
+.item_name {
+    font-size: 20px;
+}
+
+.vac_ban_header {
+    color: #B0454D;
+    font-size: 16px;
+}
+
+.vac_body {
+    padding-top: 25px;
+}
+
+.vac_title {
+    color: #c6d4df;
+    font-size: 18px;
+}
+
+.no_vac_bans_header {
+	color: #8fca1d;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.no_vac_bans_moreinfo {
+	margin-top: 35px;
+}
+
+.issue_help_requests {
+	margin-bottom: 24px;
+	max-width: 740px;
+}
+
+.issue_help_requests .help_request_table {
+	margin-top: 0;
+}
+
+.agent_actions .help_section_text {
+	color: #ef5e30;
+}
+
+.help_damagedwalletcode_details .help_request_title {
+	margin-top: 10px;
+}
+
+.help_damagedwalletcode_details .wallet_card_img {
+	margin-top: 10px;
+	height: 500px;
+}
+
+.help_damagedwalletcode_details .highlight {
+	color: #67c1f5;
+}
+
+.help_pendingform_title {
+	color: #67c1f5;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+.help_pendingform_notadded {
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+
+.help_pendingform_cont {
+	padding-bottom: 10px;
+}
+
+.help_restrictedaccount_instructions {
+	background: #111a25;
+	padding: 18px 28px 18px 18px;
+	border-top: 1px solid #5eafde;
+	margin-top: 20px;
+}
+
+.help_chargeback_note {
+	color: #82909a;
+}
+
+.help_restrictedaccount_step {
+	color: #67c1f5;
+}
+
+.help_chargeback_box {
+	background: #222A3B;
+	padding: 14px 14px 24px 14px;
+	margin-top: 6px;
+	margin-bottom: 14px;
+	color: white;
+	line-height:18px;
+}
+
+.help_restrictedaccount_content {
+	max-width: 712px;
+}
+
+.help_restrictedaccount_description {
+	line-height: 18px;
+	padding-bottom: 20px;
+}
+
+.fraud_refund_table {
+	background: #222A3B;
+	border-collapse:collapse;
+	border: 2px solid #222A3B;
+	margin: 10px 0 10px 0;
+}
+
+.fraud_refund_table td {
+	padding: 10px;
+	border:none;
+}
+
+.fraud_refund_table tr.fraud_other_row {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.btn_link {
+	background:none!important;
+	border:none;
+	padding:0!important;
+	font: inherit;
+	/*border is optional*/
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.btn_link:hover {
+	text-decoration: none;
+	color: #66c0f4;
+}
+
+.help_important_info_box {
+	border:1px solid rgb(204, 81, 99);
+	background-color: #1d2a3b;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#validate_email_error_contents {
+	color: red;
+}
+
+#help_request_email_verification p {
+	padding-bottom: 8px;
+	font-size: 13px;
+	color: #c6d4df;
+}
+
+.help_request_email_verification_note {
+	font-size: 12px;
+	padding-top: 20px;
+	font-family: Arial;
+}
+
+.help_request_email_validation_hightlight {
+	color: #5eafde;
+}
+
+.abuse_report_textarea {
+	width: 460px;
+	height: 70px;
+	resize: none;
+
+}
+
+.scam_form{
+	display:inline-block;
+	position:relative;
+
+}
+
+.scam_report_button{
+	position: absolute;
+	bottom:2px;
+	right:2px;
+}
+
+.abuse_report_profile > div {
+	display: inline-block;
+	padding: 15px;
+}
+.scam_report_trade.odd {
+	background-color: #1a1a1a;
+}
+.scam_report_trade.even {
+	background-color: #1f1f1f;
+}
+
+.scam_report_trade_separator {
+	height: 2px;
+	line-height: 2px;
+	background-color: #000000;
+	color: #959595;
+	padding: 0px 8px;
+	font-size: 12px;
+
+	margin-bottom: 3px;
+	border-bottom: 1px solid #4D4D4E;
+}
+
+.scam_report_trade {
+	position: relative;
+	background-color: #1f1f1f;
+	padding-left: 0;
+	padding-top: 19px;
+	padding-bottom: 7px;
+	min-height: 36px;
+	margin-bottom: 2px;
+}
+
+.scam_report_date {
+	float: left;
+	width: 116px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 11px;
+	color: #8a8a8a;
+	max-width: 20%;
+	margin-right: 2%;
+}
+
+.scam_report_content{
+	overflow: hidden;
+}
+
+.scam_trade_container {
+	max-width: 80%;
+}
+
+.item_image{
+	display:inline-block;
+}
+
+.item_description{
+	position: absolute;
+	display:inline-block;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+.feature_banner {
+	background-position: left top;
+	background-repeat: no-repeat;
+	min-height: 180px;
+	margin-bottom: 8px;
+}
+@media screen and (max-width: 580px)
+{
+	html.responsive	.feature_bannerH1
+	{
+		font-size: 24px;
+	}
+
+	html.responsive	.feature_bannerH2
+	{
+		font-size: 16px;
+	}
+
+	html.responsive	.feature_banner_text
+	{
+		padding-top: 58px;
+	}
+}
+
+.feature_banner_text{
+	padding-top: 36px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.feature_bannerH1 {
+	color: #ffffff;
+	font-size: 42px;
+	font-weight: 900;
+}
+
+.feature_bannerH2 {
+	color: #67c5f1;
+	font-size: 24px;
+}
+
+.feature_title {
+	color: #ffffff;
+	font-size: 20px;
+	margin-bottom: 10px;
+
+}
+
+.data_removed_box {
+	background-color: rgba( 0, 0, 0, .2 );
+	text-align: center;
+	width: 700px;
+	font-size: 22px;
+	padding: 30px 40px 30px 40px;
+}
+
+.help_report_scam {
+	width: 742px;
+	max-width: 742px;
+}
+
+#help_usersearch_input {
+	width: calc( 742px - 10px );
+}
+
+.help_recoveraccount_header {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.help_recoveraccount_header_title {
+	margin-bottom: 5px;
+}
+
+.help_recoveraccount_header_subheader {
+	font-size: 14px;
+	color: #5eafde;
+}
+
+.help_section_divider hr {
+	border-color: #5eafde;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.help_section_divider_dim hr {
+	border-color: #5eafde;
+	opacity: 0.2;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.help_issue_details .issue_hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.help_provide_pop_header {
+	font-size: 16px;
+	margin-top: 30px;
+	max-width: 672px;
+}
+
+.help_provide_pop_subheader {
+	margin-top: 5px;
+	color: #5eafde;
+	max-width: 672px;
+}
+
+#extended_field_credit_card_last4 {
+	width: 25%;
+}
+
+#extended_field_message textarea {
+	background-color: #324965;
+}
+
+#Help_AccountStolen_Steps {
+	padding: 0 10px 10px 10px;
+}
+
+.vac_or_game_ban_body p {
+	margin-bottom: 10px;
+}
+
+.help_install_steam_btn_text {
+	color: #ffffff;
+	font-size: 16px;
+	padding: 8px 24px 8px 12px;
+	line-height: 28px;
+}
+
+.help_install_steam_image {
+	height: 26px;
+	margin-right: 8px;
+	vertical-align: top;
+}
+
+.help_install_steam_ctn {
+	display:inline-block;
+	vertical-align:middle
+}
+
+table {
+
+	font-size: 13px;
+
+}
+
+.help_game_highlight_details {
+	background-color: #1c2837;
+	color: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.help_game_cooldown_expirationtime {
+	color: #ef5e30;
+	margin-left: 8px;
+}
+
+.help_game_cooldown_description_text {
+	margin-bottom: 15px;
+}
+
+.help_game_cooldown_description_text ol {
+	padding-left: 40px;
+}
+
+.help_game_cooldown_reason {
+	margin: 5px 0 15px 0;
+}
+
+.help_game_cooldown_levelup {
+	margin: 15px 0 0 0;
+	color: #b0b6c0;
+}
+
+#help_publisher_chooser_dselect_container, #publisherid_selected_dselect_container {
+	max-width: 150px;
+}
+
+.help_publisher_chooser {
+	float:right;
+}
+
+.steamworks_ctn {
+	background-image: url(https://help.steampowered.com/public/images//steamworks_bg.png);
+	background-repeat: no-repeat;
+	background-position-y: -16px;
+	margin-left: -40px;
+	padding-left: 40px;
+}
+.steamworks_ctn.tree {
+	margin-top: -26px;
+	padding-top: 26px;
+}
+.steamworks_ctn p.indent {
+	padding-left: 30px;
+}
+
+#report_abuse_container {
+	max-width: 712px;
+}
+
+.dropdown_help_btn_container {
+	max-width: 712px;
+}
+
+.AccountDataPage
+{
+	padding-bottom: 40px;
+}
+
+.AccountDataTable
+{
+}
+
+.AccountDataTable th
+{
+    background-color: #445468;
+}
+
+.AccountDataTable th, .AccountDataTable td
+{
+    padding: 8px;
+}
+
+.AccountDataTableFooter
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.AccountDataLoadMore
+{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.AccountDataLoadMore:hover
+{
+    color: #66c0f4;
+}
+
+.AccountDataTableDescription
+{
+    		font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.bb_ul
+{
+	padding-left: 0px;
+	margin-left: 1em;
+}
+
+.bb_ul > li
+{
+	position: relative;
+	left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+}
+
+.help_itembug_item > div,
+.help_itembug_item > img
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.help_itembug_item_childitem > div
+{
+	max-width: 370px;
+}
+
+.help_itembug_checkbox
+{
+	display: inline-block;
+	margin: 32px 5px 0 0;
+}
+
+.help_itembug_check_disabled
+{
+	visibility: hidden;
+}
+
+.help_itembug_group
+{
+	display: inline-block;
+	max-width: 500px;
+	vertical-align: top;
+	margin-bottom: 2em;
+}
+
+.help_itembug_item
+{
+	display: inline-block;
+}
+
+.help_itembug_item_childitem
+{
+	display: block;
+	margin-left: 40px;
+	border-left: 2px solid #5eafde
+}
+
+.help_itembug_itemexplanation
+{
+	margin-left: 1em;
+	max-width: 400px;
+}
+
+#help_itembug_summary > div
+{
+	margin-bottom: 1em;
+}
+
+.help_itembug_list
+{
+	margin-left: 2em;
+}
+
+.help_itembug_currency
+{
+	color: #5eafde;
+}

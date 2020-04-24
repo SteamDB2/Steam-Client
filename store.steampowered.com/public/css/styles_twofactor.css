@@ -1,0 +1,485 @@
+
+.twofactor_error, .twofactor_warning
+{
+	color: #a94847;
+}
+
+.twofactor_settings_description
+{
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.twofactor_header_description {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.twofactor_box
+{
+	background: rgba( 0, 0, 0, 0.3 );
+	line-height: 18px;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.deauthorize_box
+{
+	background: rgb( 29, 47, 69 );
+	line-height: 18px;
+	padding: 15px;
+	margin-top: 35px;
+}
+
+.twofactor_settings_optionsheader
+{
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.twofactor_settings_button
+{
+	display: block;
+	max-width: 714px;
+	
+	margin-top: 10px;
+	padding-right: 28px;
+	border: solid 1px;
+	border-color: #66778b #323f51 #323f51 #66778b;
+
+	font-size: 15px;
+	color: white;
+
+	background-color: #445468;
+
+	box-sizing: border-box;
+
+	background-image: url("/public/images/v6/ico_navArrow_right.png");
+	background-repeat: no-repeat;
+	background-position: right 14px center;
+	background-size: auto 16px;
+
+	text-align: left;
+	
+	/* additional padding so contents do not render over arrow */
+	padding-right: 28px;
+	width: 712px;
+
+	cursor: pointer;
+}
+
+}
+
+.twofactor_settings_button.disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+
+.twofactor_settings_button:hover {
+	background-color: #4581a5;
+	color: white;
+}
+
+.twofactor_settings_button > span {
+	margin: 10px 14px 10px 14px;
+	display: block;
+	overflow: hidden;
+}
+
+.twofactor_settings_phonepic
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twofactor_settings_removalsteps
+{
+	display: block;
+	padding-bottom: 30px;
+}
+
+.twofactor_settings_form
+{
+}
+
+.twofactor_settings_choice
+{
+}
+
+.twofactor_settings_choice_header,  .twofactor_deauthorize_header
+{
+	color: #67c1f5;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 18px;
+	margin: 10px 10px 15px 0;
+}
+
+.twofactor_settings_radiobtn_header
+{
+	display: block;
+	color: #67c1f5;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+			font-size: 18px;
+	margin: 10px 10px 15px 20px;
+}
+
+
+.twofactor_settings_choice_description, .twofactor_deauthorize_description
+{
+	font-size: 14px;
+	margin: 15px 20px 20px 20px;
+}
+
+.twofactor_settings_choice_warning
+{
+	font-size: 14px;
+	color: #a94847;
+	margin: 10px 25px 10px 10px;
+}
+
+.twofactor_manual_entry_body
+{
+	font-size: 12px;
+	margin: 10px;
+}
+
+.twofactor_settings_choice_rule
+{
+	border-top: 1px solid rgba(42, 63, 90, 0.5 );
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.twofactor_settings_right_button
+{
+	display: inline-block;
+	float: right;
+}
+
+.twofactor_settings_instructions
+{
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 4px;
+	margin-bottom: 20px;
+}
+
+.twofactor_settings_input_nofloat
+{
+	margin-top: 20px;
+	background-color: #2a3f5a;
+	border: 1px solid #000;
+	border-radius: 2px;
+	box-shadow: 1px 1px 0 0 rgba(91, 132, 181, 0.2);
+	color: #c6d4df;
+	font-size: 20px;
+	padding: 5px;
+	cursor: text;
+}
+
+.twofactor_settings_input
+{
+	float: left;
+	background-color: #2a3f5a;
+	border: 1px solid #000;
+	border-radius: 2px;
+	box-shadow: 1px 1px 0 0 rgba(91, 132, 181, 0.2);
+	color: #c6d4df;
+	font-size: 20px;
+	padding: 5px;
+	cursor: text;
+	text-transform: uppercase;
+}
+
+.twofactor_settings_input_label
+{
+	font-size: 14px;
+	margin-left: 10px;
+	float: left;
+}
+
+.twofactor_settings_qrcode_wrapper
+{
+	width: 340px;
+	text-align: center;
+	padding: 10px;
+}
+
+.twofactor_settings_qrcode
+{
+	display: inline-block;
+}
+
+.twofactor_revocation_code
+{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.twofactor_choice_check
+{
+	float: left;
+	margin-top: 3px;
+}
+
+.twofactor_settings_choice_body
+{
+	display: block;
+}
+
+.twofactor_settings_content
+{
+	margin: 14px;
+}
+
+.twofactor_settings_form button
+{
+	border: none;
+}
+
+.twofactor_settings_left_button
+{
+	float: left;
+}
+
+
+.twofactor_emergency_code_container
+{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.twofactor_emergency_code_header
+{
+	margin:30px;
+	float: left;
+}
+
+.twofactor_emergency_code_username_label
+{
+	font-size: 12px;
+}
+
+.twofactor_emergency_code_username
+{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.twofactor_emergency_code_row
+{
+	margin-left: 30px;
+	margin-bottom: 5px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.twofactor_emergency_code_left_index
+{
+	float: left;
+	display: inline-block;
+	width: 7%;
+}
+
+.twofactor_emergency_code_left
+{
+	float: left;
+	display: inline-block;
+	width: 20%;
+}
+
+.twofactor_emergency_code_index
+{
+	float: left;
+	display: inline-block;
+	width: 5%;
+}
+
+.twofactor_emergency_code
+{
+	float: left;
+	display: inline-block;
+	width: 20%;
+}
+
+.twofactor_emergency_code_end
+{
+	clear: both
+}
+
+.twofactor_emergency_code_date
+{
+	margin: 15px;
+}
+
+@media print {
+	body * {
+			visibility: hidden;
+	}
+
+	#twofactor_printable, #twofactor_printable * {
+			visibility: visible;
+	}
+
+	#twofactor_printable {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 600px;
+			border-style: solid;
+			border-width: 1px;
+	}
+}
+
+.twofactor_contactsupport {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+a.twofactor_contactsupport {
+	color: #4ec1f5;
+}
+
+a.twofactor_contactsupport:hover {
+	text-decoration: underline;
+}
+
+.twofactor_cancel {
+	margin:15px 15px 15px 0;
+
+}
+
+.twofactor_done {
+	float:right;
+	margin-top:20px;
+}
+
+
+.twofactor_external_table {
+	border-collapse: collapse;
+	margin: 15px 20px 20px 20px;
+	width: -moz-calc(100% - 30px);
+	width: -webkit-calc(100% - 30px);
+	width: -o-calc(100% - 30px);
+	width: calc(100% - 30px);
+}
+
+.twofactor_external_table th {
+	text-align: left;
+	text-transform: uppercase;
+	background-color: #2a3f5a;
+	color: #8f98a0;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 2px 14px;
+	font-weight: normal;
+}
+
+.twofactor_external_table tr {
+	border-bottom: 1px solid #000000;
+	line-height: 18px;
+}
+
+.twofactor_external_table td {
+	padding: 5px 14px;
+}
+
+.twofactor_external_table tr > *:last-child {
+	text-align: right;
+}
+
+.twofactor_external_table a:hover {
+	color: #fff;
+}
+
+.twofactor_external_table tr:nth-child(even) {
+	background-color: rgba(0,0,0,0.2);
+}
+.twofactor_external_table tr:nth-child(odd) {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.twofactor_manage_label {
+	color: #808891;
+    line-height: 20px;
+    padding: 0 6px 0 0;
+}
+
+
+.get_app_content {
+	margin: 0 auto;
+	max-width: 570px;
+	position: relative;
+
+}
+
+.image_devices {
+	margin: 30px 25px 10px 0;
+	float: left;
+}
+
+.image_devices img {
+	max-width: 100%;
+}
+
+@media screen and (max-width:600px)
+{
+	html.responsive .image_devices {
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+
+	html.responsive .app_links {
+		padding-top: 12px;
+		text-align: center;
+	}
+}
+
+a.img_link {
+	display: inline-block;
+	margin: 10px 5px 0px 0px;
+}
+
+.app_links{
+	padding-top: 120px;
+}
+
+.app_links p{
+	font-size: 16px;
+			font-family: "Motiva Sans", Sans-serif;
+		font-weight: 300; /* light */
+
+		}
+
+.phone_left_col{
+	max-width: 720px;
+	margin-bottom: 60px;
+}
+
+.phone_box {
+	background: rgba( 0, 0, 0, 0.3 );
+	padding: 15px 3%;
+	margin-top: 15px;
+
+}
+
+.button {
+	margin: 10px;
+	text-align: center;
+}

@@ -1,0 +1,318 @@
+
+div.leaderboard_name {
+	float: none;
+}
+
+span.leaderboard_displayname_hint {
+	font-size: 11px;
+	color: #999999;
+	cursor: default;
+}
+
+div.leaderboard_displayname {
+	float: right;
+	width: 15em;
+}
+
+div.leaderboard_sortmethod {
+	float: right;
+	width: 8em;
+}
+
+div.leaderboard_displaytype {
+	float: right;
+	width: 8em;
+}
+
+div.leaderboard_onlytrustedwrites {
+	float: right;
+	width: 5em;
+}
+
+div.leaderboard_onlyfriendsreads {
+	float: right;
+	width: 5em;
+}
+
+div.leaderboard_count_entries {
+	float: right;
+	width: 7em;
+}
+
+div.leaderboard_update_error {
+	color: red;
+}
+
+div.leaderboard_info {
+	clear: both;
+}
+
+div.appLeaderboardsDisplay {
+	max-width: 1024px;
+	min-width: 990px;
+	margin-bottom: 20px;
+}
+
+div.leaderboards_header {
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 4px;
+	font-weight: bold;
+	clear: both;
+}
+
+div.leaderboard {
+	clear: both;
+	background-color: black;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 4px;
+	padding-top:4px;
+	border-bottom: 12px solid #262626;
+}
+div.leaderboard_entries {	
+	border-top: 2px solid #262626;
+	margin-top: 4px;
+}
+
+div.leaderboard_entry_details {
+	float:	right;
+	width:	22em;
+	margin-right: 2em;
+}
+
+div.leaderboard_entry_score {
+	float:	right;
+	width:	8em;
+	margin-right: 2em;
+	text-align: right;	
+}
+
+div.leaderboard_entry_player {
+	overflow: hidden;	
+}
+
+div.leaderboard_entry_rank {
+	float:	left;
+	width:	5em;
+	margin-left: 4px;	
+}
+
+div.leaderboard_entries_header {
+	background: #303030 none repeat scroll 0 0;
+	font-weight: bold;
+}
+
+div.leaderboard_pageControl {
+	float: right;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+div.leaderboard_entries_list {
+	height: 30em;
+	clear: both;
+	padding-top: 4px;
+}
+
+div.leaderboard_entry {	
+	vertical-align: middle;
+}
+
+div.leaderboard_entry:hover {
+	background: #333333;
+}
+
+div.leaderboard_entry_tools {
+	float: right;
+	width: 5em;
+}
+
+div.leaderboard_info_tools {
+	float: right;
+	width: 10em;
+	text-align: right;
+}
+
+textarea#leaderboard_blob {
+	width: 1024px;
+	height: 256px;
+}
+
+/* Episodic, Season and Series */
+#episode_list_wrapper .episode {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#episode_list_wrapper .episode .header_image_col {
+	float: left;
+	min-width: 250px;
+}
+
+#episode_list_wrapper .episode .header_image_col img {
+	width: 230px;
+	height: 108px;
+	border: solid 1px #777777;
+	display: block;
+}
+
+#episode_list_wrapper .episode .header_image_col .empty_image {
+	width: 230px;
+	border: 2px dotted gray;
+	height: 98px;
+	text-align: center;
+	padding-top: 10px
+}
+
+#episode_list_wrapper .episode .store_edit_col {
+	float: left;
+}
+
+#episode_list_wrapper .episode .store_edit_col .label {
+	width: 140px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#episode_list_wrapper .episode .store_edit_col .label_dd {
+	width: 140px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#episode_list_wrapper .episode .store_edit_col .label.desc {
+	vertical-align: top;
+	margin-top: 6px;
+}
+
+#episode_list_wrapper .episode .store_edit_col .episode_number {
+	width: 30px;
+	text-align: right;
+}
+
+#episode_list_wrapper .episode .store_edit_col input.episode_number[disabled] {
+	color: #777;
+}
+
+#episode_list_wrapper .episode .store_edit_col .episode_name {
+	width: 358px;
+}
+
+#episode_list_wrapper .episode .store_edit_col .episodeRunningTime {
+	text-align: right;
+	width: 30px;
+}
+
+#episode_list_wrapper .episode .store_edit_col .LocTextArea {
+	width: 407px;
+	margin-left: 4px;
+}
+
+#episode_list_wrapper .episode .store_edit_col .LocTextArea textarea {
+	height: 90px;
+	resize: none;
+}
+
+#episode_list_wrapper .episode .store_edit_col .episode_buttons {
+	float: right;
+}
+
+#episode_list_wrapper .episode .action_item_col {
+	float: left;
+	max-width: 270px;
+}
+
+#episode_list_wrapper .titleDragHandle {
+	top: 0px;
+	cursor: move;
+}
+
+#episode_list_wrapper .titleDrag {
+	position: relative;
+	top: 2px;
+	left: 10px;
+	height: 21px;
+}
+
+#episode_list_wrapper .boxlist_controls {
+	position: relative;
+	top: -20px;
+	right: 1px;
+}
+
+#episode_list_wrapper .episode_processing {
+	visibility: hidden;
+	position: absolute;
+	z-index: 100;
+
+	background-color: rgba(20, 20, 20, 0.75);
+	height: 100%;
+	width: 100%;
+}
+
+#episode_list_wrapper .episode_processing.processing {
+	visibility: visible;
+}
+
+#episode_list_wrapper .episode_processing.processing .throbber {
+	width: 100%;
+	height: 100%;
+	background: url('https://steamcommunity-a.akamaihd.net/public/images/login/throbber.gif') center center no-repeat;
+}
+
+#episode_list_wrapper .boxlist_item {
+	width: 1095px;
+	margin-bottom: 15px;
+}
+
+#episode_list_wrapper .boxlist_item form {
+	border: 1px solid #373737;
+	background-color: #323233;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+}
+
+#episode_list_wrapper .episode_error_message {
+	color: red;
+}
+
+#addSeason #addSeasonName,
+#addSeason #appEpisodeType,
+#addSeason #addSeasonVideoFormat {
+	width: 208px;
+}
+
+#addSeason #addCustomSeasonName {
+	width: 200px;
+}
+
+#addSeason #addSeasonEpisodeCount,
+#addNewEpisodes #addNewEpisodeCount,
+#addSeason #addSeasonNumber,
+#addExtraContent #addExtraContentEpisodeCount
+{
+	width: 30px;
+}
+
+.season .edit_actions {
+	text-align: right;
+	width: 1095px;
+	margin-top: -23px;
+}
+
+.season .edit_actions input {
+	margin-right: 3px;
+}
+
+.season .edit_actions .iconLink {
+	padding-left: 20px;
+	margin-right: 5px;
+}
+
+#episode_add_from_depot_range
+{
+	margin-top: 15px;
+}

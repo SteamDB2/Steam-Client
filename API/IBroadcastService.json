@@ -1,0 +1,71 @@
+{
+    "name": "IBroadcastService",
+    "methods": [
+        {
+            "name": "PostGameDataFrame",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Add a game meta data frame to broadcast",
+            "parameters": [
+                {
+                    "name": "key",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Access key"
+                },
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false
+                },
+                {
+                    "name": "broadcast_id",
+                    "type": "uint64",
+                    "optional": false
+                },
+                {
+                    "name": "frame_data",
+                    "type": "string",
+                    "optional": false
+                }
+            ]
+        },
+        {
+            "name": "PostGameDataFrameRTMP",
+            "version": 1,
+            "httpmethod": "POST",
+            "description": "Add a game meta data frame to broadcast from a client. Uses RTMP token for validation",
+            "parameters": [
+                {
+                    "name": "appid",
+                    "type": "uint32",
+                    "optional": false,
+                    "description": "AppID of the game being broadcasted"
+                },
+                {
+                    "name": "steamid",
+                    "type": "uint64",
+                    "optional": false,
+                    "description": "Broadcasters SteamID"
+                },
+                {
+                    "name": "rtmp_token",
+                    "type": "string",
+                    "optional": false,
+                    "description": "Valid RTMP token for the Broadcaster"
+                },
+                {
+                    "name": "frame_data",
+                    "type": "string",
+                    "optional": false,
+                    "description": "game data frame expressing current state of game (string, zipped, whatever)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+
+	/* override the background for now */
+body
+{
+	/*background: #262627 url('https://steamcommunity-a.akamaihd.net/public/images/skin_1/community_2_background_gradient.png') top repeat-x;*/
+    background: #262627
+	background-position: 0 105px;
+}
+
+P {
+	font-size: 16px;
+    color: #8F98A0;
+}
+
+.maincontent
+{
+	padding-top: 20px;
+}
+
+.leftcol
+{
+	float: left;
+	width: 640px;
+	padding-bottom: 50px;
+	text-align: left;
+}
+
+.rightcol
+{
+	position: relative;
+	float: right;
+	width: 295px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	z-index: 90;
+	font-size: 14px;
+	text-align: left;
+}
+
+.rightbox_list_option
+{
+	line-height: 30px;
+}
+
+.admin_option_icon
+{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.rightcol .panel
+{
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	padding: 10px 10px 10px 11px;
+	margin: 0 0 10px 0;
+	/*border: 1px solid #1f1f20;
+	background: rgba(27,27,27,.36);
+	box-shadow: 1px 1px 0 0 #39393a;
+    border-radius: 4px;*/
+}
+
+.panel .title
+{
+	font-size: 11px;
+	text-transform: uppercase;
+	margin: 3px 0 10px 0;
+	color: #ca5029;
+}
+
+.panel .divider
+{
+	position: relative;
+	background: #000;
+	border-bottom: 1px solid #17212e;
+	height: 1px;
+	left: -11px;
+	width: 294px;
+	margin: 5px 0 5px 0;
+}
+
+/* main page */
+
+.welcome_admin
+{
+	color: white;
+	font-size: 16px;
+	background-color: rgba( 0, 0, 0, 0.2 );
+	line-height: 64px;
+}
+
+.welcome_admin_iconHolder
+{
+	position: relative;
+	width: 64px;
+	height: 64px;
+	border: 0;
+	margin: 0;
+	float: left;
+	margin-right: 10px;
+}
+
+.welcome_admin_iconHolder img
+{
+	width: 64px;
+	height: 64px;
+}
+
+.faq_block
+{
+	padding: 15px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	font-size: 13px;
+	line-height: 17px;
+	background-color: rgba( 0, 0, 0, 0.2 );
+}
+
+.faq_title
+{
+	padding-bottom: 10px;
+	font-size: 17px;
+    font-color: #636363;
+}
+
+.faq_sub_title
+{
+	color: #66C0F4;
+	padding-bottom: 5px;
+    font-size: 14px;
+}
